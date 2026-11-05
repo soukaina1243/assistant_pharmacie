@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistant pharmacie — Darija / العربية / Français</title>
+<style>
+:root{
+  --bg:#f5f6f8; --card:#ffffff; --text:#1c2230; --muted:#667085; --line:#e3e6ec;
+  --brand:#0f766e; --brand-d:#0b5d57; --user:#0f766e; --user-t:#ffffff; --bot:#ffffff;
+  --ok:#15803d; --warn:#b45309; --bad:#b91c1c; --chip:#eef2f6;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#10141b; --card:#171d27; --text:#e8ecf3; --muted:#98a2b3; --line:#283040;
+         --brand:#2dd4bf; --brand-d:#14b8a6; --user:#0f766e; --user-t:#fff; --bot:#171d27; --chip:#202938; }
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",sans-serif;
+  display:flex;flex-direction:column;align-items:center}
+.app{width:100%;max-width:860px;height:100%;display:flex;flex-direction:column;padding:0 12px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 4px 10px}
+h1{font-size:1.1rem;margin:0}
+h1 small{display:block;font-weight:400;color:var(--muted);font-size:.8rem}
+.pill{font-size:.75rem;padding:3px 10px;border-radius:99px;background:var(--chip);color:var(--muted);white-space:nowrap}
+.pill.ok{color:var(--ok)} .pill.bad{color:var(--bad)}
+#chat{flex:1;overflow-y:auto;padding:6px 2px 14px;display:flex;flex-direction:column;gap:12px}
+.msg{max-width:88%;display:flex;flex-direction:column;gap:6px}
+.msg.user{align-self:flex-end}
+.bubble{padding:10px 14px;border-radius:16px;border:1px solid var(--line);white-space:pre-wrap;word-wrap:break-word}
+.user .bubble{background:var(--user);color:var(--user-t);border-color:transparent;border-bottom-right-radius:4px}
+.bot .bubble{background:var(--bot);border-bottom-left-radius:4px}
+.bubble.err{border-color:var(--bad);color:var(--bad)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.72rem;padding:2px 9px;border-radius:99px;background:var(--chip);color:var(--muted)}
+.chip b{color:var(--text);font-weight:600}
+.chip.ok{color:var(--ok)} .chip.warn{color:var(--warn)} .chip.bad{color:var(--bad)}
+.cards{display:grid;gap:6px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;font-size:.82rem}
+.pcard b{display:block}.pcard span{color:var(--muted)}
+details{font-size:.78rem;color:var(--muted)}
+details pre{margin:6px 0 0;padding:10px;background:var(--chip);border-radius:10px;overflow:auto;max-height:260px;direction:ltr;text-align:left;color:var(--text)}
+.hint{color:var(--muted);font-size:.85rem;padding:4px}
+.suggest{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 8px}
+.suggest button{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:99px;padding:6px 12px;font-size:.82rem;cursor:pointer}
+.suggest button:hover{border-color:var(--brand)}
+.bar{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px;margin-bottom:10px}
+.row{display:flex;gap:8px;align-items:flex-end}
+textarea{flex:1;resize:none;border:0;outline:0;background:transparent;color:var(--text);font:inherit;padding:8px 6px;max-height:120px}
+.btn{border:0;border-radius:12px;width:44px;height:44px;cursor:pointer;background:var(--chip);color:var(--text);font-size:1.15rem;flex:none}
+.btn.send{background:var(--brand);color:#fff}
+.btn.send:hover{background:var(--brand-d)}
+.btn.mic.rec{background:var(--bad);color:#fff;animation:pulse 1.1s infinite}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(185,28,28,.5)}70%{box-shadow:0 0 0 10px rgba(185,28,28,0)}100%{box-shadow:0 0 0 0 rgba(185,28,28,0)}}
+.opts{display:flex;flex-wrap:wrap;gap:14px;align-items:center;padding:6px 6px 0;font-size:.78rem;color:var(--muted)}
+.opts select{background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:.78rem}
+.opts label{display:flex;gap:5px;align-items:center;cursor:pointer}
+.qa{display:flex;flex-wrap:wrap;gap:6px}
+.qa button{border:1px solid var(--brand);background:transparent;color:var(--brand);border-radius:99px;padding:4px 12px;font-size:.78rem;cursor:pointer}
+.qa button:hover{background:var(--brand);color:#fff}
+.ocrlines{margin:0;padding:8px 10px;background:var(--chip);border-radius:10px;white-space:pre-wrap;direction:auto;font-size:.78rem;color:var(--text);max-height:200px;overflow:auto}
+.thumb{max-width:230px;max-height:190px;border-radius:10px;display:block;margin-bottom:4px}
+.typing{display:inline-flex;gap:4px}.typing i{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:b 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,60%,100%{opacity:.3;transform:none}30%{opacity:1;transform:translateY(-3px)}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>💊 Assistant pharmacie<small>Darija · العربية · Français — texte ou voix</small></h1>
+    <span id="status" class="pill">connexion…</span>
+  </header>
+
+  <main id="chat" aria-live="polite">
+    <div class="hint">Écrivez, parlez, ou envoyez la photo d'une boîte de médicament 📷. Essayez :</div>
+    <div class="suggest" id="suggest"></div>
+  </main>
+
+  <div class="bar">
+    <div class="row">
+      <button id="cam" class="btn" title="Photographier ou envoyer une boîte de médicament" aria-label="Photo d'une boîte">📷</button>
+      <input type="file" id="photo" accept="image/*" hidden>
+      <button id="mic" class="btn mic" title="Parler" aria-label="Parler">🎤</button>
+      <textarea id="input" rows="1" dir="auto" placeholder="Écrivez votre demande… (wach kayn doliprane ? / واش كاين دوليبران؟)"></textarea>
+      <button id="send" class="btn send" title="Envoyer" aria-label="Envoyer">➤</button>
+    </div>
+    <div class="opts">
+      <label>Langue de la voix
+        <select id="vlang">
+          <option value="ar-MA">Darija (ar-MA)</option>
+          <option value="fr-FR">Français</option>
+          <option value="ar-SA">Arabe (ar-SA)</option>
+        </select>
+      </label>
+      <label id="whisperWrap" title="Nécessite faster-whisper installé sur le serveur"><input type="checkbox" id="useWhisper"> Reconnaissance serveur (Whisper)</label>
+      <label><input type="checkbox" id="speak"> Lire la réponse à voix haute</label>
+      <label><input type="checkbox" id="fulfill" checked> Interroger les bases (prix, stock…)</label>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const chat = $('#chat'), input = $('#input'), mic = $('#mic'), sendBtn = $('#send');
+const INTENTS = {check_availability:'Disponibilité', price:'Prix', reimbursement:'Remboursement',
+  pharmacy_phone:'Téléphone pharmacie', pharmacy_location:'Adresse pharmacie', pharmacy_hours:'Horaires / garde',
+  reserve_order:'Réservation', out_of_scope:'Hors périmètre'};
+const SAMPLES = ['wach kayn doliprane 1000 f rabat ?', 'chhal taman augmentin 1g ?', 'واش الأوغمنتين كيتعوض من الكنوبس؟',
+  'Pharmacie de garde à Casablanca ce soir ?', 'بغيت نحجز 2 علب د سباسفون', '3tini numro dyal pharmacie Ibn Sina f Rabat',
+  "Je cherche du Voltarène 75 injectable à Salé"];
+let health = {}, busy = false;
+
+/* ---------- utilitaires DOM ---------- */
+function el(tag, cls, text){ const e = document.createElement(tag); if(cls) e.className = cls; if(text!==undefined) e.textContent = text; return e; }
+function scrollDown(){ chat.scrollTop = chat.scrollHeight; }
+function clearHints(){ chat.querySelectorAll('.hint,.suggest').forEach(n => n.remove()); }
+
+function addUser(text, viaVoice){
+  clearHints();
+  const m = el('div','msg user'); const b = el('div','bubble', (viaVoice?'🎤 ':'') + text); b.dir = 'auto';
+  m.appendChild(b); chat.appendChild(m); scrollDown();
+}
+function addTyping(){
+  const m = el('div','msg bot'); const b = el('div','bubble'); const t = el('span','typing');
+  t.append(el('i'),el('i'),el('i')); b.appendChild(t); m.appendChild(b); chat.appendChild(m); scrollDown(); return m;
+}
+function chip(label, value, cls){ const c = el('span','chip '+(cls||'')); c.append(label+' '); c.appendChild(el('b',null,value)); return c; }
+
+function renderBot(r){
+  const m = el('div','msg bot');
+  const status = r.status;
+  const reply = r.reply || (status==='ok' ? 'Demande comprise (réponse des bases désactivée).' : (r.clarification_question||''));
+  const b = el('div','bubble', reply); b.dir = 'auto'; m.appendChild(b);
+
+  const chips = el('div','chips');
+  chips.appendChild(chip('Intention', INTENTS[r.intent.label]||r.intent.label, status==='ok'?'ok':(status==='out_of_scope'?'bad':'warn')));
+  chips.appendChild(chip('Confiance', Math.round(r.intent.confidence*100)+' %'));
+  chips.appendChild(chip('Langue', r.language.primary+' / '+r.language.script));
+  const e = r.entities;
+  e.medications.forEach(x => chips.appendChild(chip('Médicament', x.name + (x.dosage?' '+x.dosage:'') + (x.form?' ('+x.form+')':'') + ' · ' + Math.round(x.match_score*100)+' %', x.match_score>=.8?'ok':'warn')));
+  if(e.quantity) chips.appendChild(chip('Quantité', e.quantity));
+  if(e.pharmacy_name) chips.appendChild(chip('Pharmacie', e.pharmacy_name));
+  if(e.city) chips.appendChild(chip('Ville', e.city));
+  if(e.neighborhood) chips.appendChild(chip('Quartier', e.neighborhood));
+  if(e.time_reference) chips.appendChild(chip('Quand', e.time_reference));
+  m.appendChild(chips);
+
+  const f = r.fulfillment;
+  const list = f && (f.pharmacies || []);
+  if(list && list.length){
+    const cards = el('div','cards');
+    list.slice(0,6).forEach(p => {
+      const c = el('div','pcard'); c.appendChild(el('b',null,p.name));
+      const bits = [p.city, p.quartier, p.phone, p.address, p.opening_hours, p.quantity_in_stock!==undefined ? 'stock : '+p.quantity_in_stock : null, p.on_duty ? 'de garde' : null].filter(Boolean);
+      c.appendChild(el('span',null,bits.join(' · '))); cards.appendChild(c);
+    });
+    m.appendChild(cards);
+  }
+  if(f && f.variants && f.variants.length){
+    const cards = el('div','cards');
+    f.variants.slice(0,4).forEach(v => {
+      const c = el('div','pcard'); c.appendChild(el('b',null,(v.ppv_mad!=null? v.ppv_mad+' MAD':'')+(v.reimbursement_pct!=null?' · remb. '+v.reimbursement_pct+' %':'')));
+      c.appendChild(el('span',null,v.label)); cards.appendChild(c);
+    });
+    m.appendChild(cards);
+  }
+  const d = el('details'); d.appendChild(el('summary',null,'Interprétation JSON · '+r.meta.latency_ms+' ms · '+r.meta.intent_source));
+  d.appendChild(el('pre',null,JSON.stringify(r,null,2))); m.appendChild(d);
+  chat.appendChild(m); scrollDown();
+  if($('#speak').checked && r.reply) speak(r.reply, r.language.script);
+}
+function addError(msg){ const m = el('div','msg bot'); m.appendChild(el('div','bubble err',msg)); chat.appendChild(m); scrollDown(); }
+
+/* ---------- appels API ---------- */
+async function ask(text, viaVoice){
+  text = text.trim(); if(!text || busy) return;
+  busy = true; sendBtn.disabled = true;
+  addUser(text, viaVoice); input.value = ''; autosize();
+  const typing = addTyping();
+  try{
+    const res = await fetch('/analyze/text', {method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({text, fulfill: $('#fulfill').checked})});
+    typing.remove();
+    if(!res.ok) throw new Error('Erreur '+res.status+' : '+(await res.text()).slice(0,200));
+    renderBot(await res.json());
+  }catch(err){ typing.remove(); addError(String(err.message||err)); }
+  finally{ busy = false; sendBtn.disabled = false; input.focus(); }
+}
+
+/* ---------- voix : Web Speech API (navigateur) ---------- */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recog = null, recorder = null, chunks = [], recording = false;
+
+function setRec(on){ recording = on; mic.classList.toggle('rec', on); mic.textContent = on ? '⏹' : '🎤'; }
+
+function startWebSpeech(){
+  recog = new SR(); recog.lang = $('#vlang').value; recog.interimResults = true; recog.maxAlternatives = 1;
+  let finalText = '';
+  recog.onresult = ev => {
+    let interim = '';
+    for(let i = ev.resultIndex; i < ev.results.length; i++){
+      const t = ev.results[i][0].transcript;
+      if(ev.results[i].isFinal) finalText += t; else interim += t;
+    }
+    input.value = (finalText + interim).trim(); autosize();
+  };
+  recog.onerror = ev => { setRec(false); addError('Micro : ' + ({'not-allowed':'accès refusé (autorisez le micro)','no-speech':'aucune parole détectée','audio-capture':'micro introuvable','network':'réseau indisponible (la reconnaissance du navigateur en a besoin)'}[ev.error] || ev.error)); };
+  recog.onend = () => { const was = recording; setRec(false); if(was && finalText.trim()) ask(finalText, true); };
+  recog.start(); setRec(true);
+}
+
+/* ---------- voix : enregistrement + Whisper côté serveur ---------- */
+async function startRecorder(){
+  const stream = await navigator.mediaDevices.getUserMedia({audio:true});
+  recorder = new MediaRecorder(stream); chunks = [];
+  recorder.ondataavailable = e => chunks.push(e.data);
+  recorder.onstop = async () => {
+    stream.getTracks().forEach(t => t.stop());
+    const blob = new Blob(chunks, {type: recorder.mimeType || 'audio/webm'});
+    const fd = new FormData(); fd.append('file', blob, 'voice.' + (blob.type.includes('ogg') ? 'ogg' : 'webm'));
+    busy = true; sendBtn.disabled = true; const typing = addTyping();
+    try{
+      const res = await fetch('/analyze/voice?fulfill=' + $('#fulfill').checked, {method:'POST', body: fd});
+      typing.remove();
+      if(!res.ok){ const j = await res.json().catch(()=>({})); throw new Error(j.detail || ('Erreur ' + res.status)); }
+      const r = await res.json(); addUser(r.input.transcript || r.input.raw_text, true); renderBot(r);
+    }catch(err){ typing.remove(); addError(String(err.message||err)); }
+    finally{ busy = false; sendBtn.disabled = false; }
+  };
+  recorder.start(); setRec(true);
+}
+
+mic.addEventListener('click', async () => {
+  if(recording){ if(recog) recog.stop(); if(recorder && recorder.state !== 'inactive') recorder.stop(); setRec(false); return; }
+  try{
+    if($('#useWhisper').checked) await startRecorder();
+    else if(SR) startWebSpeech();
+    else if(health.asr_available){ $('#useWhisper').checked = true; await startRecorder(); }
+    else addError("Votre navigateur ne supporte pas la reconnaissance vocale (utilisez Chrome ou Edge), ou installez faster-whisper sur le serveur.");
+  }catch(err){ setRec(false); addError('Micro : ' + (err.message || err)); }
+});
+
+/* ---------- lecture vocale de la réponse ---------- */
+function speak(text, script){
+  if(!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = script === 'arabic' ? 'ar-SA' : 'fr-FR'; speechSynthesis.speak(u);
+}
+
+/* ---------- saisie ---------- */
+function autosize(){ input.style.height = 'auto'; input.style.height = Math.min(input.scrollHeight, 120) + 'px'; }
+input.addEventListener('input', autosize);
+input.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); ask(input.value); } });
+sendBtn.addEventListener('click', () => ask(input.value));
+$('#vlang').addEventListener('change', () => { if(recording) mic.click(); });
+
+SAMPLES.forEach(s => { const b = el('button',null,s); b.type='button'; b.dir='auto'; b.onclick = () => ask(s); $('#suggest').appendChild(b); });
+
+
+/* ---------- Challenge 2 : photo d'une boîte -> reconnaissance (vision + OCR) ---------- */
+const cam = $('#cam'), photo = $('#photo');
+const uiLang = () => ({'ar-MA':'dl','fr-FR':'fr','ar-SA':'ar'}[$('#vlang').value] || 'fr');
+const STATUS_BOX = {ok:['Reconnue','ok'], low_confidence:['À confirmer','warn'], unknown:['Non identifiée','bad'], no_text:['Aucun texte','bad']};
+
+async function recognizeBox(file){
+  if(!file || busy) return;
+  busy = true; sendBtn.disabled = true; clearHints();
+  const um = el('div','msg user'), ub = el('div','bubble'), im = document.createElement('img');
+  im.className = 'thumb'; im.src = URL.createObjectURL(file); ub.appendChild(im); ub.appendChild(el('span',null,'📷 '+file.name));
+  um.appendChild(ub); chat.appendChild(um); scrollDown();
+  const typing = addTyping();
+  try{
+    const fd = new FormData(); fd.append('file', file);
+    const res = await fetch('/recognize/box?lang=' + uiLang(), {method:'POST', body: fd});
+    typing.remove();
+    if(!res.ok){ const j = await res.json().catch(()=>({})); throw new Error(j.detail || ('Erreur ' + res.status)); }
+    renderBox(await res.json());
+  }catch(err){ typing.remove(); addError(String(err.message||err)); }
+  finally{ busy = false; sendBtn.disabled = false; photo.value = ''; }
+}
+
+function renderBox(r){
+  const m = el('div','msg bot'), b = el('div','bubble', r.reply || ''); b.dir = 'auto'; m.appendChild(b);
+  const chips = el('div','chips'), st = STATUS_BOX[r.status] || [r.status,''];
+  chips.appendChild(chip('Résultat', st[0], st[1]));
+  chips.appendChild(chip('Confiance', Math.round(r.confidence*100)+' %'));
+  (r.advice||[]).forEach(a => chips.appendChild(chip('Conseil', a, 'warn')));
+  chips.appendChild(chip('OCR', r.ocr.attempts+' essai(s) · '+(r.ocr.time_ms/1000).toFixed(1)+' s'));
+  if(r.detected.dosage_mg.length) chips.appendChild(chip('Dosage lu', r.detected.dosage_mg.join(' / ')+' mg'));
+  if(r.detected.form) chips.appendChild(chip('Forme lue', r.detected.form));
+  if(r.detected.dci.length) chips.appendChild(chip('DCI lue', r.detected.dci[0]));
+  (r.quality.warnings||[]).forEach(w => chips.appendChild(chip('Photo', w.replace('_',' '), 'warn')));
+  m.appendChild(chips);
+  if(r.matches.length && r.status !== 'unknown' && r.status !== 'no_text'){
+    const cards = el('div','cards');
+    r.matches.forEach(x => {
+      const c = el('div','pcard'); c.appendChild(el('b',null,x.rank+'. '+x.name+'  ·  '+Math.round(x.score*100)+' %'));
+      const bits = [x.dosage, x.form, x.presentation, x.ppv_mad!=null ? x.ppv_mad+' MAD' : null, x.reimbursement_pct!=null ? 'remb. '+x.reimbursement_pct+' %' : null].filter(Boolean);
+      c.appendChild(el('span',null,bits.join(' · '))); cards.appendChild(c);
+    });
+    m.appendChild(cards);
+    {
+      const top = r.matches[0], nm = top.brand + (top.dosage ? ' ' + top.dosage : ''), qa = el('div','qa');
+      [['Prix','Quel est le prix du '+nm+' ?'],['Remboursement','Est-ce que le '+nm+' est remboursé ?'],['Disponibilité','Avez-vous du '+nm+' ?']].forEach(([l,q]) => {
+        const bt = el('button',null,l); bt.type = 'button'; bt.onclick = () => ask(q); qa.appendChild(bt); });
+      m.appendChild(qa);
+    }
+  }
+  const d = el('details'); d.appendChild(el('summary',null,'Texte lu par l\'OCR et JSON'));
+  d.appendChild(el('pre','ocrlines',(r.ocr.lines||[]).map(l => '['+l.script+' '+l.conf+'] '+l.text).join('\n')));
+  d.appendChild(el('pre',null,JSON.stringify(r,null,2))); m.appendChild(d);
+  chat.appendChild(m); scrollDown();
+  if($('#speak').checked && r.reply) speak(r.reply, uiLang()==='ar' ? 'arabic' : 'latin');
+}
+cam.addEventListener('click', () => photo.click());
+photo.addEventListener('change', () => recognizeBox(photo.files[0]));
+
+/* ---------- état du serveur ---------- */
+(async () => {
+  const st = $('#status');
+  try{
+    health = await (await fetch('/health')).json();
+    st.textContent = 'API ok · ' + health.pharmacies + ' pharmacies (démo) · ' + health.intent_mode;
+    st.classList.add('ok');
+    if(!health.asr_available){ $('#useWhisper').disabled = true; $('#whisperWrap').title = 'faster-whisper non installé sur le serveur'; }
+    if(!SR && !health.asr_available) mic.title = 'Voix indisponible dans ce navigateur';
+    if(!health.ocr_available){ cam.disabled = true; cam.title = 'OCR (Tesseract) non installé sur le serveur : voir le README'; }
+  }catch(e){ st.textContent = 'API injoignable'; st.classList.add('bad'); }
+  input.focus();
+})();
+</script>
+</body>
+</html>

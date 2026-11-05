@@ -1,0 +1,209 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{lmodern,booktabs,array,xcolor,enumitem,listings}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+\tikzset{
+  box/.style={draw=black!70, rounded corners=3pt, minimum height=9mm,
+              text width=4.4cm, align=center, font=\small, inner sep=3pt},
+  inp/.style={box, fill=blue!12, text width=3.4cm},
+  proc/.style={box, fill=gray!15},
+  nlp/.style={box, fill=orange!18, text width=4cm},
+  res/.style={box, fill=green!15, text width=3.2cm},
+  warn/.style={box, fill=yellow!25, text width=3.2cm},
+  bad/.style={box, fill=red!12, text width=3.2cm},
+  db/.style={box, dashed, fill=violet!10, text width=3.4cm},
+  arr/.style={-{Stealth[length=2.2mm]}, thick, black!75},
+  darr/.style={-{Stealth[length=2.2mm]}, thick, dashed, violet!70},
+  lbl/.style={font=\scriptsize\itshape, text=black!70}
+}
+
+
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,frame=single,backgroundcolor=\color{black!4}}
+\title{Assistant conversationnel pharmacie--patient\\en Arabe, Darija et Fran\c{c}ais\\[3pt]\large Challenge \#1 --- Rapport de projet (brouillon)}
+\author{\`A compl\'eter}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+Nous pr\'esentons un service qui transforme une demande de patient, \'ecrite ou dict\'ee en arabe, Darija (en lettres arabes ou en arabizi) ou fran\c{c}ais, en une interpr\'etation structur\'ee (intention, m\'edicaments, dosage, quantit\'e, pharmacie, ville), expos\'ee par une API. Le c\oe ur du syst\`eme est un rapprochement flou des noms de m\'edicaments avec le r\'ef\'erentiel officiel CNOPS, fond\'e sur une \og cl\'e phon\'etique \fg{} commune \`a l'arabe et au latin, associ\'e \`a un classifieur d'intention hybride (r\`egles + mod\`ele lin\'eaire). Sur un jeu de 50 messages r\'edig\'es apr\`es la mise au point, le syst\`eme obtient 96{,}0\,\% d'exactitude pour l'intention et 100\,\% pour l'identification du m\'edicament. Ces r\'esultats sont encourageants mais \`a relativiser : aucun message d'utilisateur r\'eel n'a encore \'et\'e \'evalu\'e et la transcription vocale n'a pas \'et\'e mesur\'ee.
+\end{abstract}
+\tableofcontents
+
+\section{Introduction}
+Les services de sant\'e num\'eriques au Maroc re\c{c}oivent des demandes courtes, incompl\`etes et informelles, o\`u l'utilisateur alterne entre arabe, Darija et fran\c{c}ais, \`a l'\'ecrit comme \`a l'oral. Dans la relation patient--pharmacie, ces demandes portent surtout sur la disponibilit\'e d'un m\'edicament, son prix, son remboursement, ou sur des informations pratiques (t\'el\'ephone, adresse, horaires, garde). L'objectif est de transformer ces messages en donn\'ees structur\'ees exploitables par un syst\`eme en aval.
+
+\paragraph{Contributions.} (i) un sch\'ema de sortie JSON et huit intentions adapt\'ees au contexte pharmacie ; (ii) un rapprochement de noms de m\'edicaments robuste \`a la translitt\'eration et aux fautes, valable pour l'arabe comme pour le latin ; (iii) un pipeline complet, expos\'e par une API (FastAPI) ; (iv) un protocole d'\'evaluation s\'eparant jeu de mise au point et jeu final ; (v) une analyse d'erreurs et des limites assum\'ees.
+
+\section{\'Etude du probl\`eme et travaux connexes}
+\subsection{Particularit\'es de la Darija}
+La Darija n'a pas d'orthographe standardis\'ee et s'\'ecrit en lettres arabes ou en lettres latines avec chiffres (arabizi, par exemple \og 3ndkom \fg, \og m7loula \fg). Les noms de m\'edicaments, d'origine fran\c{c}aise, sont tr\`es variables : \og Doliprane \fg{} s'\'ecrit \texttt{doliprane}, \texttt{dolipran} ou en lettres arabes, o\`u p et b se confondent. Les messages m\'elangent souvent plusieurs langues (code-mixing).
+
+\subsection{Mod\`eles et ressources}
+\textbf{DarijaBERT} \cite{gaanoun2023} est le premier mod\`ele de type BERT pour le dialecte marocain, avec des variantes pour l'arabizi (\emph{DarijaBERT-arabizi}) et pour les deux graphies (\emph{DarijaBERT-mix}) ; il est \'evalu\'e notamment sur la classification de th\`emes. \textbf{CAMeLBERT} \cite{inoue2021} regroupe des mod\`eles pr\'e-entra\^in\'es pour l'arabe moderne, classique et dialectal. La \textbf{Darija Open Dataset (DODa)} \cite{doda2021,doda2024} fournit des entr\'ees Darija--anglais en graphies latine et arabe, avec leurs variantes orthographiques, et sert de base \`a des travaux r\'ecents comme \textbf{Atlas-Chat} \cite{atlaschat2024}, une famille de mod\`eles de langue pour la Darija. Pour la parole, \textbf{Whisper} \cite{radford2022} est un mod\`ele multilingue entra\^in\'e sur de grandes quantit\'es de donn\'ees supervis\'ees faiblement ; il n'est pas con\c{c}u sp\'ecifiquement pour la Darija, et sa performance sur ce dialecte doit donc \^etre mesur\'ee.
+
+\subsection{Appariement approximatif de cha\^ines}
+La distance de Levenshtein \cite{levenshtein1966} est la mesure classique pour corriger des fautes de frappe. Elle ne suffit pas ici, car elle ne compare pas des mots \'ecrits dans des alphabets diff\'erents. Nous utilisons donc en compl\'ement une cl\'e phon\'etique consonantique inspir\'ee des algorithmes phon\'etiques classiques : les voyelles sont supprim\'ees et les consonnes voisines fusionn\'ees (p/b, v/f, c/k/q/g, s/z), ce qui rapproche la graphie arabe de Doliprane et \texttt{doliprane} (cl\'e commune \texttt{dlbrn}).
+
+\subsection{Positionnement}
+Les annotations disponibles pour ce domaine sont tr\`es rares : il n'existe pas de corpus public de requ\^etes pharmacie en Darija. Plut\^ot que d'affiner un grand mod\`ele sur quelques centaines d'exemples, nous avons privil\'egi\'e une base interpr\'etable (r\`egles et cl\'e phon\'etique) compl\'et\'ee par un mod\`ele l\'eger, qui sert de point de comparaison solide pour d'\'eventuelles approches par grands mod\`eles ou BERT affin\'e.
+
+\section{Donn\'ees}
+\begin{table}[htbp]\centering\small
+\begin{tabular}{@{}p{3.4cm}p{6.2cm}p{4.6cm}@{}}\toprule
+\textbf{Source} & \textbf{Contenu mesur\'e} & \textbf{R\^ole}\\\midrule
+R\'ef\'erentiel CNOPS (2014) & 5\,917 produits, 2\,403 marques, 1\,134 DCI ; prix PPV pour tous ; taux de remboursement : 70\,\% (3\,940) ou 0\,\% (1\,977) ; dosage normalis\'e en mg pour 3\,926 produits & noms, dosages, formes, prix, remboursement\\
+AMMPS (pharmacies) & 8\,951 pharmacies avec \emph{uniquement} nom et ville (v\'erifi\'e sur la page) & liste officielle ; pas de t\'el\'ephone ni de GPS\\
+OpenStreetMap & t\'el\'ephone, adresse, GPS (couverture variable) & compl\'ement, via script (non test\'e en ligne)\\
+D\'emonstration & 96 pharmacies fictives, 120\,633 lignes de stock simul\'e & seule fa\c{c}on de d\'emontrer la disponibilit\'e : aucun stock public n'existe\\\bottomrule
+\end{tabular}
+\caption{Sources de donn\'ees. Les prix et taux du r\'ef\'erentiel datent de 2014 et sont indicatifs.}
+\end{table}
+
+\paragraph{Jeux d'\'evaluation.} Le tableau~\ref{tab:sets} d\'ecrit les cinq jeux. Tous les exemples ont \'et\'e r\'edig\'es par les auteurs du syst\`eme (ou par g\'en\'eration \`a partir de gabarits) : \textbf{aucun n'est un message d'utilisateur r\'eel}.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{@{}p{4.3cm}rp{7.8cm}@{}}\toprule
+\textbf{Jeu} & \textbf{n} & \textbf{Construction}\\\midrule
+Entra\^inement synth\'etique & 1\,176 & gabarits $\times$ m\'edicaments, villes, pharmacies al\'eatoires, avec bruit (intention seule)\\
+Corpus initial & 56 & \'ecrit \`a la main en m\^eme temps que les r\`egles (optimiste)\\
+Synth\'etique difficile & 384 & gabarits \emph{diff\'erents} de l'entra\^inement, m\'edicaments rares, fautes de frappe\\
+Dev r\'ealiste & 69 & messages courts et familiers, utilis\'e pour la mise au point\\
+Final & 50 & \'ecrit apr\`es la mise au point, \'evalu\'e une fois avant toute correction\\\bottomrule
+\end{tabular}
+\caption{Jeux de donn\'ees d'entra\^inement et d'\'evaluation.}\label{tab:sets}
+\end{table}
+
+\section{Conception}
+\subsection{Intentions et sch\'ema de sortie}
+Huit intentions : \texttt{check\_availability}, \texttt{price}, \texttt{reimbursement}, \texttt{pharmacy\_phone}, \texttt{pharmacy\_location}, \texttt{pharmacy\_hours}, \texttt{reserve\_order}, \texttt{out\_of\_scope}. Chaque r\'eponse suit un sch\'ema JSON unique (identifiant, entr\'ee, langue et graphie, intention et confiance, entit\'es, statut, question de clarification, avertissements). Le statut vaut \texttt{ok}, \texttt{needs\_clarification} (champ obligatoire manquant ou m\'edicament incertain) ou \texttt{out\_of\_scope}. L'assistant ne donne jamais de conseil m\'edical.
+
+\begin{lstlisting}
+{"intent": {"label": "check_availability", "confidence": 0.8},
+ "entities": {"medications": [{"raw": "dolipran", "name": "DOLIPRANE",
+     "dosage": "1000 mg", "form": null, "match_score": 0.977,
+     "candidates": ["DOLIPRANE | COMPRIME SECABLE | 1 BOITE 10 COMPRIME", "..."]}],
+   "quantity": null, "pharmacy_name": null, "city": "RABAT",
+   "neighborhood": null, "time_reference": null},
+ "status": "ok", "clarification_question": null}
+\end{lstlisting}
+
+\subsection{Pipeline}
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+% --- Entrees
+\node[inp] (text)  at (-2.5,0)    {Texte\\(Arabe, Darija,\\Fran\c{c}ais)};
+\node[inp] (voice) at (2.5,0)     {Voix\\(message audio)};
+\node[proc](asr)   at (2.5,-1.6)  {Transcription vocale\\(ASR, ex.\ Whisper)};
+
+% --- Pretraitement
+\node[proc](prep)  at (0,-3.3)    {Pr\'etraitement\\normalisation, translitt\'eration};
+\node[proc](lang)  at (0,-4.9)    {D\'etection de la langue\\et de la graphie};
+
+% --- NLU
+\node[nlp](intent) at (-2.4,-6.6) {Classification\\de l'intention};
+\node[nlp](ner)    at (2.4,-6.6)  {Extraction\\des entit\'es};
+\node[nlp,text width=4.6cm](match) at (0,-8.3)    {Rapprochement flou\\avec le r\'ef\'erentiel m\'edicaments};
+
+% --- Validation
+\node[proc](valid) at (0,-9.9)    {Validation des champs\\obligatoires par intent};
+
+% --- Statuts
+\node[res] (ok)    at (-4.2,-11.5){\texttt{status = ok}};
+\node[warn](clar)  at (0,-11.5)   {\texttt{needs\_clarification}};
+\node[bad] (oos)   at (4.2,-11.5) {\texttt{out\_of\_scope}};
+
+% --- Sortie
+\node[res,text width=4.4cm](json) at (0,-13.1) {R\'eponse JSON structur\'ee};
+\node[res,text width=4.4cm](api) at (0,-15.0)   {API REST (FastAPI)\\\texttt{/analyze/text} \quad \texttt{/analyze/voice}};
+
+% --- Sources de donnees
+\node[db](meds)    at (7.6,-8.3)  {R\'ef\'erentiel m\'edicaments\\(data.gov.ma)};
+\node[db](pharm)   at (7.6,-15.0) {Pharmacies (AMMPS + OSM)\\et stock simul\'e};
+
+% --- Fleches principales
+\draw[arr] (text.south)  |- (prep.west);
+\draw[arr] (voice.south) -- (asr.north);
+\draw[arr] (asr.south)   |- (prep.east);
+\draw[arr] (prep) -- (lang);
+\draw[arr] (lang.south) -- ++(0,-0.4) -| (intent.north);
+\draw[arr] (lang.south) -- ++(0,-0.4) -| (ner.north);
+\draw[arr] (intent.south) -- ++(0,-0.4) -| (match.north);
+\draw[arr] (ner.south)    -- ++(0,-0.4) -| (match.north);
+\draw[arr] (match) -- (valid);
+\draw[arr] (valid.south) -- ++(0,-0.4) -| (ok.north);
+\draw[arr] (valid.south) -- ++(0,-0.4) -| (clar.north);
+\draw[arr] (valid.south) -- ++(0,-0.4) -| (oos.north);
+\draw[arr] (ok.south)   -- ++(0,-0.4) -| (json.north);
+\draw[arr] (clar.south) -- ++(0,-0.4) -| (json.north);
+\draw[arr] (oos.south)  -- ++(0,-0.4) -| (json.north);
+\draw[arr] (json) -- (api);
+
+% --- Fleches vers sources de donnees
+\draw[darr] (meds.west)  -- node[above,lbl,pos=0.5]{noms, DCI, prix} (match.east);
+\draw[darr] (pharm.west) -- node[above,lbl,align=center]{t\'el., adresse,\\stock} (api.east);
+
+\end{tikzpicture}
+\caption{Pipeline de traitement d'une requ\^ete patient, de l'entr\'ee (texte ou voix) \`a la sortie JSON.}
+\label{fig:pipeline}
+\end{figure}
+Le texte est normalis\'e (diacritiques, variantes de lettres arabes, accents, r\'ep\'etitions), puis la langue et la graphie sont d\'etect\'ees. L'intention est d\'etermin\'ee par un mode \emph{hybride} : des motifs pond\'er\'es (mots-cl\'es en arabe, arabizi et fran\c{c}ais) priment lorsqu'ils sont forts ; sinon un mod\`ele TF-IDF sur n-grammes de caract\`eres avec r\'egression logistique tranche. Les entit\'es (dosage, forme, quantit\'e, ville, quartier, pharmacie, moment) sont extraites par r\`egles. Le m\'edicament est ensuite recherch\'e dans le r\'ef\'erentiel : alias connus, \'egalit\'e exacte, puis score combinant distance sur le texte latin et distance sur la cl\'e phon\'etique (seule cl\'e utilis\'ee pour l'arabe). Un m\'edicament secondaire dans une m\^eme phrase n'est conserv\'e que s'il est quasi certain (score $\geq 90$), pour \'eviter qu'un mot courant soit pris pour une marque.
+
+\section{Impl\'ementation et API}
+L'API FastAPI expose \texttt{POST /analyze/text}, \texttt{POST /analyze/voice} (transcription par faster-whisper puis m\^eme pipeline), \texttt{GET /medications/search}, \texttt{GET /pharmacies} et \texttt{GET /health}. Au-del\`a de l'interpr\'etation, le service renvoie un champ \texttt{fulfillment} (prix, taux de remboursement, pharmacies disposant du produit, coordonn\'ees). Sur 300 requ\^etes, sur un CPU ordinaire et hors transcription vocale, la latence est de 10{,}5\,ms en moyenne (m\'ediane 4{,}8\,ms ; 95e centile 53{,}6\,ms). Dix tests automatis\'es passent.
+
+\section{\'Evaluation}
+\subsection{Protocole}
+Pour chaque message, la sortie est compar\'ee champ par champ \`a l'annotation : intention, statut, langue, m\'edicament (premier de la liste), dosage, quantit\'e, pharmacie, ville, quartier, moment. Les jeux ne servent pas aux m\^emes usages : le jeu \emph{final} n'a \'et\'e utilis\'e qu'une fois avant correction. Les chiffres d\'ecrivant le syst\`eme sont ceux de ce passage initial.
+
+\subsection{R\'esultats}
+\begin{table}[htbp]\centering\small
+\begin{tabular}{@{}llrrrrr@{}}\toprule
+\textbf{Jeu} & \textbf{Mode} & \textbf{Intention} & \textbf{Statut} & \textbf{M\'edic.\ top-1} & \textbf{Dosage} & \textbf{Pharm.}\\\midrule
+Final (50), avant correction & r\`egles & 94,0 & 98,0 & 100 & 100 & 97,8\\
+ & ML seul & 86,0 & 92,0 & 96,8 & 96,8 & 97,8\\
+ & \textbf{hybride} & \textbf{96,0} & \textbf{98,0} & \textbf{100} & \textbf{100} & \textbf{97,8}\\\midrule
+Synth.\ difficile (384) & r\`egles & 87,5 & 92,2 & 93,8 & 97,9 & 94,4\\
+ & ML seul & 81,8 & 90,9 & 89,1 & 93,2 & 98,9\\
+ & \textbf{hybride} & \textbf{93,2} & \textbf{94,8} & \textbf{91,7} & \textbf{95,8} & \textbf{98,3}\\\bottomrule
+\end{tabular}
+\caption{Exactitude en pourcentage. Le mode hybride est le meilleur compromis sur les deux jeux.}
+\end{table}
+
+Apr\`es correction des trois d\'efauts r\'ev\'el\'es par le jeu final, le mode hybride atteint 100\,\% sur ce jeu, \textbf{mais ce chiffre n'est plus ind\'ependant} puisque les corrections en sont issues ; il ne doit pas \^etre pr\'esent\'e comme une performance de g\'en\'eralisation. Sur le jeu de mise au point (69) et sur le corpus initial (56), l'hybride atteint 100\,\%, ce qui illustre le risque de sur-ajustement plut\^ot que la qualit\'e du syst\`eme.
+
+\subsection{Analyse d'erreurs}
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Mots courants pris pour des marques.} \og temps \fg{} $\rightarrow$ TMS, \og grippe \fg{} $\rightarrow$ PARAGRIPPE, \og capitale \fg{} $\rightarrow$ CATALGINE, un verbe arabe signifiant \og acheter \fg{} $\rightarrow$ NAZAIR. C'est le risque principal d'un rapprochement flou sur 2\,403 marques. Il est r\'eduit par une liste de mots-outils et par l'exigence d'un m\'edicament certain en l'absence d'indice d'intention, mais cette liste est manuelle.
+\item \textbf{Formulations sans mot-cl\'e}, par exemple \og n9dar nakhod\ldots \fg{} ou \og n3ayt l pharmacie wach 3ndhom\ldots \fg. Les r\`egles restent muettes et le mod\`ele ML, entra\^in\'e sur 1\,176 exemples g\'en\'er\'es, g\'en\'eralise inégalement (il confond notamment prix et r\'eservation en arabizi).
+\item \textbf{Variantes orthographiques non pr\'evues}, comme \og tmn \fg{} pour \og taman \fg{} (prix) ou \og t3wid \fg{} (remboursement) : un lexique de motifs ne peut pas couvrir toute la diversit\'e de la Darija.
+\item \textbf{Extraction du nom de pharmacie par r\`egles} : \og dyalkom \fg{} (\og votre \fg) a \'et\'e pris pour un nom de pharmacie.
+\item \textbf{Langue ambigu\"e} sur les messages tr\`es courts (un seul nom de m\'edicament).
+\item \textbf{Hors p\'erim\`etre sans vocabulaire} : une question g\'en\'erale sans mot-cl\'e ne contient pas d'indice \'evident ; elle est correctement rejet\'ee surtout gr\^ace au mod\`ele ML et au seuil de certitude.
+\end{enumerate}
+
+\section{Limites et perspectives}
+\paragraph{Limites.} (1) Aucun message d'utilisateur r\'eel : les jeux sont r\'edig\'es par les auteurs, donc optimistes. (2) Les translitt\'erations arabes des donn\'ees synth\'etiques sont produites par des r\`egles de la m\^eme famille que la cl\'e phon\'etique, ce qui avantage le syst\`eme. (3) La transcription vocale est impl\'ement\'ee mais non \'evalu\'ee ; le script \texttt{eval\_asr.py} mesure le taux d'erreur de mots et la robustesse du pipeline aux erreurs de transcription. (4) Prix et taux issus d'un r\'ef\'erentiel de 2014. (5) Stock et pharmacies de d\'emonstration. (6) Huit intentions seulement, sans dialogue multi-tours.
+
+\paragraph{Perspectives.} \'Evaluer sur un corpus r\'eel de 100 \`a 150 messages ; comparer avec un grand mod\`ele de langue \`a sortie JSON contrainte, valid\'ee par le r\'ef\'erentiel ; affiner un mod\`ele de type DarijaBERT (version arabizi) pour l'intention et la reconnaissance d'entit\'es ; exploiter les variantes orthographiques de DODa pour enrichir les alias ; mesurer et am\'eliorer la transcription vocale ; brancher des donn\'ees pharmacies r\'eelles (AMMPS, OpenStreetMap) et un r\'ef\'erentiel de prix \`a jour.
+
+\section{Conclusion}
+Le syst\`eme propose une cha\^ine compl\`ete et explicable, du message libre \`a la r\'eponse structur\'ee, avec une identification du m\'edicament robuste \`a la translitt\'eration. Son v\'eritable niveau de performance ne sera connu qu'apr\`es \'evaluation sur des messages r\'eels et sur de la voix ; les r\'esultats pr\'esent\'es ici fournissent une base de comparaison et un protocole pour y parvenir.
+
+\begin{thebibliography}{9}\small
+\bibitem{gaanoun2023} K.~Gaanoun, A.~M.~Naira, A.~Allak, I.~Benelallam. \emph{DarijaBERT: a step forward in NLP for the written Moroccan dialect}. International Journal of Data Science and Analytics, 2023.
+\bibitem{inoue2021} G.~Inoue, B.~Alhafni, N.~Baimukan, H.~Bouamor, N.~Habash. \emph{The interplay of variant, size, and task type in Arabic pre-trained language models}. Proc.\ WANLP, 2021.
+\bibitem{doda2021} A.~Outchakoucht, H.~Es-Samaali. \emph{Moroccan Dialect --Darija-- Open Dataset}. arXiv:2103.09687, 2021.
+\bibitem{doda2024} A.~Outchakoucht, H.~Es-Samaali. \emph{The Evolution of Darija Open Dataset: Introducing Version 2}. arXiv:2405.13016, 2024.
+\bibitem{atlaschat2024} \emph{Atlas-Chat: Adapting Large Language Models for Low-Resource Moroccan Arabic Dialect}. arXiv:2409.17912, 2024.
+\bibitem{radford2022} A.~Radford, J.~W.~Kim, T.~Xu, G.~Brockman, C.~McLeavey, I.~Sutskever. \emph{Robust speech recognition via large-scale weak supervision}. arXiv:2212.04356, 2022.
+\bibitem{levenshtein1966} V.~I.~Levenshtein. \emph{Binary codes capable of correcting deletions, insertions and reversals}. Soviet Physics Doklady, 10(8), 1966.
+\end{thebibliography}
+\end{document}

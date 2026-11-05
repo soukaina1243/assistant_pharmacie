@@ -1,0 +1,180 @@
+{"file": "dev\\clean\\6118000160434.jpg", "condition": "clean", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\blur\\6118000160434.jpg", "condition": "blur", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\dark\\6118000160434.jpg", "condition": "dark", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\glare\\6118000160434.jpg", "condition": "glare", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\rot15\\6118000160434.jpg", "condition": "rot15", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\rot90\\6118000160434.jpg", "condition": "rot90", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\partial\\6118000160434.jpg", "condition": "partial", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\lowres\\6118000160434.jpg", "condition": "lowres", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\hard\\6118000160434.jpg", "condition": "hard", "code": "6118000160434", "brand": "CLAMOXYL", "nom": "CLAMOXYL", "dosage_mg": 500.0, "forme": "COMPRIME DISPERSIBLE", "split": "dev"}
+{"file": "dev\\clean\\6118000020158.jpg", "condition": "clean", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\blur\\6118000020158.jpg", "condition": "blur", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\dark\\6118000020158.jpg", "condition": "dark", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\glare\\6118000020158.jpg", "condition": "glare", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\rot15\\6118000020158.jpg", "condition": "rot15", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\rot90\\6118000020158.jpg", "condition": "rot90", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\partial\\6118000020158.jpg", "condition": "partial", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\lowres\\6118000020158.jpg", "condition": "lowres", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\hard\\6118000020158.jpg", "condition": "hard", "code": "6118000020158", "brand": "ZYRTEC", "nom": "ZYRTEC", "dosage_mg": 10.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "dev"}
+{"file": "dev\\clean\\6118010118425.jpg", "condition": "clean", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\blur\\6118010118425.jpg", "condition": "blur", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\dark\\6118010118425.jpg", "condition": "dark", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\glare\\6118010118425.jpg", "condition": "glare", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\rot15\\6118010118425.jpg", "condition": "rot15", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\rot90\\6118010118425.jpg", "condition": "rot90", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\partial\\6118010118425.jpg", "condition": "partial", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\lowres\\6118010118425.jpg", "condition": "lowres", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\hard\\6118010118425.jpg", "condition": "hard", "code": "6118010118425", "brand": "VOLTARENE", "nom": "VOLTARENE 100 MG", "dosage_mg": 100.0, "forme": "SUPPOSITOIRE", "split": "dev"}
+{"file": "dev\\clean\\6118000040354.jpg", "condition": "clean", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\blur\\6118000040354.jpg", "condition": "blur", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\dark\\6118000040354.jpg", "condition": "dark", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\glare\\6118000040354.jpg", "condition": "glare", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\rot15\\6118000040354.jpg", "condition": "rot15", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\rot90\\6118000040354.jpg", "condition": "rot90", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\partial\\6118000040354.jpg", "condition": "partial", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\lowres\\6118000040354.jpg", "condition": "lowres", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\hard\\6118000040354.jpg", "condition": "hard", "code": "6118000040354", "brand": "DOLIPRANE", "nom": "DOLIPRANE", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\clean\\6118001110100.jpg", "condition": "clean", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\blur\\6118001110100.jpg", "condition": "blur", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\dark\\6118001110100.jpg", "condition": "dark", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\glare\\6118001110100.jpg", "condition": "glare", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\rot15\\6118001110100.jpg", "condition": "rot15", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\rot90\\6118001110100.jpg", "condition": "rot90", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\partial\\6118001110100.jpg", "condition": "partial", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\lowres\\6118001110100.jpg", "condition": "lowres", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\hard\\6118001110100.jpg", "condition": "hard", "code": "6118001110100", "brand": "SAGADREPS", "nom": "SAGADREPS 20 MG ARÔME MENTHE", "dosage_mg": 20.0, "forme": "PASTILLE A SUCER", "split": "dev"}
+{"file": "dev\\clean\\6118000011415.jpg", "condition": "clean", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\blur\\6118000011415.jpg", "condition": "blur", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\dark\\6118000011415.jpg", "condition": "dark", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\glare\\6118000011415.jpg", "condition": "glare", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\rot15\\6118000011415.jpg", "condition": "rot15", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\rot90\\6118000011415.jpg", "condition": "rot90", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\partial\\6118000011415.jpg", "condition": "partial", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\lowres\\6118000011415.jpg", "condition": "lowres", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\hard\\6118000011415.jpg", "condition": "hard", "code": "6118000011415", "brand": "SEGLOR", "nom": "SEGLOR", "dosage_mg": 5.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\clean\\6118001183999.jpg", "condition": "clean", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\blur\\6118001183999.jpg", "condition": "blur", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\dark\\6118001183999.jpg", "condition": "dark", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\glare\\6118001183999.jpg", "condition": "glare", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\rot15\\6118001183999.jpg", "condition": "rot15", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\rot90\\6118001183999.jpg", "condition": "rot90", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\partial\\6118001183999.jpg", "condition": "partial", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\lowres\\6118001183999.jpg", "condition": "lowres", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\hard\\6118001183999.jpg", "condition": "hard", "code": "6118001183999", "brand": "HUMIRA", "nom": "HUMIRA 40MG", "dosage_mg": 40.0, "forme": "SOLUTION INJECTABLE", "split": "dev"}
+{"file": "dev\\clean\\6118000080077.jpg", "condition": "clean", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\blur\\6118000080077.jpg", "condition": "blur", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\dark\\6118000080077.jpg", "condition": "dark", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\glare\\6118000080077.jpg", "condition": "glare", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\rot15\\6118000080077.jpg", "condition": "rot15", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\rot90\\6118000080077.jpg", "condition": "rot90", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\partial\\6118000080077.jpg", "condition": "partial", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\lowres\\6118000080077.jpg", "condition": "lowres", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\hard\\6118000080077.jpg", "condition": "hard", "code": "6118000080077", "brand": "METAGLIZ", "nom": "METAGLIZ", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\clean\\6118000130376.jpg", "condition": "clean", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\blur\\6118000130376.jpg", "condition": "blur", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\dark\\6118000130376.jpg", "condition": "dark", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\glare\\6118000130376.jpg", "condition": "glare", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\rot15\\6118000130376.jpg", "condition": "rot15", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\rot90\\6118000130376.jpg", "condition": "rot90", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\partial\\6118000130376.jpg", "condition": "partial", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\lowres\\6118000130376.jpg", "condition": "lowres", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\hard\\6118000130376.jpg", "condition": "hard", "code": "6118000130376", "brand": "FLUCAZOL", "nom": "FLUCAZOL", "dosage_mg": 150.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\clean\\6118000140320.jpg", "condition": "clean", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\blur\\6118000140320.jpg", "condition": "blur", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\dark\\6118000140320.jpg", "condition": "dark", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\glare\\6118000140320.jpg", "condition": "glare", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\rot15\\6118000140320.jpg", "condition": "rot15", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\rot90\\6118000140320.jpg", "condition": "rot90", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\partial\\6118000140320.jpg", "condition": "partial", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\lowres\\6118000140320.jpg", "condition": "lowres", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\hard\\6118000140320.jpg", "condition": "hard", "code": "6118000140320", "brand": "NORACIN", "nom": "NORACIN", "dosage_mg": 400.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\clean\\6118001182374.jpg", "condition": "clean", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\blur\\6118001182374.jpg", "condition": "blur", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\dark\\6118001182374.jpg", "condition": "dark", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\glare\\6118001182374.jpg", "condition": "glare", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\rot15\\6118001182374.jpg", "condition": "rot15", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\rot90\\6118001182374.jpg", "condition": "rot90", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\partial\\6118001182374.jpg", "condition": "partial", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\lowres\\6118001182374.jpg", "condition": "lowres", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\hard\\6118001182374.jpg", "condition": "hard", "code": "6118001182374", "brand": "THIOTEPA", "nom": "THIOTEPA", "dosage_mg": 15.0, "forme": "POUDRE POUR USAGE PARENTERAL", "split": "dev"}
+{"file": "dev\\clean\\6118000032069.jpg", "condition": "clean", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\blur\\6118000032069.jpg", "condition": "blur", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\dark\\6118000032069.jpg", "condition": "dark", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\glare\\6118000032069.jpg", "condition": "glare", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\rot15\\6118000032069.jpg", "condition": "rot15", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\rot90\\6118000032069.jpg", "condition": "rot90", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\partial\\6118000032069.jpg", "condition": "partial", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\lowres\\6118000032069.jpg", "condition": "lowres", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\hard\\6118000032069.jpg", "condition": "hard", "code": "6118000032069", "brand": "VITA C", "nom": "VITA C 1000", "dosage_mg": 1000.0, "forme": "COMPRIME EFFERVESCENT", "split": "dev"}
+{"file": "dev\\clean\\6118000180401.jpg", "condition": "clean", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\blur\\6118000180401.jpg", "condition": "blur", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\dark\\6118000180401.jpg", "condition": "dark", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\glare\\6118000180401.jpg", "condition": "glare", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\rot15\\6118000180401.jpg", "condition": "rot15", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\rot90\\6118000180401.jpg", "condition": "rot90", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\partial\\6118000180401.jpg", "condition": "partial", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\lowres\\6118000180401.jpg", "condition": "lowres", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\hard\\6118000180401.jpg", "condition": "hard", "code": "6118000180401", "brand": "HOSTACORTIN H", "nom": "HOSTACORTIN H", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\clean\\6118000021049.jpg", "condition": "clean", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\blur\\6118000021049.jpg", "condition": "blur", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\dark\\6118000021049.jpg", "condition": "dark", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\glare\\6118000021049.jpg", "condition": "glare", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\rot15\\6118000021049.jpg", "condition": "rot15", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\rot90\\6118000021049.jpg", "condition": "rot90", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\partial\\6118000021049.jpg", "condition": "partial", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\lowres\\6118000021049.jpg", "condition": "lowres", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\hard\\6118000021049.jpg", "condition": "hard", "code": "6118000021049", "brand": "MEDIVEINE", "nom": "MEDIVEINE", "dosage_mg": 600.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\clean\\6118000290049.jpg", "condition": "clean", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\blur\\6118000290049.jpg", "condition": "blur", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\dark\\6118000290049.jpg", "condition": "dark", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\glare\\6118000290049.jpg", "condition": "glare", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\rot15\\6118000290049.jpg", "condition": "rot15", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\rot90\\6118000290049.jpg", "condition": "rot90", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\partial\\6118000290049.jpg", "condition": "partial", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\lowres\\6118000290049.jpg", "condition": "lowres", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\hard\\6118000290049.jpg", "condition": "hard", "code": "6118000290049", "brand": "DECADRON", "nom": "DECADRON", "dosage_mg": 0.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\clean\\6118000030874.jpg", "condition": "clean", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\blur\\6118000030874.jpg", "condition": "blur", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\dark\\6118000030874.jpg", "condition": "dark", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\glare\\6118000030874.jpg", "condition": "glare", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\rot15\\6118000030874.jpg", "condition": "rot15", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\rot90\\6118000030874.jpg", "condition": "rot90", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\partial\\6118000030874.jpg", "condition": "partial", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\lowres\\6118000030874.jpg", "condition": "lowres", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\hard\\6118000030874.jpg", "condition": "hard", "code": "6118000030874", "brand": "NIFLURIL", "nom": "NIFLURIL", "dosage_mg": 250.0, "forme": "GELULE", "split": "dev"}
+{"file": "dev\\clean\\6118000070979.jpg", "condition": "clean", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\blur\\6118000070979.jpg", "condition": "blur", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\dark\\6118000070979.jpg", "condition": "dark", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\glare\\6118000070979.jpg", "condition": "glare", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\rot15\\6118000070979.jpg", "condition": "rot15", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\rot90\\6118000070979.jpg", "condition": "rot90", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\partial\\6118000070979.jpg", "condition": "partial", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\lowres\\6118000070979.jpg", "condition": "lowres", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\hard\\6118000070979.jpg", "condition": "hard", "code": "6118000070979", "brand": "MIBRAL", "nom": "MIBRAL", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "dev"}
+{"file": "dev\\clean\\6118001270675.jpg", "condition": "clean", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\blur\\6118001270675.jpg", "condition": "blur", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\dark\\6118001270675.jpg", "condition": "dark", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\glare\\6118001270675.jpg", "condition": "glare", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\rot15\\6118001270675.jpg", "condition": "rot15", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\rot90\\6118001270675.jpg", "condition": "rot90", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\partial\\6118001270675.jpg", "condition": "partial", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\lowres\\6118001270675.jpg", "condition": "lowres", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\hard\\6118001270675.jpg", "condition": "hard", "code": "6118001270675", "brand": "LETROZOLE GT", "nom": "LETROZOLE GT", "dosage_mg": 2.5, "forme": "COMPRIME SECABLE", "split": "dev"}
+{"file": "dev\\clean\\6118001140749.jpg", "condition": "clean", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\blur\\6118001140749.jpg", "condition": "blur", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\dark\\6118001140749.jpg", "condition": "dark", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\glare\\6118001140749.jpg", "condition": "glare", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\rot15\\6118001140749.jpg", "condition": "rot15", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\rot90\\6118001140749.jpg", "condition": "rot90", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\partial\\6118001140749.jpg", "condition": "partial", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\lowres\\6118001140749.jpg", "condition": "lowres", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\hard\\6118001140749.jpg", "condition": "hard", "code": "6118001140749", "brand": "LACIPIL", "nom": "LACIPIL", "dosage_mg": 4.0, "forme": "COMPRIME ENROBE", "split": "dev"}
+{"file": "dev\\clean\\6118001081745.jpg", "condition": "clean", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\blur\\6118001081745.jpg", "condition": "blur", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\dark\\6118001081745.jpg", "condition": "dark", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\glare\\6118001081745.jpg", "condition": "glare", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\rot15\\6118001081745.jpg", "condition": "rot15", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\rot90\\6118001081745.jpg", "condition": "rot90", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\partial\\6118001081745.jpg", "condition": "partial", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\lowres\\6118001081745.jpg", "condition": "lowres", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}
+{"file": "dev\\hard\\6118001081745.jpg", "condition": "hard", "code": "6118001081745", "brand": "RILUTEK", "nom": "RILUTEK 50MG", "dosage_mg": 50.0, "forme": "COMPRIME PELLICULE", "split": "dev"}

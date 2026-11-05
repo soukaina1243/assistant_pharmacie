@@ -1,0 +1,1826 @@
+{
+  "metrics": {
+    "intent": 0.932,
+    "status": 0.948,
+    "lang_primary": 0.927,
+    "script": 1.0,
+    "quantity": 1.0,
+    "pharmacy_name": 0.983,
+    "city": 1.0,
+    "neighborhood": 0.989,
+    "time_reference": 0.978,
+    "med_top1": 0.917,
+    "med_all": 0.917,
+    "dosage": 0.958,
+    "form": 0.958,
+    "no_med_false_positive": 0.976,
+    "intent_macro_f1": 0.929,
+    "intent_by_language": {
+      "darija/latin": 0.859,
+      "french/latin": 1.0,
+      "darija/arabic": 0.938
+    },
+    "n": 384
+  },
+  "errors": [
+    {
+      "id": "s0004",
+      "text": "Spiriva kayn f pharmacie ? 3afak",
+      "wrong": [
+        "intent",
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Spiriva",
+            "name": "SPIRIVA",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0005",
+      "text": "bisolvon 8mg kayn f pharmacie ?",
+      "wrong": [
+        "intent",
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Bisolvon",
+            "name": "BISOLVON",
+            "dosage": "8 mg",
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0006",
+      "text": "Effipred kayn f pharmacie ?",
+      "wrong": [
+        "intent",
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Effipred",
+            "name": "EFFIPRED",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0007",
+      "text": "Baracude kayn f pharmacie",
+      "wrong": [
+        "intent",
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Baracude",
+            "name": "BARACLUDE",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0043",
+      "text": "واش مازال كاين هيكسيديل فمكناس؟",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "هيكسيديل",
+            "name": "HEXIDYL",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": "MEKNES",
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "هيكسيديل",
+            "name": "XEDILOL",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.975,
+            "candidates": [
+              "XEDILOL | COMPRIME SECABLE | 1 BOITE 30 COMPRIME SECABLE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": "MEKNES",
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0045",
+      "text": "بغيت نعرف واش كاين أوريلوكس",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "أوريلوكس",
+            "name": "ORELOX",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "أوريلوكس",
+            "name": "AIRLIX",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.977,
+            "candidates": [
+              "AIRLIX | SOLUTION BUVABLE | 1 FLACON 60 ML",
+              "AIRLIX | COMPRIME PELLICULE SECABLE | 1 BOITE 15 COMPRIME",
+              "AIRLIX | COMPRIME PELLICULE SECABLE | 1 BOITE 30 COMPRIME ENROBE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0085",
+      "text": "كنت شحال؟",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "كنت",
+            "name": "CINET",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "كنت",
+            "name": "KOGENATE",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.976,
+            "candidates": [
+              "KOGENATE 250 UI | POUDRE POUR SOLUTION INJECTABLE | 1 KIT 250 UI",
+              "KOGENATE 500 UI | POUDRE POUR SOLUTION INJECTABLE | 1 KIT 500 UI",
+              "KOGENATE 1000 UI | POUDRE POUR SOLUTION INJECTABLE | 1 KIT 1000 UI"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0088",
+      "text": "شحال خاصني نخلص على أويديس؟",
+      "wrong": [
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "أويديس",
+            "name": "OEDES",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "price",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0091",
+      "text": "شحال خاصني نخلص على كاليس؟",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "كاليس",
+            "name": "CIALIS",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "كاليس",
+            "name": "GLUCOSE",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.839,
+            "candidates": [
+              "GLUCOSE 5% SOTHEMA | SOLUTION POUR PERFUSION | 1 POCHE 250 ML",
+              "GLUCOSE 5% SOTHEMA | SOLUTION POUR PERFUSION | 1 POCHE 100 ML",
+              "GLUCOSE 5% LAPROPHAN | SOLUTION POUR PERFUSION | 1 POCHE 100 ML"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0095",
+      "text": "السعر ديال كيكلو",
+      "wrong": [
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "كيكلو",
+            "name": "CYCLO",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "price",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0108",
+      "text": "lovenox fiha t3wid ?",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "lovenox",
+            "name": "LOVENOX",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "lovenox",
+            "name": "LOVENOX",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "LOVENOX | SOLUTION INJECTABLE | 2 SERINGUE .2 ML",
+              "LOVENOX | SOLUTION INJECTABLE | 2 SERINGUE .4 ML",
+              "LOVENOX | SOLUTION INJECTABLE | 2 SERINGUE .6 ML"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0109",
+      "text": "arcoxia fiha t3wid ?",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "arcoxia",
+            "name": "ARCOXIA",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "arcoxia",
+            "name": "ARCOXIA",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "ARCOXIA | COMPRIME PELLICULE | 1 BOITE 7 COMPRIME",
+              "ARCOXIA | COMPRIME PELLICULE | 1 BOITE 14 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0110",
+      "text": "ciproxine fiha t3wid merci",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "ciproxine",
+            "name": "CIPROXINE",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "ciproxine",
+            "name": "CIPROXINE",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "CIPROXINE | COMPRIME ENROBE | 1 BOITE 10 COMPRIME",
+              "CIPROXINE | COMPRIME ENROBE SECABLE | 1 BOITE 10 COMPRIME",
+              "CIPROXINE | COMPRIME PELLICULE | 1 BOITE 6 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0111",
+      "text": "Zidime 1000 fiha t3wid ?",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Zidime",
+            "name": "ZIDIME",
+            "dosage": "1000 mg",
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Zidime",
+            "name": "ZIDIME",
+            "dosage": "1000 mg",
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "ZIDIME 1G | POUDRE POUR PREPARATION INJECTABLE | 1 BOITE 1 FLACON"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0124",
+      "text": "Le Angniib passe-t-il avec la CNOPS ?",
+      "wrong": [
+        "status"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Angniib",
+            "name": "ANGINIB",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reimbursement",
+        "status": "needs_clarification",
+        "medications": [
+          {
+            "raw": "Angniib",
+            "name": "ANGINIB",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.786,
+            "candidates": [
+              "ANGINIB | COMPRIME ENROBE | 1 BOITE 14 COMPRIME ENROBE",
+              "ANGINIB | COMPRIME ENROBE | 1 BOITE 28 COMPRIME ENROBE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0128",
+      "text": "الكنوبس كتعوض ركن؟",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "ركن",
+            "name": "RIACEN",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "ركن",
+            "name": "ARGININE",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.976,
+            "candidates": [
+              "ARGININE VEYRON | SOLUTION BUVABLE | 1 BOITE 20 AMPOULE BUVABLE",
+              "ARGININE VEYRON | SIROP | 1 FLACON 125 ML",
+              "ARGININE VEYRON | SIROP | 1 FLACON 250 ML"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0129",
+      "text": "الكنوبس كتعوض أورلوكس؟",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "أورلوكس",
+            "name": "ORELOX",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "أورلوكس",
+            "name": "AIRLIX",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.977,
+            "candidates": [
+              "AIRLIX | SOLUTION BUVABLE | 1 FLACON 60 ML",
+              "AIRLIX | COMPRIME PELLICULE SECABLE | 1 BOITE 15 COMPRIME",
+              "AIRLIX | COMPRIME PELLICULE SECABLE | 1 BOITE 30 COMPRIME ENROBE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0141",
+      "text": "واش الضمان كيغطي كيفابيروس؟",
+      "wrong": [
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "reimbursement",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "كيفابيروس",
+            "name": "CEFAPEROS",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reimbursement",
+        "status": "needs_clarification",
+        "medications": [
+          {
+            "raw": "كيفابيروس",
+            "name": "COVERSYL",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.778,
+            "candidates": [
+              "COVERSYL | COMPRIME PELLICULE SECABLE | 1 BOITE 30 COMPRIME",
+              "COVERSYL | COMPRIME SECABLE | 1 BOITE 30 COMPRIME",
+              "COVERSYL | COMPRIME PELLICULE | 1 BOITE 30 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0176",
+      "text": "بغيت نتاصل بصيدلية الأندلس رباط",
+      "wrong": [
+        "intent",
+        "pharmacy_name",
+        "medications"
+      ],
+      "gold": {
+        "intent": "pharmacy_phone",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "الأندلس",
+        "city": "RABAT",
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "بصيدلية",
+            "name": "BISEDAL",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.973,
+            "candidates": [
+              "BISEDAL | GELULE | 1 BOITE 20 GELULE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": "RABAT",
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0177",
+      "text": "بغيت نتاصل بصيدلية الأندلس فوجدة",
+      "wrong": [
+        "intent",
+        "pharmacy_name",
+        "medications"
+      ],
+      "gold": {
+        "intent": "pharmacy_phone",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "الأندلس",
+        "city": "OUJDA",
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "بصيدلية",
+            "name": "BISEDAL",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.973,
+            "candidates": [
+              "BISEDAL | GELULE | 1 BOITE 20 GELULE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": "OUJDA",
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0178",
+      "text": "بغيت نتاصل بصيدلية المركزية فوجدة",
+      "wrong": [
+        "intent",
+        "pharmacy_name",
+        "medications"
+      ],
+      "gold": {
+        "intent": "pharmacy_phone",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "المركزية",
+        "city": "OUJDA",
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "بصيدلية",
+            "name": "BISEDAL",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.973,
+            "candidates": [
+              "BISEDAL | GELULE | 1 BOITE 20 GELULE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": "OUJDA",
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0179",
+      "text": "بغيت نتاصل بصيدلية المسيرة طنجة",
+      "wrong": [
+        "intent",
+        "pharmacy_name",
+        "medications"
+      ],
+      "gold": {
+        "intent": "pharmacy_phone",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "المسيرة",
+        "city": "TANGER",
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "بصيدلية",
+            "name": "BISEDAL",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.973,
+            "candidates": [
+              "BISEDAL | GELULE | 1 BOITE 20 GELULE"
+            ]
+          },
+          {
+            "raw": "المسيرة",
+            "name": "MEZOR",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.978,
+            "candidates": [
+              "MEZOR 20 MG | GELULE GASTRO-RESISTANTE | 1 BOITE 7 GELULE GASTRO-RESISTANTE",
+              "MEZOR 40 MG | GELULE GASTRO-RESISTANTE | 1 BOITE 7 GELULE GASTRO-RESISTANTE",
+              "MEZOR 20 MG | GELULE GASTRO-RESISTANTE | 1 BOITE 14 GELULE GASTRO-RESISTANTE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": "TANGER",
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0236",
+      "text": "أنا فـحي الرياض فين كاينة صيدلية؟",
+      "wrong": [
+        "status",
+        "neighborhood"
+      ],
+      "gold": {
+        "intent": "pharmacy_location",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": "حي الرياض",
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0237",
+      "text": "أنا فـدرب السلطان فين كاينة صيدلية؟",
+      "wrong": [
+        "status",
+        "neighborhood"
+      ],
+      "gold": {
+        "intent": "pharmacy_location",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": "درب السلطان",
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0238",
+      "text": "أنا فـحي الرياض فين كاينة صيدلية؟",
+      "wrong": [
+        "status",
+        "neighborhood"
+      ],
+      "gold": {
+        "intent": "pharmacy_location",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": "حي الرياض",
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0239",
+      "text": "أنا فـحي السلام فين كاينة صيدلية؟",
+      "wrong": [
+        "status",
+        "neighborhood"
+      ],
+      "gold": {
+        "intent": "pharmacy_location",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": "حي السلام",
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_location",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0285",
+      "text": "صيدلية الأندلس فتحات اليوم؟",
+      "wrong": [
+        "intent",
+        "status",
+        "pharmacy_name",
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "pharmacy_hours",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "الأندلس",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "aujourd'hui"
+      },
+      "pred": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0286",
+      "text": "صيدلية الأطلس فتحات اليوم؟",
+      "wrong": [
+        "intent",
+        "status",
+        "pharmacy_name",
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "pharmacy_hours",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "الأطلس",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "aujourd'hui"
+      },
+      "pred": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0292",
+      "text": "n9dar nakhod 3 d xarelto ghda ?",
+      "wrong": [
+        "intent",
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Xarelto",
+            "name": "XARELTO",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": 3,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "xarelto",
+            "name": "XARELTO",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "XARELTO | COMPRIME PELLICULE | 1 BOITE 100 COMPRIME PELLICULE",
+              "XARELTO | COMPRIME PELLICULE | 1 BOITE 5 COMPRIME PELLICULE",
+              "XARELTO | COMPRIME PELLICULE | 1 BOITE 10 COMPRIME PELLICULE"
+            ]
+          }
+        ],
+        "quantity": 3,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "demain"
+      }
+    },
+    {
+      "id": "s0293",
+      "text": "n9dar nakhod 2 d Contracide ghda ?",
+      "wrong": [
+        "intent",
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Contracide",
+            "name": "CONTRACIDE",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": 2,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Contracide",
+            "name": "CONTRACIDE",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "CONTRACIDE | SUSPENSION BUVABLE | 1 FLACON 250 ML"
+            ]
+          }
+        ],
+        "quantity": 2,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "demain"
+      }
+    },
+    {
+      "id": "s0294",
+      "text": "n9dar nakhod 5 d crestor ghda ?",
+      "wrong": [
+        "intent",
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "crestor",
+            "name": "CRESTOR",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": 5,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "crestor",
+            "name": "CRESTOR",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "CRESTOR | COMPRIME PELLICULE | 1 BOITE 30 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": 5,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "demain"
+      }
+    },
+    {
+      "id": "s0295",
+      "text": "n9dar nakhod 1 d sinuglair ghda ?",
+      "wrong": [
+        "intent",
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Sinuglair",
+            "name": "SINGULAIR",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": 1,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "sinuglair",
+            "name": "SINGULAIR",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.941,
+            "candidates": [
+              "SINGULAIR | COMPRIME A CROQUER | 1 BOITE 14 COMPRIME",
+              "SINGULAIR | GRANULE | 1 BOITE 28 SACHET",
+              "SINGULAIR | COMPRIME A CROQUER | 1 BOITE 28 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": 1,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "demain"
+      }
+    },
+    {
+      "id": "s0296",
+      "text": "preparez liya Stediril 3nd pharmacie Ibn Sina",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Stediril",
+            "name": "STEDIRIL",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Ibn Sina",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Stediril",
+            "name": "STEDIRIL",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "STEDIRIL | COMPRIME ENROBE | 1 BOITE 21 COMPRIME",
+              "STEDIRIL | COMPRIME ENROBE | 1 BOITE 63 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Ibn Sina",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0297",
+      "text": "preparez liya biomylase 3nd pharmacie Al Massira",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "biomylase",
+            "name": "BIOMYLASE",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Al Massira",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "biomylase",
+            "name": "BIOMYLASE",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "BIOMYLASE | SUSPENSION BUVABLE | 1 FLACON 125 ML",
+              "BIOMYLASE | COMPRIME ENROBE | 1 FLACON 24 COMPRIME",
+              "BIOMYLASE | SOLUTION BUVABLE | 1 FLACON 250 ML"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Al Massira",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0298",
+      "text": "preparez liya apaisyl 3nd pharmacie Hassan II",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "apaisyl",
+            "name": "APAISYL",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Hassan II",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "apaisyl",
+            "name": "APAISYL",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "APAISYL | GEL | 1 TUBE 20 G"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Hassan II",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0299",
+      "text": "preparez liya Flexen 3nd pharmacie Hassan II",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Flexen",
+            "name": "FLEXEN",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Hassan II",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "Flexen",
+            "name": "FLEXEN",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "FLEXEN | CAPSULE MOLLE | 1 BOITE 20 CAPSULE",
+              "FLEXEN | GEL | 1 TUBE 20 G",
+              "FLEXEN | SUPPOSITOIRE | 1 BOITE 10 SUPPOSITOIRE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Hassan II",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0320",
+      "text": "نقدر نحجز أويدس ؟",
+      "wrong": [
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "أويدس",
+            "name": "OEDES",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0330",
+      "text": "بغيت 2 علب د تياغم نجي ناخدهم",
+      "wrong": [
+        "medications"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "تياغم",
+            "name": "TIAGAM",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": 2,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "تياغم",
+            "name": "TEGUMA",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.981,
+            "candidates": [
+              "TEGUMA | CREME | 1 TUBE 15 G",
+              "TEGUMA | COMPRIME | 1 BOITE 7 COMPRIME",
+              "TEGUMA | CREME | 1 TUBE 30 G"
+            ]
+          }
+        ],
+        "quantity": 2,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0331",
+      "text": "بغيت 5 علب د هيبر نجي ناخدهم",
+      "wrong": [
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "هيبر",
+            "name": "HIBOR",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": 5,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": 5,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0340",
+      "text": "wach kayn taxi ? 3afak",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0340",
+      "text": "wach kayn taxi",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0356",
+      "text": "واش كاين طاكسي؟",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "طاكسي",
+            "name": "TERIX",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.836,
+            "candidates": [
+              "TERIX 250 MG | COMPRIME | 1 BOITE 7 COMPRIME",
+              "TERIX | COMPRIME | 1 BOITE 14 COMPRIME",
+              "TERIX | COMPRIME | 1 BOITE 28 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0356",
+      "text": "واش كاين طاكسي؟",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "طاكسي",
+            "name": "TERIX",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.836,
+            "candidates": [
+              "TERIX 250 MG | COMPRIME | 1 BOITE 7 COMPRIME",
+              "TERIX | COMPRIME | 1 BOITE 14 COMPRIME",
+              "TERIX | COMPRIME | 1 BOITE 28 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "s0374",
+      "text": "Elle ferme à quelle heure ?",
+      "wrong": [
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "pharmacy_hours",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_hours",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "fermeture"
+      }
+    },
+    {
+      "id": "s0374",
+      "text": "Elle ferme à quelle heure ?",
+      "wrong": [
+        "time_reference"
+      ],
+      "gold": {
+        "intent": "pharmacy_hours",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_hours",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": "fermeture"
+      }
+    }
+  ]
+}

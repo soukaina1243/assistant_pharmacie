@@ -1,0 +1,97 @@
+id,name,name_ar,city,quartier,address,phone,lat,lon,opening_hours,on_duty,source
+1,Pharmacie Ennahda,صيدلية النهضة,RABAT,Agdal,"24 rue Al Massira, Agdal",05 37 39 74 87,33.99249,-6.85967,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+2,Pharmacie Ibn Sina,صيدلية ابن سينا,RABAT,Hassan,"57 rue Hassan II, Hassan",05 37 85 45 10,34.03643,-6.86202,08:30-21:00,False,synthetic_demo
+3,Pharmacie Al Wifaq,صيدلية الوفاق,RABAT,Hay Riad,"56 rue Mohammed V, Hay Riad",05 37 23 21 58,33.9967,-6.82075,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+4,Pharmacie Hassan II,صيدلية الحسن الثاني,RABAT,Agdal,"118 rue Ibn Battouta, Agdal",05 37 25 58 20,34.02402,-6.82184,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+5,Pharmacie Al Qods,صيدلية القدس,RABAT,Souissi,"148 rue Al Massira, Souissi",05 37 18 15 94,34.00457,-6.85424,09:00-20:00,False,synthetic_demo
+6,Pharmacie Atlas,صيدلية الأطلس,RABAT,Agdal,"98 rue Mohammed V, Agdal",05 37 68 91 56,34.00066,-6.85028,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+7,Pharmacie Centrale,صيدلية المركزية,RABAT,Agdal,"156 rue Al Massira, Agdal",05 37 78 41 30,34.01864,-6.8554,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+8,Pharmacie Al Amal,صيدلية الأمل,RABAT,Hay Riad,"176 rue Mohammed V, Hay Riad",05 37 17 39 14,34.0392,-6.84753,09:00-20:00,False,synthetic_demo
+9,Pharmacie La Paix,صيدلية السلام,RABAT,Yacoub El Mansour,"81 rue Al Massira, Yacoub El Mansour",05 37 93 73 60,34.04398,-6.83303,09:00-20:00,False,synthetic_demo
+10,Pharmacie Ennasr,صيدلية النصر,RABAT,Hay Riad,"144 rue Ibn Battouta, Hay Riad",05 37 43 84 64,34.04477,-6.84764,09:00-20:00,False,synthetic_demo
+11,Pharmacie Ibn Rochd,صيدلية ابن رشد,RABAT,Hay Riad,"131 rue Hassan II, Hay Riad",05 37 21 16 24,34.00007,-6.862,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+12,Pharmacie Al Manar,صيدلية المنار,RABAT,Agdal,"99 rue Hassan II, Agdal",05 37 86 69 77,34.00598,-6.83841,09:00-20:00,False,synthetic_demo
+13,Pharmacie Ennahda,صيدلية النهضة,CASABLANCA,Maarif,"68 rue Ibn Battouta, Maarif",05 22 32 74 23,33.59533,-7.60189,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+14,Pharmacie Ibn Rochd,صيدلية ابن رشد,CASABLANCA,Gauthier,"40 rue Mohammed V, Gauthier",05 22 30 79 77,33.59821,-7.58386,08:30-21:00,True,synthetic_demo
+15,Pharmacie La Paix,صيدلية السلام,CASABLANCA,Anfa,"79 rue Al Massira, Anfa",05 22 17 40 82,33.59992,-7.61466,08:30-21:00,True,synthetic_demo
+16,Pharmacie Ennasr,صيدلية النصر,CASABLANCA,Ain Sebaa,"33 rue Al Massira, Ain Sebaa",05 22 94 70 80,33.55301,-7.58814,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+17,Pharmacie Hassan II,صيدلية الحسن الثاني,CASABLANCA,Gauthier,"139 rue Al Massira, Gauthier",05 22 49 61 95,33.58209,-7.59351,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+18,Pharmacie Al Manar,صيدلية المنار,CASABLANCA,Gauthier,"58 rue Moulay Youssef, Gauthier",05 22 53 12 85,33.57634,-7.58449,09:00-20:00,True,synthetic_demo
+19,Pharmacie Al Massira,صيدلية المسيرة,CASABLANCA,Bourgogne,"16 rue Al Massira, Bourgogne",05 22 18 14 52,33.54735,-7.60552,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+20,Pharmacie Al Amal,صيدلية الأمل,CASABLANCA,Ain Sebaa,"34 rue Ibn Battouta, Ain Sebaa",05 22 83 70 41,33.59018,-7.57135,09:00-20:00,True,synthetic_demo
+21,Pharmacie Al Wifaq,صيدلية الوفاق,CASABLANCA,Bourgogne,"111 rue Mohammed V, Bourgogne",05 22 64 62 69,33.59493,-7.61655,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+22,Pharmacie Al Qods,صيدلية القدس,CASABLANCA,Maarif,"16 rue Hassan II, Maarif",05 22 53 23 41,33.5546,-7.58762,09:00-20:00,False,synthetic_demo
+23,Pharmacie Atlas,صيدلية الأطلس,CASABLANCA,Anfa,"119 rue Al Massira, Anfa",05 22 19 66 80,33.54897,-7.58067,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+24,Pharmacie Al Andalous,صيدلية الأندلس,CASABLANCA,Maarif,"61 rue Al Massira, Maarif",05 22 62 72 71,33.55592,-7.59574,09:00-20:00,False,synthetic_demo
+25,Pharmacie Ibn Sina,صيدلية ابن سينا,SALE,Tabriquet,"15 rue Ibn Battouta, Tabriquet",05 37 79 17 50,34.02653,-6.79345,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+26,Pharmacie Al Andalous,صيدلية الأندلس,SALE,Tabriquet,"15 rue Ibn Battouta, Tabriquet",05 37 20 33 18,34.0588,-6.78799,09:00-20:00,False,synthetic_demo
+27,Pharmacie Hassan II,صيدلية الحسن الثاني,SALE,Tabriquet,"149 rue Ibn Battouta, Tabriquet",05 37 15 89 20,34.04825,-6.79348,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+28,Pharmacie Ennasr,صيدلية النصر,SALE,Hay Salam,"53 rue Mohammed V, Hay Salam",05 37 40 43 60,34.03095,-6.78977,08:30-21:00,True,synthetic_demo
+29,Pharmacie Al Fath,صيدلية الفتح,SALE,Bettana,"3 rue Hassan II, Bettana",05 37 89 82 22,34.0275,-6.81571,08:30-21:00,True,synthetic_demo
+30,Pharmacie Atlas,صيدلية الأطلس,SALE,Hay Salam,"18 rue Al Massira, Hay Salam",05 37 57 46 30,34.04939,-6.79591,08:30-21:00,False,synthetic_demo
+31,Pharmacie Al Manar,صيدلية المنار,SALE,Bettana,"171 rue Ibn Battouta, Bettana",05 37 48 94 23,34.07944,-6.82044,09:00-20:00,False,synthetic_demo
+32,Pharmacie La Paix,صيدلية السلام,SALE,Tabriquet,"70 rue Mohammed V, Tabriquet",05 37 87 36 53,34.03532,-6.79045,08:30-21:00,False,synthetic_demo
+33,Pharmacie Al Wifaq,صيدلية الوفاق,SALE,Hay Salam,"14 rue Moulay Youssef, Hay Salam",05 37 91 64 45,34.02575,-6.80849,09:00-20:00,False,synthetic_demo
+34,Pharmacie Al Amal,صيدلية الأمل,SALE,Hay Salam,"42 rue Hassan II, Hay Salam",05 37 80 64 81,34.02368,-6.82399,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+35,Pharmacie Du Soleil,صيدلية الشمس,SALE,Bettana,"95 rue Ibn Battouta, Bettana",05 37 80 28 65,34.03075,-6.81,09:00-20:00,False,synthetic_demo
+36,Pharmacie Centrale,صيدلية المركزية,SALE,Tabriquet,"175 rue Al Massira, Tabriquet",05 37 95 23 55,34.06991,-6.77545,08:30-21:00,False,synthetic_demo
+37,Pharmacie Hassan II,صيدلية الحسن الثاني,MARRAKECH,Medina,"41 rue Moulay Youssef, Medina",05 24 58 14 70,31.61285,-7.9621,08:30-21:00,False,synthetic_demo
+38,Pharmacie Al Manar,صيدلية المنار,MARRAKECH,Hivernage,"58 rue Moulay Youssef, Hivernage",05 24 94 34 61,31.6192,-7.95924,08:30-21:00,False,synthetic_demo
+39,Pharmacie Ennahda,صيدلية النهضة,MARRAKECH,Massira,"103 rue Ibn Battouta, Massira",05 24 52 13 24,31.65212,-7.99543,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+40,Pharmacie Centrale,صيدلية المركزية,MARRAKECH,Medina,"10 rue Moulay Youssef, Medina",05 24 86 65 54,31.64321,-7.99228,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+41,Pharmacie Ennasr,صيدلية النصر,MARRAKECH,Gueliz,"99 rue Ibn Battouta, Gueliz",05 24 34 42 15,31.64203,-8.011,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+42,Pharmacie Al Andalous,صيدلية الأندلس,MARRAKECH,Hivernage,"94 rue Hassan II, Hivernage",05 24 18 95 52,31.63689,-7.9713,09:00-20:00,False,synthetic_demo
+43,Pharmacie Ibn Sina,صيدلية ابن سينا,MARRAKECH,Medina,"130 rue Mohammed V, Medina",05 24 95 62 51,31.62364,-7.99336,09:00-20:00,False,synthetic_demo
+44,Pharmacie Al Wifaq,صيدلية الوفاق,MARRAKECH,Daoudiate,"174 rue Al Massira, Daoudiate",05 24 88 82 48,31.62386,-7.96108,08:30-21:00,False,synthetic_demo
+45,Pharmacie Al Massira,صيدلية المسيرة,MARRAKECH,Daoudiate,"149 rue Ibn Battouta, Daoudiate",05 24 93 51 69,31.62601,-7.97056,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+46,Pharmacie Ibn Rochd,صيدلية ابن رشد,MARRAKECH,Hivernage,"169 rue Moulay Youssef, Hivernage",05 24 46 75 94,31.63748,-7.99099,09:00-20:00,False,synthetic_demo
+47,Pharmacie Atlas,صيدلية الأطلس,MARRAKECH,Hivernage,"51 rue Al Massira, Hivernage",05 24 13 15 41,31.65854,-7.97442,09:00-20:00,False,synthetic_demo
+48,Pharmacie Al Amal,صيدلية الأمل,MARRAKECH,Massira,"50 rue Hassan II, Massira",05 24 73 61 41,31.60835,-7.96984,09:00-20:00,False,synthetic_demo
+49,Pharmacie Al Fath,صيدلية الفتح,FES,Narjiss,"119 rue Ibn Battouta, Narjiss",05 35 81 86 50,34.0451,-4.98431,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+50,Pharmacie Centrale,صيدلية المركزية,FES,Saiss,"141 rue Hassan II, Saiss",05 35 30 70 67,34.00365,-5.02297,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+51,Pharmacie Ennasr,صيدلية النصر,FES,Saiss,"161 rue Al Massira, Saiss",05 35 45 66 19,34.03091,-5.02373,08:30-21:00,True,synthetic_demo
+52,Pharmacie Al Wifaq,صيدلية الوفاق,FES,Ville Nouvelle,"36 rue Al Massira, Ville Nouvelle",05 35 39 59 98,33.99727,-5.02496,08:30-21:00,True,synthetic_demo
+53,Pharmacie La Paix,صيدلية السلام,FES,Saiss,"107 rue Moulay Youssef, Saiss",05 35 36 63 59,34.04239,-5.00276,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+54,Pharmacie Al Qods,صيدلية القدس,FES,Saiss,"123 rue Moulay Youssef, Saiss",05 35 55 48 59,34.03931,-4.98059,08:30-21:00,False,synthetic_demo
+55,Pharmacie Ibn Sina,صيدلية ابن سينا,FES,Narjiss,"125 rue Al Massira, Narjiss",05 35 44 65 72,33.98984,-5.01763,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+56,Pharmacie Atlas,صيدلية الأطلس,FES,Narjiss,"120 rue Al Massira, Narjiss",05 35 89 78 13,34.04252,-5.00229,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+57,Pharmacie Ennahda,صيدلية النهضة,FES,Saiss,"35 rue Hassan II, Saiss",05 35 33 16 43,34.01085,-5.0251,08:30-21:00,False,synthetic_demo
+58,Pharmacie Al Andalous,صيدلية الأندلس,FES,Saiss,"72 rue Hassan II, Saiss",05 35 42 20 70,33.98926,-5.00543,08:30-21:00,False,synthetic_demo
+59,Pharmacie Du Soleil,صيدلية الشمس,FES,Ville Nouvelle,"167 rue Moulay Youssef, Ville Nouvelle",05 35 13 41 35,34.03845,-5.00052,09:00-20:00,True,synthetic_demo
+60,Pharmacie Ibn Rochd,صيدلية ابن رشد,FES,Ville Nouvelle,"145 rue Al Massira, Ville Nouvelle",05 35 69 99 42,34.03411,-5.02773,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+61,Pharmacie Ennahda,صيدلية النهضة,TANGER,Boukhalef,"51 rue Moulay Youssef, Boukhalef",05 39 85 98 90,35.74407,-5.82217,08:30-21:00,False,synthetic_demo
+62,Pharmacie Ennasr,صيدلية النصر,TANGER,Malabata,"145 rue Moulay Youssef, Malabata",05 39 54 78 64,35.76919,-5.85986,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+63,Pharmacie Atlas,صيدلية الأطلس,TANGER,Boukhalef,"126 rue Moulay Youssef, Boukhalef",05 39 65 56 91,35.78299,-5.83642,09:00-20:00,True,synthetic_demo
+64,Pharmacie Centrale,صيدلية المركزية,TANGER,Marshane,"158 rue Ibn Battouta, Marshane",05 39 71 69 65,35.77904,-5.82845,08:30-21:00,True,synthetic_demo
+65,Pharmacie Hassan II,صيدلية الحسن الثاني,TANGER,Malabata,"72 rue Hassan II, Malabata",05 39 41 69 82,35.76612,-5.84126,09:00-20:00,False,synthetic_demo
+66,Pharmacie Al Amal,صيدلية الأمل,TANGER,Marshane,"47 rue Hassan II, Marshane",05 39 37 55 43,35.74992,-5.81118,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+67,Pharmacie Du Soleil,صيدلية الشمس,TANGER,Malabata,"133 rue Al Massira, Malabata",05 39 20 40 62,35.75881,-5.81851,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+68,Pharmacie Ibn Sina,صيدلية ابن سينا,TANGER,Boukhalef,"115 rue Moulay Youssef, Boukhalef",05 39 21 47 38,35.75376,-5.8494,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+69,Pharmacie Al Wifaq,صيدلية الوفاق,TANGER,Boukhalef,"142 rue Ibn Battouta, Boukhalef",05 39 54 64 80,35.74935,-5.82183,08:30-21:00,False,synthetic_demo
+70,Pharmacie Al Fath,صيدلية الفتح,TANGER,Iberia,"31 rue Al Massira, Iberia",05 39 50 25 78,35.78655,-5.82259,09:00-20:00,False,synthetic_demo
+71,Pharmacie Al Massira,صيدلية المسيرة,TANGER,Boukhalef,"71 rue Ibn Battouta, Boukhalef",05 39 77 86 46,35.78833,-5.81404,08:30-21:00,False,synthetic_demo
+72,Pharmacie Al Qods,صيدلية القدس,TANGER,Iberia,"78 rue Moulay Youssef, Iberia",05 39 78 26 45,35.73223,-5.86073,08:30-21:00,False,synthetic_demo
+73,Pharmacie Hassan II,صيدلية الحسن الثاني,MEKNES,Marjane,"14 rue Mohammed V, Marjane",05 35 71 24 18,33.88754,-5.58026,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+74,Pharmacie Ibn Rochd,صيدلية ابن رشد,MEKNES,Marjane,"39 rue Ibn Battouta, Marjane",05 35 48 20 41,33.87061,-5.53883,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+75,Pharmacie Atlas,صيدلية الأطلس,MEKNES,Marjane,"134 rue Hassan II, Marjane",05 35 67 66 48,33.91511,-5.5253,08:30-21:00,True,synthetic_demo
+76,Pharmacie Ennasr,صيدلية النصر,MEKNES,Hamria,"157 rue Moulay Youssef, Hamria",05 35 36 90 37,33.87938,-5.57983,09:00-20:00,True,synthetic_demo
+77,Pharmacie Al Fath,صيدلية الفتح,MEKNES,Hamria,"41 rue Moulay Youssef, Hamria",05 35 62 67 98,33.89913,-5.56722,09:00-20:00,False,synthetic_demo
+78,Pharmacie Al Amal,صيدلية الأمل,MEKNES,Toulal,"180 rue Hassan II, Toulal",05 35 19 97 39,33.91893,-5.53743,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+79,Pharmacie Ibn Sina,صيدلية ابن سينا,MEKNES,Marjane,"109 rue Moulay Youssef, Marjane",05 35 79 38 92,33.87244,-5.56876,09:00-20:00,True,synthetic_demo
+80,Pharmacie Al Qods,صيدلية القدس,MEKNES,Marjane,"79 rue Ibn Battouta, Marjane",05 35 82 46 66,33.87096,-5.54338,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+81,Pharmacie Al Wifaq,صيدلية الوفاق,MEKNES,Toulal,"129 rue Ibn Battouta, Toulal",05 35 73 66 20,33.89938,-5.53133,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+82,Pharmacie Ennahda,صيدلية النهضة,MEKNES,Toulal,"7 rue Moulay Youssef, Toulal",05 35 39 96 83,33.89873,-5.58346,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+83,Pharmacie Al Andalous,صيدلية الأندلس,MEKNES,Hamria,"45 rue Hassan II, Hamria",05 35 76 93 66,33.91846,-5.57381,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+84,Pharmacie Centrale,صيدلية المركزية,MEKNES,Ville Nouvelle,"24 rue Hassan II, Ville Nouvelle",05 35 54 62 52,33.88276,-5.57842,09:00-20:00,False,synthetic_demo
+85,Pharmacie Al Qods,صيدلية القدس,AGADIR,Hay Mohammadi,"132 rue Moulay Youssef, Hay Mohammadi",05 28 94 79 69,30.42259,-9.61685,08:30-21:00,False,synthetic_demo
+86,Pharmacie Hassan II,صيدلية الحسن الثاني,AGADIR,Hay Mohammadi,"161 rue Hassan II, Hay Mohammadi",05 28 16 36 44,30.43075,-9.57244,08:30-21:00,False,synthetic_demo
+87,Pharmacie Ibn Rochd,صيدلية ابن رشد,AGADIR,Hay Mohammadi,"32 rue Moulay Youssef, Hay Mohammadi",05 28 90 87 40,30.44039,-9.60945,09:00-20:00,True,synthetic_demo
+88,Pharmacie Al Andalous,صيدلية الأندلس,AGADIR,Talborjt,"58 rue Moulay Youssef, Talborjt",05 28 69 25 92,30.44773,-9.5982,09:00-13:00 / 15:00-20:00,True,synthetic_demo
+89,Pharmacie La Paix,صيدلية السلام,AGADIR,Anza,"107 rue Hassan II, Anza",05 28 70 41 68,30.43088,-9.60508,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+90,Pharmacie Ibn Sina,صيدلية ابن سينا,AGADIR,Founty,"18 rue Mohammed V, Founty",05 28 63 53 74,30.41383,-9.62795,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+91,Pharmacie Al Fath,صيدلية الفتح,AGADIR,Hay Mohammadi,"39 rue Hassan II, Hay Mohammadi",05 28 78 71 54,30.41775,-9.58233,08:30-21:00,False,synthetic_demo
+92,Pharmacie Al Amal,صيدلية الأمل,AGADIR,Anza,"49 rue Al Massira, Anza",05 28 83 59 39,30.44916,-9.60345,08:30-21:00,False,synthetic_demo
+93,Pharmacie Al Massira,صيدلية المسيرة,AGADIR,Hay Mohammadi,"99 rue Al Massira, Hay Mohammadi",05 28 73 14 26,30.42794,-9.59269,09:00-20:00,False,synthetic_demo
+94,Pharmacie Centrale,صيدلية المركزية,AGADIR,Hay Mohammadi,"26 rue Ibn Battouta, Hay Mohammadi",05 28 68 11 28,30.4224,-9.58881,09:00-20:00,True,synthetic_demo
+95,Pharmacie Ennasr,صيدلية النصر,AGADIR,Anza,"87 rue Ibn Battouta, Anza",05 28 98 60 93,30.40262,-9.60839,09:00-13:00 / 15:00-20:00,False,synthetic_demo
+96,Pharmacie Atlas,صيدلية الأطلس,AGADIR,Hay Mohammadi,"82 rue Hassan II, Hay Mohammadi",05 28 79 14 89,30.40191,-9.59023,08:30-21:00,False,synthetic_demo

@@ -1,0 +1,356 @@
+{
+  "metrics": {
+    "intent": 0.86,
+    "status": 0.92,
+    "lang_primary": 0.96,
+    "script": 1.0,
+    "quantity": 1.0,
+    "pharmacy_name": 0.978,
+    "city": 1.0,
+    "neighborhood": 1.0,
+    "time_reference": 1.0,
+    "med_top1": 0.968,
+    "med_all": 0.968,
+    "dosage": 0.968,
+    "form": 0.968,
+    "no_med_false_positive": 1.0,
+    "intent_macro_f1": 0.859,
+    "intent_by_language": {
+      "darija/latin": 0.778,
+      "darija/arabic": 0.933,
+      "french/latin": 0.882
+    },
+    "n": 50
+  },
+  "errors": [
+    {
+      "id": "f001",
+      "text": "slm, wach kayn voltarene f pharmacie dyalkom?",
+      "wrong": [
+        "pharmacy_name"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "voltarene",
+            "name": "VOLTARENE",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "voltarene",
+            "name": "VOLTARENE",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "VOLTARENE | SUPPOSITOIRE | 1 BOITE 10 SUPPOSITOIRE",
+              "VOLTARENE | SOLUTION INJECTABLE | 1 BOITE 2 AMPOULE INJECTABLE",
+              "VOLTARENE 100 MG | SUPPOSITOIRE | 1 BOITE 5 SUPPOSITOIRE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": "Dyalkom",
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f002",
+      "text": "bghit dwa dyal rassi smito doliprane, kayn?",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "doliprane",
+            "name": "DOLIPRANE",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "doliprane",
+            "name": "DOLIPRANE",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "DOLIPRANE | POUDRE POUR SOLUTION BUVABLE | 1 BOITE 12 SACHET",
+              "DOLIPRANE | SUPPOSITOIRE | 1 BOITE 10 SUPPOSITOIRE",
+              "DOLIPRANE | COMPRIME SECABLE | 1 BOITE 20 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f012",
+      "text": "tmn dyal gaviscon",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "gaviscon",
+            "name": "GAVISCON",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "gaviscon",
+            "name": "GAVISCON",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "GAVISCON | SUSPENSION BUVABLE | 1 BOITE 24 SACHET",
+              "GAVISCON | SUSPENSION BUVABLE | 1 FLACON 250 ML"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f013",
+      "text": "bghit nswl 3la taman zyrtec",
+      "wrong": [
+        "intent"
+      ],
+      "gold": {
+        "intent": "price",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "zyrtec",
+            "name": "ZYRTEC",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "zyrtec",
+            "name": "ZYRTEC",
+            "dosage": null,
+            "form": null,
+            "match_score": 1.0,
+            "candidates": [
+              "ZYRTEC | SOLUTION BUVABLE | 1 FLACON 60 ML",
+              "ZYRTEC | SOLUTION POUR GOUTTES BUVABLES | 1 FLACON 15 ML",
+              "ZYRTEC | COMPRIME PELLICULE SECABLE | 1 BOITE 15 COMPRIME"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f016",
+      "text": "n3ayt l pharmacie wach 3ndhom clamoxyl",
+      "wrong": [
+        "intent",
+        "status",
+        "medications"
+      ],
+      "gold": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "clamoxyl",
+            "name": "CLAMOXYL",
+            "dosage": null,
+            "form": null
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "pharmacy_hours",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f028",
+      "text": "شنو نشري لالزكام",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "check_availability",
+        "status": "ok",
+        "medications": [
+          {
+            "raw": "نشري",
+            "name": "NAZAIR",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.973,
+            "candidates": [
+              "NAZAIR | SUSPENSION NASALE | 1 FLACON 100 DOSE"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f038",
+      "text": "Je souhaiterais joindre la pharmacie Al Amal à Tanger",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "pharmacy_phone",
+        "status": "ok",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "Al Amal",
+        "city": "TANGER",
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "reserve_order",
+        "status": "needs_clarification",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": "Al Amal",
+        "city": "TANGER",
+        "neighborhood": null,
+        "time_reference": null
+      }
+    },
+    {
+      "id": "f046",
+      "text": "Quelle est la capitale du Maroc ?",
+      "wrong": [
+        "intent",
+        "status"
+      ],
+      "gold": {
+        "intent": "out_of_scope",
+        "status": "out_of_scope",
+        "medications": [],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      },
+      "pred": {
+        "intent": "price",
+        "status": "needs_clarification",
+        "medications": [
+          {
+            "raw": "capitale",
+            "name": "CATALGINE",
+            "dosage": null,
+            "form": null,
+            "match_score": 0.693,
+            "candidates": [
+              "CATALGINE | POUDRE POUR SOLUTION BUVABLE | 1 BOITE 20 SACHET"
+            ]
+          }
+        ],
+        "quantity": null,
+        "pharmacy_name": null,
+        "city": null,
+        "neighborhood": null,
+        "time_reference": null
+      }
+    }
+  ]
+}

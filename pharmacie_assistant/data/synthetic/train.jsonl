@@ -1,0 +1,1176 @@
+{"text": "wach kayn gentamen ?", "intent": "check_availability"}
+{"text": "wach kayn teugma merci", "intent": "check_availability"}
+{"text": "wach kayn Spasfon ?", "intent": "check_availability"}
+{"text": "wach kayn arottec ? merci", "intent": "check_availability"}
+{"text": "wach kayn Diprosone ?", "intent": "check_availability"}
+{"text": "wach kayn feldene ?", "intent": "check_availability"}
+{"text": "wach kayn Teguma ?", "intent": "check_availability"}
+{"text": "wach kayn effipred ?", "intent": "check_availability"}
+{"text": "wach kayn Aranesp", "intent": "check_availability"}
+{"text": "wach kayn Savarine ? 3afak", "intent": "check_availability"}
+{"text": "wach kayn Cortivent ?", "intent": "check_availability"}
+{"text": "wach kayn Caverrject ?", "intent": "check_availability"}
+{"text": "kayn Zolam 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn cutivate 5 mg 3ndkom", "intent": "check_availability"}
+{"text": "kayn neoral 100mg 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn parantal 3ndkom ? merci", "intent": "check_availability"}
+{"text": "kayn nooclin 3ndkom ? 3afak", "intent": "check_availability"}
+{"text": "kayn glimewin 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn glipharm 5mg 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn difal 25 mg 3ndkom", "intent": "check_availability"}
+{"text": "kayn arcoxia 90 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn Ciloxan 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn Xenetix 3ndkom ?", "intent": "check_availability"}
+{"text": "kayn Zelirtex 3ndkom ? merci", "intent": "check_availability"}
+{"text": "wach kayna Betadine f Marrakech", "intent": "check_availability"}
+{"text": "wach kayna rouvax f Oujda", "intent": "check_availability"}
+{"text": "wach kayna Penmox f Dar El Beida ? 3afak", "intent": "check_availability"}
+{"text": "wach kayna amoovas f oujda", "intent": "check_availability"}
+{"text": "wach kayna abboticie f Agadir ?", "intent": "check_availability"}
+{"text": "wach kayna predni f sale ?", "intent": "check_availability"}
+{"text": "wach kayna Orared f Agadir", "intent": "check_availability"}
+{"text": "wach kayna sandimmun f tetouan", "intent": "check_availability"}
+{"text": "wach kayna hibor f Marrakech ?", "intent": "check_availability"}
+{"text": "wach kayna aromasnie f Oujda ?", "intent": "check_availability"}
+{"text": "wach kayna hlothane f sla", "intent": "check_availability"}
+{"text": "wach kayna Lomet f Oujda ?", "intent": "check_availability"}
+{"text": "3ndkom Zolam", "intent": "check_availability"}
+{"text": "3ndkom Fraxodi ?", "intent": "check_availability"}
+{"text": "3ndkom Sulfobactin comprimé ?", "intent": "check_availability"}
+{"text": "3ndkom fluppen gélule", "intent": "check_availability"}
+{"text": "3ndkom biommox comprimé ?", "intent": "check_availability"}
+{"text": "3ndkom Curaccne ?", "intent": "check_availability"}
+{"text": "3ndkom Platamine ?", "intent": "check_availability"}
+{"text": "3ndkom Fraxipariine ?", "intent": "check_availability"}
+{"text": "3ndkom elvoirne injectable ?", "intent": "check_availability"}
+{"text": "3ndkom Cotareg comprimé", "intent": "check_availability"}
+{"text": "3ndkom Cutivate ? 3afak", "intent": "check_availability"}
+{"text": "3ndkom Relpax comprimé ?", "intent": "check_availability"}
+{"text": "Avez-vous du Derofix ?", "intent": "check_availability"}
+{"text": "avez-vous du aclav ?", "intent": "check_availability"}
+{"text": "Avez-vous du crestor 5mg ?", "intent": "check_availability"}
+{"text": "Avez-vous du Pevagine 150mg ?", "intent": "check_availability"}
+{"text": "Avez-vous du Nurodol ?", "intent": "check_availability"}
+{"text": "Avez-vous du augmentin ?", "intent": "check_availability"}
+{"text": "Avez-vous du Coront ?", "intent": "check_availability"}
+{"text": "avez-vous du rodal", "intent": "check_availability"}
+{"text": "Avez-vous du Solicam", "intent": "check_availability"}
+{"text": "Avez-vous du Exforge ?", "intent": "check_availability"}
+{"text": "avez-vous du clavam ?", "intent": "check_availability"}
+{"text": "avez-vous du orotreex", "intent": "check_availability"}
+{"text": "Est-ce que vous avez Delaket en comprimés ?", "intent": "check_availability"}
+{"text": "est-ce que vous avez premocefal en gélules ? merci", "intent": "check_availability"}
+{"text": "Est-ce que vous avez Dimazol en", "intent": "check_availability"}
+{"text": "est-ce que vous avez sandimmmun en ?", "intent": "check_availability"}
+{"text": "Est-ce que vous avez Cproxine en comprimés ?", "intent": "check_availability"}
+{"text": "est-ce que vous avez fungizone en ?", "intent": "check_availability"}
+{"text": "Est-ce que vous avez Aglim en comprimés ?", "intent": "check_availability"}
+{"text": "est-ce que vous avez keppra en comprimés ?", "intent": "check_availability"}
+{"text": "est-ce que vous avez tenormnie en injectable ?", "intent": "check_availability"}
+{"text": "Est-ce que vous avez terpoone en sirop ?", "intent": "check_availability"}
+{"text": "Est-ce que vous avez Serohale en ? svp", "intent": "check_availability"}
+{"text": "Est-ce que vous avez Bactox en", "intent": "check_availability"}
+{"text": "avstin disponible ?", "intent": "check_availability"}
+{"text": "elebbloc disponible", "intent": "check_availability"}
+{"text": "gentagam disponible ?", "intent": "check_availability"}
+{"text": "amlor disponible", "intent": "check_availability"}
+{"text": "innaler disponible ?", "intent": "check_availability"}
+{"text": "Aulcer disponible ?", "intent": "check_availability"}
+{"text": "laevolac disponible", "intent": "check_availability"}
+{"text": "rebteol 200 disponible ?", "intent": "check_availability"}
+{"text": "remox 20 mg disponible ? svp", "intent": "check_availability"}
+{"text": "Oftaalr disponible ?", "intent": "check_availability"}
+{"text": "inexium 20mg disponible ?", "intent": "check_availability"}
+{"text": "Dicloberl disponible ? stp", "intent": "check_availability"}
+{"text": "Je cherche du Endoxan à Oujda", "intent": "check_availability"}
+{"text": "Je cherche du citrarginine à Tetouan", "intent": "check_availability"}
+{"text": "Je cherche du Doliprane à Tanja", "intent": "check_availability"}
+{"text": "Je cherche du pimlo à Casa", "intent": "check_availability"}
+{"text": "Je cherche du urispas à Sla", "intent": "check_availability"}
+{"text": "je cherche du omeggen à tetouan", "intent": "check_availability"}
+{"text": "Je cherche du Kardegic à Marrakech", "intent": "check_availability"}
+{"text": "Je cherche du Risperdal à Kenitra", "intent": "check_availability"}
+{"text": "Je cherche du Triaon à Sla", "intent": "check_availability"}
+{"text": "je cherche du coralan à tetouan", "intent": "check_availability"}
+{"text": "Je cherche du Virgan à Agadir", "intent": "check_availability"}
+{"text": "Je cherche du Relpax à Mknas", "intent": "check_availability"}
+{"text": "واش كاين سورمونتيل ؟", "intent": "check_availability"}
+{"text": "واش كاين بيودروكسيل ؟", "intent": "check_availability"}
+{"text": "واش كاين امكرد ؟", "intent": "check_availability"}
+{"text": "واش كاين ارنيسب ؟", "intent": "check_availability"}
+{"text": "واش كاين بيكاربونت ؟", "intent": "check_availability"}
+{"text": "واش كاين أوركيفال ؟", "intent": "check_availability"}
+{"text": "واش كاين باراكلودي 0.5 mg؟", "intent": "check_availability"}
+{"text": "واش كاين بيتاديني 10g؟", "intent": "check_availability"}
+{"text": "واش كاين فنكلليني ؟", "intent": "check_availability"}
+{"text": "واش كاين افيلكس 400 mg؟", "intent": "check_availability"}
+{"text": "واش كاين ميغاسفون ؟", "intent": "check_availability"}
+{"text": "واش كاين كلافام ؟", "intent": "check_availability"}
+{"text": "كاين نيفروزيد عندكم؟", "intent": "check_availability"}
+{"text": "كاين اغرل عندكم؟", "intent": "check_availability"}
+{"text": "كاين غلوكور عندكم؟", "intent": "check_availability"}
+{"text": "كاين تيكان عندكم؟", "intent": "check_availability"}
+{"text": "كاين بيكاربناتي عندكم؟", "intent": "check_availability"}
+{"text": "كاين كنافلوكن عندكم؟", "intent": "check_availability"}
+{"text": "كاين لرسك عندكم؟", "intent": "check_availability"}
+{"text": "كاين إيسوني عندكم؟", "intent": "check_availability"}
+{"text": "كاين الفوريني عندكم؟", "intent": "check_availability"}
+{"text": "كاين افافير عندكم؟", "intent": "check_availability"}
+{"text": "كاين راكين عندكم؟", "intent": "check_availability"}
+{"text": "كاين بروغراف عندكم؟", "intent": "check_availability"}
+{"text": "عندكم مارفيل كومبريمي؟", "intent": "check_availability"}
+{"text": "عندكم أوبتيكللين سيروب؟", "intent": "check_availability"}
+{"text": "عندكم اففرتيل ؟", "intent": "check_availability"}
+{"text": "عندكم بيبريدس ؟", "intent": "check_availability"}
+{"text": "عندكم بيملو كومبريمي؟", "intent": "check_availability"}
+{"text": "عندكم لافولك ؟", "intent": "check_availability"}
+{"text": "عندكم بيبيريديس كومبريمي؟", "intent": "check_availability"}
+{"text": "عندكم مينايللي ؟", "intent": "check_availability"}
+{"text": "عندكم تيافلم ؟", "intent": "check_availability"}
+{"text": "عندكم كورسورف ؟", "intent": "check_availability"}
+{"text": "عندكم هيستانرم ؟", "intent": "check_availability"}
+{"text": "عندكم تيوباكتين ؟", "intent": "check_availability"}
+{"text": "واش كاين ليدوكايني رباط؟", "intent": "check_availability"}
+{"text": "واش كاين اراكيتين فمراكش؟", "intent": "check_availability"}
+{"text": "واش كاين ايركورت فاس؟", "intent": "check_availability"}
+{"text": "واش كاين كومبيفنت أكادير؟", "intent": "check_availability"}
+{"text": "واش كاين بلافكس فطنجة؟", "intent": "check_availability"}
+{"text": "واش كاين كورام رباط؟", "intent": "check_availability"}
+{"text": "واش كاين كريستر فسلا؟", "intent": "check_availability"}
+{"text": "واش كاين بروغاست سلا؟", "intent": "check_availability"}
+{"text": "واش كاين كورسورف ففاس؟", "intent": "check_availability"}
+{"text": "واش كاين فونغكان الدار البيضاء؟", "intent": "check_availability"}
+{"text": "واش كاين غليفيك أكادير؟", "intent": "check_availability"}
+{"text": "واش كاين نوفالغين فسلا؟", "intent": "check_availability"}
+{"text": "chhal taman hemopur", "intent": "price"}
+{"text": "chhal taman laevolac ?", "intent": "price"}
+{"text": "chhal taman antagno ?", "intent": "price"}
+{"text": "chhal taman Remox", "intent": "price"}
+{"text": "chhal taman feldene", "intent": "price"}
+{"text": "chhal taman Aceril ?", "intent": "price"}
+{"text": "chhal taman Tanganil ?", "intent": "price"}
+{"text": "chhal taman aximycinne ?", "intent": "price"}
+{"text": "chhal taman gentamen ?", "intent": "price"}
+{"text": "chhal taman Aznatac ? merci", "intent": "price"}
+{"text": "chhal taman Aximycine ?", "intent": "price"}
+{"text": "chhal taman Glimein ?", "intent": "price"}
+{"text": "bch7al Metagilz ?", "intent": "price"}
+{"text": "bch7al zolam 15 ?", "intent": "price"}
+{"text": "bch7al Nebilet ?", "intent": "price"}
+{"text": "bch7al ziacaine ?", "intent": "price"}
+{"text": "bch7al Prsennide 20 mg ?", "intent": "price"}
+{"text": "bch7al combantrin 125 ?", "intent": "price"}
+{"text": "bch7al histazine 50 mg ?", "intent": "price"}
+{"text": "bch7al fosavance ?", "intent": "price"}
+{"text": "bch7al seretide", "intent": "price"}
+{"text": "bch7al trigynn ?", "intent": "price"}
+{"text": "bch7al Baarclude 0.5 mg ?", "intent": "price"}
+{"text": "bch7al Mlgam 100mg ?", "intent": "price"}
+{"text": "Laroxyl bch7al ?", "intent": "price"}
+{"text": "Anexate bch7al ?", "intent": "price"}
+{"text": "Odrik bch7al", "intent": "price"}
+{"text": "Biomox bch7al ?", "intent": "price"}
+{"text": "foxam bch7al", "intent": "price"}
+{"text": "melaidnine 10 bch7al ?", "intent": "price"}
+{"text": "Mazax bch7al ?", "intent": "price"}
+{"text": "Uradox bch7al", "intent": "price"}
+{"text": "Algine bch7al", "intent": "price"}
+{"text": "fraxiparine bch7al ?", "intent": "price"}
+{"text": "griseeo 250mg bch7al ?", "intent": "price"}
+{"text": "streptopharma bch7al ?", "intent": "price"}
+{"text": "taman dyal rebif chhal", "intent": "price"}
+{"text": "taman dyal Avamys chhal ?", "intent": "price"}
+{"text": "taman dyal diaaster chhal ?", "intent": "price"}
+{"text": "taman dyal acide chhal", "intent": "price"}
+{"text": "taman dyal Celebrex chhal ?", "intent": "price"}
+{"text": "taman dyal marvil chhal ?", "intent": "price"}
+{"text": "taman dyal Glucose chhal ?", "intent": "price"}
+{"text": "taman dyal Synnnax chhal ? merci", "intent": "price"}
+{"text": "taman dyal Nicopatch chhal ?", "intent": "price"}
+{"text": "taman dyal potassium chhal ?", "intent": "price"}
+{"text": "taman dyal potex chhal ? merci", "intent": "price"}
+{"text": "taman dyal relenza chhal merci", "intent": "price"}
+{"text": "quel est le prix du zelitrex ?", "intent": "price"}
+{"text": "Quel est le prix du fraxiparine ?", "intent": "price"}
+{"text": "Quel est le prix du epivri ?", "intent": "price"}
+{"text": "Quel est le prix du Blucin", "intent": "price"}
+{"text": "Quel est le prix du crestor ?", "intent": "price"}
+{"text": "Quel est le prix du Avnex", "intent": "price"}
+{"text": "Quel est le prix du Viagra ?", "intent": "price"}
+{"text": "Quel est le prix du Cezin", "intent": "price"}
+{"text": "Quel est le prix du Starmox 250mg ?", "intent": "price"}
+{"text": "Quel est le prix du Rotateq", "intent": "price"}
+{"text": "quel est le prix du nozinan ?", "intent": "price"}
+{"text": "Quel est le prix du peniitard ?", "intent": "price"}
+{"text": "alprza 1mg prix svp merci", "intent": "price"}
+{"text": "Glipharm prix SVP", "intent": "price"}
+{"text": "Fortrrans 64000mg prix SVP", "intent": "price"}
+{"text": "Ospamox prix SVP", "intent": "price"}
+{"text": "Alperie 200mg prix SVP", "intent": "price"}
+{"text": "coozaar prix SVP", "intent": "price"}
+{"text": "Aclav prix SVP", "intent": "price"}
+{"text": "cladia 500 prix svp", "intent": "price"}
+{"text": "dicloberl 100 mg prix svp stp", "intent": "price"}
+{"text": "diamox prix svp", "intent": "price"}
+{"text": "alvgoyl 15800 mg prix svp", "intent": "price"}
+{"text": "Tretacne prix SVP", "intent": "price"}
+{"text": "C'est combien le Uradox ?", "intent": "price"}
+{"text": "c'est combien le glipharm ?", "intent": "price"}
+{"text": "C'est combien le fongican ? svp", "intent": "price"}
+{"text": "C'est combien le Dezol ?", "intent": "price"}
+{"text": "c'est combien le atrovent ?", "intent": "price"}
+{"text": "c'est combien le pimlo", "intent": "price"}
+{"text": "c'est combien le josacnie ?", "intent": "price"}
+{"text": "C'est combien le Nomyc ?", "intent": "price"}
+{"text": "c'est combien le spectrum ?", "intent": "price"}
+{"text": "C'est combien le Avelox ? merci", "intent": "price"}
+{"text": "C'est combien le Vntoline ?", "intent": "price"}
+{"text": "C'est combien le Androtardyl ?", "intent": "price"}
+{"text": "combien coûte mobic ?", "intent": "price"}
+{"text": "Combien coûte avaamys ?", "intent": "price"}
+{"text": "Combien coûte Isone ? svp", "intent": "price"}
+{"text": "combien coûte persanntine stp", "intent": "price"}
+{"text": "Combien coûte Ttapen ?", "intent": "price"}
+{"text": "Combien coûte cetaxon ?", "intent": "price"}
+{"text": "Combien coûte Triacephine ? stp", "intent": "price"}
+{"text": "Combien coûte Carrbactive gélules ?", "intent": "price"}
+{"text": "Combien coûte Madecassol ?", "intent": "price"}
+{"text": "Combien coûte Paranntal stp", "intent": "price"}
+{"text": "combien coûte indopharm ?", "intent": "price"}
+{"text": "combien coûte keppar ?", "intent": "price"}
+{"text": "شحال ثمن ازانتاك ؟", "intent": "price"}
+{"text": "شحال ثمن كيببرا 250mg؟", "intent": "price"}
+{"text": "شحال ثمن فلوترل ؟", "intent": "price"}
+{"text": "شحال ثمن أويديس ؟", "intent": "price"}
+{"text": "شحال ثمن فلكسين 100mg؟", "intent": "price"}
+{"text": "شحال ثمن فراكسيباريني ؟", "intent": "price"}
+{"text": "شحال ثمن هيكسابريكس ؟", "intent": "price"}
+{"text": "شحال ثمن افيتاك ؟", "intent": "price"}
+{"text": "شحال ثمن غليميون 1mg؟", "intent": "price"}
+{"text": "شحال ثمن ستراتترا ؟", "intent": "price"}
+{"text": "شحال ثمن أولبلات ؟", "intent": "price"}
+{"text": "شحال ثمن فرادل ؟", "intent": "price"}
+{"text": "بشحال كاين اترفينت؟", "intent": "price"}
+{"text": "بشحال كاين غبريد؟", "intent": "price"}
+{"text": "بشحال كاين غليفيك؟", "intent": "price"}
+{"text": "بشحال كاين موبك؟", "intent": "price"}
+{"text": "بشحال كاين لفنكس؟", "intent": "price"}
+{"text": "بشحال كاين غلكوسي؟", "intent": "price"}
+{"text": "بشحال كاين برغراف؟", "intent": "price"}
+{"text": "بشحال كاين تيمودال؟", "intent": "price"}
+{"text": "بشحال كاين كوتاريغ؟", "intent": "price"}
+{"text": "بشحال كاين كورتنكيل؟", "intent": "price"}
+{"text": "بشحال كاين كوتكنيل؟", "intent": "price"}
+{"text": "بشحال كاين الفاموكس؟", "intent": "price"}
+{"text": "فانكوكيني بشحال؟", "intent": "price"}
+{"text": "بروكلور 20 mg بشحال؟", "intent": "price"}
+{"text": "سوفران بشحال؟", "intent": "price"}
+{"text": "نوفلوكسيني 400mg بشحال؟", "intent": "price"}
+{"text": "الفوريني 100 mg بشحال؟", "intent": "price"}
+{"text": "ميزور 20 mg بشحال؟", "intent": "price"}
+{"text": "ترانكسيني بشحال؟", "intent": "price"}
+{"text": "فارمايتيل 99950 mg بشحال؟", "intent": "price"}
+{"text": "تباال بشحال؟", "intent": "price"}
+{"text": "غينتاللين بشحال؟", "intent": "price"}
+{"text": "بينكيلليني بشحال؟", "intent": "price"}
+{"text": "كيزين بشحال؟", "intent": "price"}
+{"text": "شحال كيساوي سيسترال ؟", "intent": "price"}
+{"text": "شحال كيساوي هيبور ؟", "intent": "price"}
+{"text": "شحال كيساوي ايرراني ؟", "intent": "price"}
+{"text": "شحال كيساوي فارمازيني ؟", "intent": "price"}
+{"text": "شحال كيساوي أولكلنوميل ؟", "intent": "price"}
+{"text": "شحال كيساوي زيلدام ؟", "intent": "price"}
+{"text": "شحال كيساوي البيريدي ؟", "intent": "price"}
+{"text": "شحال كيساوي أورتركس ؟", "intent": "price"}
+{"text": "شحال كيساوي ارانسب ؟", "intent": "price"}
+{"text": "شحال كيساوي افودارت ؟", "intent": "price"}
+{"text": "شحال كيساوي مرينا ؟", "intent": "price"}
+{"text": "شحال كيساوي الودرل ؟", "intent": "price"}
+{"text": "wach fluzair kayt3awed mn cnss ?", "intent": "reimbursement"}
+{"text": "wach reqquip kayt3awed mn cnss ?", "intent": "reimbursement"}
+{"text": "wach gentaline kayt3awed mn CNSS ?", "intent": "reimbursement"}
+{"text": "wach cutivate kayt3awed mn cnss", "intent": "reimbursement"}
+{"text": "wach novalgne kayt3awed mn cnss", "intent": "reimbursement"}
+{"text": "wach Arcoxia kayt3awed mn CNSS ? merci", "intent": "reimbursement"}
+{"text": "wach Navelbinne kayt3awed mn CNSS ?", "intent": "reimbursement"}
+{"text": "wach introna kayt3awed mn CNSS ?", "intent": "reimbursement"}
+{"text": "wach Arcoxia kayt3awed mn CNSS", "intent": "reimbursement"}
+{"text": "wach Adrenaline kayt3awed mn CNSS ?", "intent": "reimbursement"}
+{"text": "wach Erceefuryl kayt3awed mn CNSS ?", "intent": "reimbursement"}
+{"text": "wach creestor kayt3awed mn CNSS", "intent": "reimbursement"}
+{"text": "Innohep kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "Coaprovel kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "Karcine kay3awed la cnops ? merci", "intent": "reimbursement"}
+{"text": "xenetix kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "Cardinor kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "Atrovent kay3awed la cnops ? 3afak", "intent": "reimbursement"}
+{"text": "ebetxael kay3awed la cnops", "intent": "reimbursement"}
+{"text": "exjade kay3awed la cnops", "intent": "reimbursement"}
+{"text": "rovamycine kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "destec kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "griseo kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "Ospamox kay3awed la cnops ?", "intent": "reimbursement"}
+{"text": "wach proflox 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "wach Vogast 3la hsab l-mutuelle", "intent": "reimbursement"}
+{"text": "wach Strattera 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "wach Teguma 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "wach zerit 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "wach Flustaph 3la hsab l-mutuelle", "intent": "reimbursement"}
+{"text": "wach zinnat 3la hsab l-mutuelle", "intent": "reimbursement"}
+{"text": "wach novonorm 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "wach airlix 3la hsab l-mutuelle", "intent": "reimbursement"}
+{"text": "wach Progast 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "wach Vasobral 3la hsab l-mutuelle", "intent": "reimbursement"}
+{"text": "wach Novalgine 3la hsab l-mutuelle ?", "intent": "reimbursement"}
+{"text": "Tareg remboursable ? 3afak", "intent": "reimbursement"}
+{"text": "innohep remboursable ?", "intent": "reimbursement"}
+{"text": "Combivent remboursable ?", "intent": "reimbursement"}
+{"text": "Mexine remboursable ?", "intent": "reimbursement"}
+{"text": "biomylase remboursable ?", "intent": "reimbursement"}
+{"text": "pneumoccid remboursable ? merci", "intent": "reimbursement"}
+{"text": "pentaxim remboursable ?", "intent": "reimbursement"}
+{"text": "tussifed remboursable ?", "intent": "reimbursement"}
+{"text": "arcoxa remboursable ?", "intent": "reimbursement"}
+{"text": "Pectryl remboursable ?", "intent": "reimbursement"}
+{"text": "Glucose remboursable", "intent": "reimbursement"}
+{"text": "Lpiistat remboursable ?", "intent": "reimbursement"}
+{"text": "Est-ce que Neomox est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Coversyl est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Arixtra est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Laroxyl est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Avodart est remboursé", "intent": "reimbursement"}
+{"text": "est-ce que hemopur est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que redlip est remboursé ? svp", "intent": "reimbursement"}
+{"text": "Est-ce que Bismuloxane est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Tareg est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Eysol est remboursé", "intent": "reimbursement"}
+{"text": "Est-ce que Proflox est remboursé ?", "intent": "reimbursement"}
+{"text": "Est-ce que Giroflox est remboursé", "intent": "reimbursement"}
+{"text": "venofer remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "Prurex remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "nupentin remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "glucophage remboursable par la cnops ?", "intent": "reimbursement"}
+{"text": "viraferonpeg remboursable par la cnops ?", "intent": "reimbursement"}
+{"text": "Erlus remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "eprex remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "Irinocyt remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "histanorm remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "dilator remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "progor remboursable par la cnops ?", "intent": "reimbursement"}
+{"text": "Fortzaar remboursable par la CNOPS ?", "intent": "reimbursement"}
+{"text": "Le Aerrane est-il pris en charge par la CNSS", "intent": "reimbursement"}
+{"text": "le tothema est-il pris en charge par la cnss ?", "intent": "reimbursement"}
+{"text": "le hibor est-il pris en charge par la cnss ? svp", "intent": "reimbursement"}
+{"text": "Le tavanic est-il pris en charge par la CNSS ?", "intent": "reimbursement"}
+{"text": "Le sertide est-il pris en charge par la CNSS ? stp", "intent": "reimbursement"}
+{"text": "Le Baraclude est-il pris en charge par la CNSS", "intent": "reimbursement"}
+{"text": "le premocefal est-il pris en charge par la cnss ?", "intent": "reimbursement"}
+{"text": "Le Micardis est-il pris en charge par la CNSS ?", "intent": "reimbursement"}
+{"text": "Le Keppra est-il pris en charge par la CNSS ?", "intent": "reimbursement"}
+{"text": "Le Chemoset est-il pris en charge par la CNSS ?", "intent": "reimbursement"}
+{"text": "le revlimid est-il pris en charge par la cnss ?", "intent": "reimbursement"}
+{"text": "Le Starmox est-il pris en charge par la CNSS ?", "intent": "reimbursement"}
+{"text": "remboursement betoptic ?", "intent": "reimbursement"}
+{"text": "Remboursement starpen ? merci", "intent": "reimbursement"}
+{"text": "Remboursement Protn 20mg ?", "intent": "reimbursement"}
+{"text": "Remboursement Teemodal ?", "intent": "reimbursement"}
+{"text": "Remboursement tiazem 60 mg ?", "intent": "reimbursement"}
+{"text": "Remboursement Synacthene ?", "intent": "reimbursement"}
+{"text": "Remboursement Epivir ? svp", "intent": "reimbursement"}
+{"text": "Remboursement algantil ?", "intent": "reimbursement"}
+{"text": "Remboursement Astaph ?", "intent": "reimbursement"}
+{"text": "remboursement rebif ?", "intent": "reimbursement"}
+{"text": "Remboursement Redip 40mg ? stp", "intent": "reimbursement"}
+{"text": "remboursement venula 200mg ?", "intent": "reimbursement"}
+{"text": "واش افوستاف كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش ستافميكيني كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش ننان كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش نيورل كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش زوترول كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش مولغم كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش املور كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش أوربنل كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش كارديغيك كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش تيغوما كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش فلكس كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "واش بوسكبن كيتعوض من الكنوبس؟", "intent": "reimbursement"}
+{"text": "كوابروفيل كيتعوض؟", "intent": "reimbursement"}
+{"text": "نميك كيتعوض؟", "intent": "reimbursement"}
+{"text": "افتك كيتعوض؟", "intent": "reimbursement"}
+{"text": "اكيفير كيتعوض؟", "intent": "reimbursement"}
+{"text": "كيمبلتا كيتعوض؟", "intent": "reimbursement"}
+{"text": "افولام كيتعوض؟", "intent": "reimbursement"}
+{"text": "كسفيرال كيتعوض؟", "intent": "reimbursement"}
+{"text": "نيرال كيتعوض؟", "intent": "reimbursement"}
+{"text": "كلوفن كيتعوض؟", "intent": "reimbursement"}
+{"text": "ببرتيل كيتعوض؟", "intent": "reimbursement"}
+{"text": "الميد كيتعوض؟", "intent": "reimbursement"}
+{"text": "موبيك كيتعوض؟", "intent": "reimbursement"}
+{"text": "واش افلام كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش لودوز كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش تاهور كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش بلوكين كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش إيبوسك كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش نالغيل كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش زولم 30mg كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش سيريتيدي كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش شيموسيت كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش كاتيكس 500mg كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش نوفالغين كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "واش بريسدال كيتعوض من الضمان؟", "intent": "reimbursement"}
+{"text": "ديسبامكس كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "كوتريغ كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "برفالغان كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "غينتوسيل كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "كانافلوكان كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "بوندرونت كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "غينتوسيل كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "كسيند كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "بروغرف كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "بيبورتيل كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "بروستيغميني كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "كوابروفل كيتعوض من التأمين؟", "intent": "reimbursement"}
+{"text": "3tini numro dyal pharmacie Al Amal f Tangier", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie al andalous f kenitra", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Al Amal f Fes merci", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Hassan II f Tetwan 3afak", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Ennahda f Sla", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Hassan II f Dar Beida 3afak", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Al Massira f Marrakech", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Atlas f Fes", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie ibn rochd f marrakech", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Centrale f Oujda", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie ennahda f tangier", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie Ibn Rochd f Mrakech", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie ibn sina", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie al massira", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Al Amal", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Al Amal", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Ibn Sina", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie atlas", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Ennahda merci", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "numro tel dyal pharmacie Ennahda merci", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie ibn rochd ?", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Ibn Sina ? 3afak", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Ibn Rochd ? merci", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Ibn Rochd ? merci", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Ibn Sina ?", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie centrale", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Ennahda", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Al Fath", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie al amal ? 3afak", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Ibn Rochd ?", "intent": "pharmacy_phone"}
+{"text": "chno numro dyal pharmacie Al Massira ?", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie centrale f kenitra", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Al Fath f Fas", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Ibn Rochd f Tetouan", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Hassan II f Rabat", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Hassan II f Oujda", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Ibn Sina f Tangier", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Ibn Sina f Tetwan 3afak", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie atlas f rabat", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie al amal f rabat", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Ibn Rochd f Oujda", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Al Fath f Casablanca merci", "intent": "pharmacy_phone"}
+{"text": "nmra dyal pharmacie Al Massira f Marrakesh 3afak", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Atlas à Dar Beida ? svp", "intent": "pharmacy_phone"}
+{"text": "quel est le numéro de la pharmacie ibn sina à mknas", "intent": "pharmacy_phone"}
+{"text": "quel est le numéro de la pharmacie ennahda à rabat ?", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Al Amal à Rbat ?", "intent": "pharmacy_phone"}
+{"text": "quel est le numéro de la pharmacie atlas à meknes", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Ibn Sina à Marrakesh ? svp", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Ibn Sina à Kenitra merci", "intent": "pharmacy_phone"}
+{"text": "quel est le numéro de la pharmacie al fath à sla", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Ibn Sina à Agadir ?", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Ennahda à Oujda ?", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Centrale à Sla ?", "intent": "pharmacy_phone"}
+{"text": "Quel est le numéro de la pharmacie Ibn Sina à Mknas", "intent": "pharmacy_phone"}
+{"text": "numéro de téléphone de la pharmacie ennahda", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Amal", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Amal", "intent": "pharmacy_phone"}
+{"text": "numéro de téléphone de la pharmacie ibn rochd merci", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Amal merci", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Fath", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Andalous", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Al Fath", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Centrale", "intent": "pharmacy_phone"}
+{"text": "Numéro de téléphone de la pharmacie Ibn Rochd svp", "intent": "pharmacy_phone"}
+{"text": "numéro de téléphone de la pharmacie ibn sina", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Centrale à Rbat", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Al Andalous à Casa", "intent": "pharmacy_phone"}
+{"text": "je voudrais appeler la pharmacie centrale à marrakch", "intent": "pharmacy_phone"}
+{"text": "je voudrais appeler la pharmacie al andalous à agadir svp", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Ibn Sina à Marrakch", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Centrale à Mrakech", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Al Fath à Marrakch stp", "intent": "pharmacy_phone"}
+{"text": "je voudrais appeler la pharmacie hassan ii à rabat", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Al Fath à Mknas", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Centrale à Sla", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Atlas à Casa", "intent": "pharmacy_phone"}
+{"text": "Je voudrais appeler la pharmacie Al Amal à Meknes", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Al Andalous Rbat", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Ibn Sina Sale", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Ennahda Kaza", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Hassan II Tangier svp", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Hassan II Agadir", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Al Massira Oujda", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Atlas Rbat merci", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Al Amal Casablanca", "intent": "pharmacy_phone"}
+{"text": "contact de la pharmacie al andalous fes", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Al Fath Tanger", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Ennahda Mknas merci", "intent": "pharmacy_phone"}
+{"text": "Contact de la pharmacie Al Fath Tetouan", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية النهضة", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية ابن سينا", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية الأمل", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية الأطلس", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية ابن رشد", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية الأطلس", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية المركزية", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية المسيرة", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية الأطلس", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية المسيرة", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية الأمل", "intent": "pharmacy_phone"}
+{"text": "عطيني نمرة التيليفون ديال صيدلية النهضة", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية المركزية سلا", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية ابن سينا سلا", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية المسيرة مكناس", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية المركزية القنيطرة", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية الحسن الثاني ففاس", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية الفتح فتطوان", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية المركزية فقنيطرة", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية الأمل الدار البيضاء", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية ابن رشد كازا", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية الأمل الرباط", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية الفتح فمراكش", "intent": "pharmacy_phone"}
+{"text": "نمرة صيدلية النهضة وجدة", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية ابن رشد؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الفتح؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الفتح؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الحسن الثاني؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الفتح؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الفتح؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية ابن رشد؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الأمل؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الفتح؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية النهضة؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الحسن الثاني؟", "intent": "pharmacy_phone"}
+{"text": "شنو هي نمرة صيدلية الأندلس؟", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية النهضة", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية المسيرة", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية الأندلس", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية المركزية", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية الأطلس", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية المركزية", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية ابن رشد", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية النهضة", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية المركزية", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية الحسن الثاني", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية ابن رشد", "intent": "pharmacy_phone"}
+{"text": "رقم هاتف صيدلية ابن سينا", "intent": "pharmacy_phone"}
+{"text": "fin kayna pharmacie f hay hassani agadir", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Agdal Tanja", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f agdal agadir ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Gueliz Meknes ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Gauthier Tetwan ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Anfa Fes ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f maarif marrakesh ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Hay Hassani Tetouan ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Hay Hassani Meknes ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Maarif Kenitra ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Gauthier Fas ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie f Hivernage Oujda ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Hassan II f Oujda merci", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Al Fath f Rabat ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Centrale f Fas ? merci", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie al andalous f casa ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Centrale f Marrakech ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Al Amal f Sale ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Al Amal f Oujda ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Al Fath f Tetwan ? merci", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie ennahda f oujda ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Ennahda f Sla ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Atlas f Agadir ?", "intent": "pharmacy_location"}
+{"text": "fin kayna pharmacie Al Fath f Fas ?", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn hay hassani", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Souissi", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Gueliz", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Gueliz", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Hivernage merci", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Gauthier", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn agdal", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn gauthier", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn gauthier 3afak", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn gueliz", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Souissi", "intent": "pharmacy_location"}
+{"text": "pharmacie qriba mn Hay Riad", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn Anfa ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn Hay Riad ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn anfa ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn Hivernage ? 3afak", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn souissi ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn Gueliz ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn agdal ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn maarif ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn hivernage ? 3afak", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn Gauthier ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn anfa ?", "intent": "pharmacy_location"}
+{"text": "fin kayn pharmacie qrib mn Hay Riad ? 3afak", "intent": "pharmacy_location"}
+{"text": "où est la pharmacie ibn rochd à sale ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Ennahda à Fes ?", "intent": "pharmacy_location"}
+{"text": "où est la pharmacie al fath à meknes ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Ennahda à Agadir ?", "intent": "pharmacy_location"}
+{"text": "où est la pharmacie centrale à tanja ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Al Fath à Casa ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Ibn Sina à Kenitra ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Al Massira à Oujda ?", "intent": "pharmacy_location"}
+{"text": "où est la pharmacie ennahda à tetwan ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Ibn Sina à Tetouan ?", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Hassan II à Marrakch ? stp", "intent": "pharmacy_location"}
+{"text": "Où est la pharmacie Hassan II à Fas ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Anfa Marrakech ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Hay Hassani Mknas ?", "intent": "pharmacy_location"}
+{"text": "où trouver une pharmacie à souissi marrakech ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Maarif Dar El Beida ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Hay Hassani Oujda", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Maarif Tetouan", "intent": "pharmacy_location"}
+{"text": "où trouver une pharmacie à gauthier rbat ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Hay Hassani Tetouan ?", "intent": "pharmacy_location"}
+{"text": "où trouver une pharmacie à hay riad mknas ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Anfa Fes ?", "intent": "pharmacy_location"}
+{"text": "où trouver une pharmacie à hivernage agadir ?", "intent": "pharmacy_location"}
+{"text": "Où trouver une pharmacie à Agdal Tanja ?", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Gueliz", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Gueliz", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Anfa", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Hivernage", "intent": "pharmacy_location"}
+{"text": "pharmacie la plus proche de gueliz", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Gueliz", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Hivernage", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Hay Hassani", "intent": "pharmacy_location"}
+{"text": "pharmacie la plus proche de hivernage", "intent": "pharmacy_location"}
+{"text": "Pharmacie la plus proche de Gauthier", "intent": "pharmacy_location"}
+{"text": "pharmacie la plus proche de souissi", "intent": "pharmacy_location"}
+{"text": "pharmacie la plus proche de gauthier", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Hassan II Mknas", "intent": "pharmacy_location"}
+{"text": "adresse de la pharmacie ibn rochd marrakech", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Ibn Sina Dar Beida", "intent": "pharmacy_location"}
+{"text": "adresse de la pharmacie hassan ii sla", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Ibn Rochd Marrakech", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Centrale Tetwan", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Centrale Oujda", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Ibn Rochd Kenitra merci", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Ennahda Marrakch", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Atlas Meknes", "intent": "pharmacy_location"}
+{"text": "adresse de la pharmacie ibn rochd marrakesh", "intent": "pharmacy_location"}
+{"text": "Adresse de la pharmacie Al Fath Sla", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية الأمل فالدار البيضاء؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية الفتح فالرباط؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية المسيرة وجدة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية المسيرة سلا؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية ابن سينا فتطوان؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية ابن رشد فالرباط؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية الحسن الثاني طنجة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية ابن رشد وجدة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية الفتح فوجدة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية المسيرة مراكش؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية الأطلس قنيطرة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية الفتح فسلا؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من درب السلطان؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي المسيرة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من درب السلطان؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي الرياض؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي المسيرة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من درب السلطان؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي السلام؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من درب السلطان؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي الرياض؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي الرياض؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من حي المسيرة؟", "intent": "pharmacy_location"}
+{"text": "فين كاينة صيدلية قريبة من درب السلطان؟", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي السلام", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي المسيرة", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي الرياض", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من درب السلطان", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي الرياض", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من درب السلطان", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي السلام", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي المسيرة", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي الرياض", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من درب السلطان", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي المسيرة", "intent": "pharmacy_location"}
+{"text": "صيدلية قريبة من حي السلام", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية ابن سينا تطوان", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية النهضة فاس", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية المسيرة سلا", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية ابن رشد فوجدة", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية الأطلس فأكادير", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية الفتح فسلا", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية الأمل وجدة", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية الأطلس فالدار البيضاء", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية ابن سينا كازا", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية ابن رشد فمراكش", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية ابن رشد فتطوان", "intent": "pharmacy_location"}
+{"text": "عنوان صيدلية الأندلس فسلا", "intent": "pharmacy_location"}
+{"text": "wach pharmacie Al Amal m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Hassan II m7loula ghda ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Atlas m7loula daba ? 3afak", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie ibn sina m7loula ghda ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie atlas m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Al Massira m7loula ghda ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Atlas m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Ibn Sina m7loula ghda ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie al andalous m7loula daba", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Centrale m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Ibn Sina m7loula lyoum", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Hassan II m7loula lyoum ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f oujda daba ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Fas ghda ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Marrakech ghda ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Tetwan lyoum ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Marrakesh ghda merci", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Agadir daba ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Fas daba ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f agadir daba ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Oujda lyoum ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Tetouan lyoum", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f Tetwan lyoum ?", "intent": "pharmacy_hours"}
+{"text": "chmen pharmacie de garde f tetwan ghda ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Centrale mfto7a nhar l-7ad merci", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie hassan ii mfto7a nhar l-7ad", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie atlas mfto7a nhar l-7ad ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Al Andalous mfto7a nhar l-7ad ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie atlas mfto7a nhar l-7ad ? merci", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Centrale mfto7a nhar l-7ad ? 3afak", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie hassan ii mfto7a nhar l-7ad", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie al massira mfto7a nhar l-7ad ? 3afak", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Centrale mfto7a nhar l-7ad ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie al massira mfto7a nhar l-7ad ? 3afak", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Hassan II mfto7a nhar l-7ad ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie Hassan II mfto7a nhar l-7ad ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Al Andalous ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Al Andalous ? 3afak", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Hassan II ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Ennahda", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Atlas ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Hassan II ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie ibn rochd ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Atlas ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Al Amal ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Al Fath ?", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Ibn Rochd ? 3afak", "intent": "pharmacy_hours"}
+{"text": "imta kat9fl pharmacie Al Amal ? merci", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Hassan II est ouverte maintenant ?", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Ibn Rochd est ouverte aujourd'hui", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Al Amal est ouverte aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Al Amal est ouverte maintenant ? merci", "intent": "pharmacy_hours"}
+{"text": "la pharmacie ennahda est ouverte aujourd'hui", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Al Andalous est ouverte aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "la pharmacie ibn rochd est ouverte aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "la pharmacie ibn rochd est ouverte ce soir ?", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Ennahda est ouverte ce soir ?", "intent": "pharmacy_hours"}
+{"text": "la pharmacie atlas est ouverte ce soir ?", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Al Fath est ouverte aujourd'hui", "intent": "pharmacy_hours"}
+{"text": "La pharmacie Centrale est ouverte maintenant stp", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Fas dimanche ?", "intent": "pharmacy_hours"}
+{"text": "quelle est la pharmacie de garde à casa aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Fes aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Casa demain ? svp", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Rbat aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Agadir demain ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Tetouan aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Tanja ce soir ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Rabat ce soir ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Meknes maintenant ?", "intent": "pharmacy_hours"}
+{"text": "quelle est la pharmacie de garde à mknas aujourd'hui ?", "intent": "pharmacy_hours"}
+{"text": "Quelle est la pharmacie de garde à Oujda dimanche", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Al Massira ?", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Al Andalous ? svp", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Ibn Rochd ?", "intent": "pharmacy_hours"}
+{"text": "à quelle heure ferme la pharmacie al andalous ?", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Al Andalous ?", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Atlas ?", "intent": "pharmacy_hours"}
+{"text": "à quelle heure ferme la pharmacie al massira ?", "intent": "pharmacy_hours"}
+{"text": "à quelle heure ferme la pharmacie centrale ?", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Al Andalous ?", "intent": "pharmacy_hours"}
+{"text": "à quelle heure ferme la pharmacie al andalous ? svp", "intent": "pharmacy_hours"}
+{"text": "à quelle heure ferme la pharmacie ibn sina ?", "intent": "pharmacy_hours"}
+{"text": "À quelle heure ferme la pharmacie Ennahda ? merci", "intent": "pharmacy_hours"}
+{"text": "horaires de la pharmacie centrale fes", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Ennahda Oujda", "intent": "pharmacy_hours"}
+{"text": "horaires de la pharmacie al massira marrakesh", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Al Massira Oujda", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Al Fath Casablanca", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Ennahda Kaza", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Ennahda Fas svp", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Ibn Rochd Rabat", "intent": "pharmacy_hours"}
+{"text": "horaires de la pharmacie ibn sina oujda", "intent": "pharmacy_hours"}
+{"text": "horaires de la pharmacie hassan ii fes", "intent": "pharmacy_hours"}
+{"text": "horaires de la pharmacie al andalous marrakesh", "intent": "pharmacy_hours"}
+{"text": "Horaires de la pharmacie Al Massira Tanja", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية ابن رشد مفتوحة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الحسن الثاني مفتوحة دابا؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الأطلس مفتوحة غدا؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية ابن سينا مفتوحة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المركزية مفتوحة غدا؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المسيرة مفتوحة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المركزية مفتوحة اليوم؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المركزية مفتوحة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الأمل مفتوحة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية ابن سينا مفتوحة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المركزية مفتوحة غدا؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية النهضة مفتوحة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة تطوان نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة طنجة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة فأكادير نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة فالرباط دابا؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة أكادير نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة طنجة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة فمراكش اليوم؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة وجدة غدا؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة رباط غدا؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة تطوان دابا؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة تطوان دابا؟", "intent": "pharmacy_hours"}
+{"text": "شنو هي صيدلية الحراسة فدار البيضاء دابا؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية ابن سينا؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية الأمل؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية ابن سينا؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية النهضة؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية الحسن الثاني؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية الحسن الثاني؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية ابن سينا؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية الفتح؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية المركزية؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية ابن سينا؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية المسيرة؟", "intent": "pharmacy_hours"}
+{"text": "فوقاش كتسد صيدلية المركزية؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية ابن رشد مسدودة اليوم؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الأندلس مسدودة دابا؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المسيرة مسدودة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المسيرة مسدودة الليلة؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المركزية مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المسيرة مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الأطلس مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المركزية مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية المسيرة مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الفتح مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية ابن رشد مسدودة نهار الأحد؟", "intent": "pharmacy_hours"}
+{"text": "واش صيدلية الحسن الثاني مسدودة غدا؟", "intent": "pharmacy_hours"}
+{"text": "bghit n7ejez 1 dyal nocol", "intent": "reserve_order"}
+{"text": "bghit n7ejez 5 dyal inhibace", "intent": "reserve_order"}
+{"text": "bghit n7ejez 3 dyal Corysalia merci", "intent": "reserve_order"}
+{"text": "bghit n7ejez 1 dyal Nomyc", "intent": "reserve_order"}
+{"text": "bghit n7ejez 1 dyal metospir", "intent": "reserve_order"}
+{"text": "bghit n7ejez 5 dyal rouvax merci", "intent": "reserve_order"}
+{"text": "bghit n7ejez 3 dyal pravaor", "intent": "reserve_order"}
+{"text": "bghit n7ejez 2 dyal rhinallergy", "intent": "reserve_order"}
+{"text": "bghit n7ejez 5 dyal Granoycte 3afak", "intent": "reserve_order"}
+{"text": "bghit n7ejez 5 dyal cefaperso", "intent": "reserve_order"}
+{"text": "bghit n7ejez 3 dyal Maxidrol", "intent": "reserve_order"}
+{"text": "bghit n7ejez 6 dyal navelbine 3afak", "intent": "reserve_order"}
+{"text": "bghit n7ejez bucocine", "intent": "reserve_order"}
+{"text": "bghit n7ejez Lifongdi", "intent": "reserve_order"}
+{"text": "bghit n7ejez altiazem 60mg", "intent": "reserve_order"}
+{"text": "bghit n7ejez amoxil 500mg", "intent": "reserve_order"}
+{"text": "bghit n7ejez estracyt merci", "intent": "reserve_order"}
+{"text": "bghit n7ejez Gentmaen 120mg", "intent": "reserve_order"}
+{"text": "bghit n7ejez flonox 500mg", "intent": "reserve_order"}
+{"text": "bghit n7ejez lipistt 20", "intent": "reserve_order"}
+{"text": "bghit n7ejez Exforge", "intent": "reserve_order"}
+{"text": "bghit n7ejez Erlus merci", "intent": "reserve_order"}
+{"text": "bghit n7ejez buscopan", "intent": "reserve_order"}
+{"text": "bghit n7ejez diprosone", "intent": "reserve_order"}
+{"text": "n7ejez liya 1 3olab d glipharm 3nd pharmacie centrale merci", "intent": "reserve_order"}
+{"text": "n7ejez liya 5 3olab d lidocaine 3nd pharmacie al amal 3afak", "intent": "reserve_order"}
+{"text": "n7ejez liya 6 3olab d Remox 3nd pharmacie Ibn Sina", "intent": "reserve_order"}
+{"text": "n7ejez liya 4 3olab d rnaitil 3nd pharmacie al massira", "intent": "reserve_order"}
+{"text": "n7ejez liya 3 3olab d tareg 3nd pharmacie Atlas", "intent": "reserve_order"}
+{"text": "n7ejez liya 3 3olab d aglim 3nd pharmacie Al Amal", "intent": "reserve_order"}
+{"text": "n7ejez liya 4 3olab d dimazlo 3nd pharmacie atlas", "intent": "reserve_order"}
+{"text": "n7ejez liya 5 3olab d Viscceralgine 3nd pharmacie Centrale", "intent": "reserve_order"}
+{"text": "n7ejez liya 4 3olab d thaizilix 3nd pharmacie Ennahda merci", "intent": "reserve_order"}
+{"text": "n7ejez liya 2 3olab d cloprame 3nd pharmacie Al Andalous", "intent": "reserve_order"}
+{"text": "n7ejez liya 6 3olab d kalest 3nd pharmacie Ibn Rochd", "intent": "reserve_order"}
+{"text": "n7ejez liya 1 3olab d Airlix 3nd pharmacie Ennahda", "intent": "reserve_order"}
+{"text": "bghit ncommandi relpax", "intent": "reserve_order"}
+{"text": "bghit ncommandi synnax", "intent": "reserve_order"}
+{"text": "bghit ncommandi proflox comprimé", "intent": "reserve_order"}
+{"text": "bghit ncommandi Relaoxl comprimé", "intent": "reserve_order"}
+{"text": "bghit ncommandi Normacol", "intent": "reserve_order"}
+{"text": "bghit ncommandi Piportil", "intent": "reserve_order"}
+{"text": "bghit ncommandi allochrysine", "intent": "reserve_order"}
+{"text": "bghit ncommandi xarelto merci", "intent": "reserve_order"}
+{"text": "bghit ncommandi rythmodan gélule", "intent": "reserve_order"}
+{"text": "bghit ncommandi tannzaar", "intent": "reserve_order"}
+{"text": "bghit ncommandi Xalacom", "intent": "reserve_order"}
+{"text": "bghit ncommandi teguma", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 5 boîtes de Taavanic stp", "intent": "reserve_order"}
+{"text": "je voudrais réserver 4 boîtes de trasylol", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 6 boîtes de Solugel", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 3 boîtes de Delapide", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 4 boîtes de Triacephine stp", "intent": "reserve_order"}
+{"text": "je voudrais réserver 1 boîtes de doliprane", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 3 boîtes de Septil", "intent": "reserve_order"}
+{"text": "je voudrais réserver 6 boîtes de sandimmun svp", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 1 boîtes de erlus merci", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 1 boîtes de Sadnimmun", "intent": "reserve_order"}
+{"text": "je voudrais réserver 4 boîtes de prgor", "intent": "reserve_order"}
+{"text": "Je voudrais réserver 1 boîtes de Potex", "intent": "reserve_order"}
+{"text": "Réservez-moi Divarius 20mg à la pharmacie Al Fath", "intent": "reserve_order"}
+{"text": "réservez-moi viraefronpeg à la pharmacie al amal", "intent": "reserve_order"}
+{"text": "réservez-moi estulic à la pharmacie al massira", "intent": "reserve_order"}
+{"text": "réservez-moi seretide à la pharmacie al amal", "intent": "reserve_order"}
+{"text": "Réservez-moi Plasmion à la pharmacie Ibn Sina", "intent": "reserve_order"}
+{"text": "Réservez-moi mivacron 10mg à la pharmacie Al Fath", "intent": "reserve_order"}
+{"text": "réservez-moi neoclav à la pharmacie al amal stp", "intent": "reserve_order"}
+{"text": "réservez-moi lyrica 75 à la pharmacie centrale", "intent": "reserve_order"}
+{"text": "Réservez-moi Diastab à la pharmacie Ibn Rochd", "intent": "reserve_order"}
+{"text": "Réservez-moi Aracytine 500 mg à la pharmacie Al Amal", "intent": "reserve_order"}
+{"text": "Réservez-moi Tiafllam 100 à la pharmacie Al Andalous stp", "intent": "reserve_order"}
+{"text": "Réservez-moi Thiam à la pharmacie Al Massira merci", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 1 Dimazol ?", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 3 Griseo ?", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 4 Catex ?", "intent": "reserve_order"}
+{"text": "pouvez-vous me mettre de côté 6 griseo", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 1 Virectil ?", "intent": "reserve_order"}
+{"text": "pouvez-vous me mettre de côté 6 dicloberl ?", "intent": "reserve_order"}
+{"text": "pouvez-vous me mettre de côté 6 normacide ?", "intent": "reserve_order"}
+{"text": "pouvez-vous me mettre de côté 5 coversyl ?", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 3 Avamys ?", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 1 claforan", "intent": "reserve_order"}
+{"text": "pouvez-vous me mettre de côté 6 mazax ?", "intent": "reserve_order"}
+{"text": "Pouvez-vous me mettre de côté 3 Somatostatine ?", "intent": "reserve_order"}
+{"text": "je souhaite commander fluoxet", "intent": "reserve_order"}
+{"text": "je souhaite commander hemopur", "intent": "reserve_order"}
+{"text": "je souhaite commander anttagon", "intent": "reserve_order"}
+{"text": "Je souhaite commander diclomax stp", "intent": "reserve_order"}
+{"text": "je souhaite commander rennie svp", "intent": "reserve_order"}
+{"text": "Je souhaite commander Keppra", "intent": "reserve_order"}
+{"text": "Je souhaite commander zanidp comprimés", "intent": "reserve_order"}
+{"text": "Je souhaite commander cacliparine injectable", "intent": "reserve_order"}
+{"text": "je souhaite commander liifongid pommade", "intent": "reserve_order"}
+{"text": "Je souhaite commander mycosil", "intent": "reserve_order"}
+{"text": "Je souhaite commander Xanax", "intent": "reserve_order"}
+{"text": "je souhaite commander piportil", "intent": "reserve_order"}
+{"text": "بغيت نحجز 5 علب د اسبيغيك", "intent": "reserve_order"}
+{"text": "بغيت نحجز 2 علب د هيدراكورت", "intent": "reserve_order"}
+{"text": "بغيت نحجز 5 علب د فراكسيبارين", "intent": "reserve_order"}
+{"text": "بغيت نحجز 4 علب د أونفيني", "intent": "reserve_order"}
+{"text": "بغيت نحجز 2 علب د ديسباموكس", "intent": "reserve_order"}
+{"text": "بغيت نحجز 4 علب د اوغمينتين", "intent": "reserve_order"}
+{"text": "بغيت نحجز 5 علب د سوماتستاتين", "intent": "reserve_order"}
+{"text": "بغيت نحجز 6 علب د غلوكفاغ", "intent": "reserve_order"}
+{"text": "بغيت نحجز 4 علب د زنسكين", "intent": "reserve_order"}
+{"text": "بغيت نحجز 3 علب د زينكيف", "intent": "reserve_order"}
+{"text": "بغيت نحجز 5 علب د رانيتل", "intent": "reserve_order"}
+{"text": "بغيت نحجز 5 علب د كسيمولول", "intent": "reserve_order"}
+{"text": "بغيت نحجز ديسفيرال 500mg", "intent": "reserve_order"}
+{"text": "بغيت نحجز رودال", "intent": "reserve_order"}
+{"text": "بغيت نحجز كيتريل", "intent": "reserve_order"}
+{"text": "بغيت نحجز مدرول", "intent": "reserve_order"}
+{"text": "بغيت نحجز ماكساير", "intent": "reserve_order"}
+{"text": "بغيت نحجز ريقويب", "intent": "reserve_order"}
+{"text": "بغيت نحجز ازيباك 500", "intent": "reserve_order"}
+{"text": "بغيت نحجز ابيفير", "intent": "reserve_order"}
+{"text": "بغيت نحجز انكوتيل 2500", "intent": "reserve_order"}
+{"text": "بغيت نحجز ماديكسسول", "intent": "reserve_order"}
+{"text": "بغيت نحجز روكيفين", "intent": "reserve_order"}
+{"text": "بغيت نحجز اكفير", "intent": "reserve_order"}
+{"text": "حجز ليا 5 سيفرل عند صيدلية الأطلس", "intent": "reserve_order"}
+{"text": "حجز ليا 3 فيديكس عند صيدلية ابن رشد", "intent": "reserve_order"}
+{"text": "حجز ليا 4 ديلفاك عند صيدلية ابن سينا", "intent": "reserve_order"}
+{"text": "حجز ليا 2 كانافلكان عند صيدلية ابن سينا", "intent": "reserve_order"}
+{"text": "حجز ليا 3 بيكاربونات عند صيدلية المركزية", "intent": "reserve_order"}
+{"text": "حجز ليا 1 نوفوكلين عند صيدلية الأطلس", "intent": "reserve_order"}
+{"text": "حجز ليا 3 توتابين عند صيدلية المسيرة", "intent": "reserve_order"}
+{"text": "حجز ليا 5 لاكريفيسك عند صيدلية النهضة", "intent": "reserve_order"}
+{"text": "حجز ليا 5 غينتوسيل عند صيدلية المسيرة", "intent": "reserve_order"}
+{"text": "حجز ليا 4 سبيريف عند صيدلية النهضة", "intent": "reserve_order"}
+{"text": "حجز ليا 4 باراغريبب عند صيدلية الأطلس", "intent": "reserve_order"}
+{"text": "حجز ليا 5 لاميكتال عند صيدلية المركزية", "intent": "reserve_order"}
+{"text": "بغيت نطلب ادريناليني", "intent": "reserve_order"}
+{"text": "بغيت نطلب دانترون ابرة", "intent": "reserve_order"}
+{"text": "بغيت نطلب بونيفوس", "intent": "reserve_order"}
+{"text": "بغيت نطلب استاف ابرة", "intent": "reserve_order"}
+{"text": "بغيت نطلب أوروفيل", "intent": "reserve_order"}
+{"text": "بغيت نطلب دوغماتيل", "intent": "reserve_order"}
+{"text": "بغيت نطلب تنوكان", "intent": "reserve_order"}
+{"text": "بغيت نطلب تاريغ كومبريمي", "intent": "reserve_order"}
+{"text": "بغيت نطلب انتاغن", "intent": "reserve_order"}
+{"text": "بغيت نطلب ديكلوبرل ابرة", "intent": "reserve_order"}
+{"text": "بغيت نطلب ميفسل", "intent": "reserve_order"}
+{"text": "بغيت نطلب الفوريني", "intent": "reserve_order"}
+{"text": "chno l-jaw lyoum ? 3afak", "intent": "out_of_scope"}
+{"text": "chno l-jaw lyoum", "intent": "out_of_scope"}
+{"text": "chno l-jaw lyoum ?", "intent": "out_of_scope"}
+{"text": "chno l-jaw lyoum ?", "intent": "out_of_scope"}
+{"text": "chno l-jaw lyoum", "intent": "out_of_scope"}
+{"text": "chno l-jaw lyoum ?", "intent": "out_of_scope"}
+{"text": "chkoun rba7 l-match ? 3afak", "intent": "out_of_scope"}
+{"text": "chkoun rba7 l-match ?", "intent": "out_of_scope"}
+{"text": "chkoun rba7 l-match ? merci", "intent": "out_of_scope"}
+{"text": "chkoun rba7 l-match ?", "intent": "out_of_scope"}
+{"text": "chkoun rba7 l-match ?", "intent": "out_of_scope"}
+{"text": "chkoun rba7 l-match 3afak", "intent": "out_of_scope"}
+{"text": "9ol liya nokta", "intent": "out_of_scope"}
+{"text": "9ol liya nokta", "intent": "out_of_scope"}
+{"text": "9ol liya nokta 3afak", "intent": "out_of_scope"}
+{"text": "9ol liya nokta", "intent": "out_of_scope"}
+{"text": "9ol liya nokta", "intent": "out_of_scope"}
+{"text": "9ol liya nokta", "intent": "out_of_scope"}
+{"text": "chno ndir l s3al dyali", "intent": "out_of_scope"}
+{"text": "chno ndir l s3al dyali ?", "intent": "out_of_scope"}
+{"text": "chno ndir l s3al dyali ?", "intent": "out_of_scope"}
+{"text": "chno ndir l s3al dyali ? 3afak", "intent": "out_of_scope"}
+{"text": "chno ndir l s3al dyali", "intent": "out_of_scope"}
+{"text": "chno ndir l s3al dyali ?", "intent": "out_of_scope"}
+{"text": "bghit n3ref salaire dyal ostad", "intent": "out_of_scope"}
+{"text": "bghit n3ref salaire dyal ostad", "intent": "out_of_scope"}
+{"text": "bghit n3ref salaire dyal ostad", "intent": "out_of_scope"}
+{"text": "bghit n3ref salaire dyal ostad", "intent": "out_of_scope"}
+{"text": "bghit n3ref salaire dyal ostad", "intent": "out_of_scope"}
+{"text": "bghit n3ref salaire dyal ostad", "intent": "out_of_scope"}
+{"text": "kifach ndir compte f lbanka ?", "intent": "out_of_scope"}
+{"text": "kifach ndir compte f lbanka ? merci", "intent": "out_of_scope"}
+{"text": "kifach ndir compte f lbanka ?", "intent": "out_of_scope"}
+{"text": "kifach ndir compte f lbanka", "intent": "out_of_scope"}
+{"text": "kifach ndir compte f lbanka ?", "intent": "out_of_scope"}
+{"text": "kifach ndir compte f lbanka ?", "intent": "out_of_scope"}
+{"text": "Quel temps fait-il demain", "intent": "out_of_scope"}
+{"text": "Quel temps fait-il demain ?", "intent": "out_of_scope"}
+{"text": "quel temps fait-il demain ?", "intent": "out_of_scope"}
+{"text": "Quel temps fait-il demain ?", "intent": "out_of_scope"}
+{"text": "quel temps fait-il demain ? stp", "intent": "out_of_scope"}
+{"text": "quel temps fait-il demain ? merci", "intent": "out_of_scope"}
+{"text": "Raconte-moi une blague", "intent": "out_of_scope"}
+{"text": "Raconte-moi une blague", "intent": "out_of_scope"}
+{"text": "raconte-moi une blague merci", "intent": "out_of_scope"}
+{"text": "raconte-moi une blague", "intent": "out_of_scope"}
+{"text": "raconte-moi une blague merci", "intent": "out_of_scope"}
+{"text": "raconte-moi une blague", "intent": "out_of_scope"}
+{"text": "Quel médicament dois-je prendre pour la toux ? stp", "intent": "out_of_scope"}
+{"text": "Quel médicament dois-je prendre pour la toux ?", "intent": "out_of_scope"}
+{"text": "Quel médicament dois-je prendre pour la toux ?", "intent": "out_of_scope"}
+{"text": "Quel médicament dois-je prendre pour la toux ? svp", "intent": "out_of_scope"}
+{"text": "Quel médicament dois-je prendre pour la toux ? merci", "intent": "out_of_scope"}
+{"text": "quel médicament dois-je prendre pour la toux ?", "intent": "out_of_scope"}
+{"text": "Qui a gagné le match hier ?", "intent": "out_of_scope"}
+{"text": "Qui a gagné le match hier ? svp", "intent": "out_of_scope"}
+{"text": "qui a gagné le match hier ?", "intent": "out_of_scope"}
+{"text": "Qui a gagné le match hier ?", "intent": "out_of_scope"}
+{"text": "Qui a gagné le match hier ?", "intent": "out_of_scope"}
+{"text": "qui a gagné le match hier ?", "intent": "out_of_scope"}
+{"text": "Je veux des conseils pour mon mal de dos", "intent": "out_of_scope"}
+{"text": "Je veux des conseils pour mon mal de dos", "intent": "out_of_scope"}
+{"text": "je veux des conseils pour mon mal de dos", "intent": "out_of_scope"}
+{"text": "Je veux des conseils pour mon mal de dos merci", "intent": "out_of_scope"}
+{"text": "Je veux des conseils pour mon mal de dos merci", "intent": "out_of_scope"}
+{"text": "Je veux des conseils pour mon mal de dos", "intent": "out_of_scope"}
+{"text": "Bonjour", "intent": "out_of_scope"}
+{"text": "Bonjour svp", "intent": "out_of_scope"}
+{"text": "Bonjour", "intent": "out_of_scope"}
+{"text": "Bonjour", "intent": "out_of_scope"}
+{"text": "Bonjour", "intent": "out_of_scope"}
+{"text": "Bonjour", "intent": "out_of_scope"}
+{"text": "شنو هو الطقس اليوم؟", "intent": "out_of_scope"}
+{"text": "شنو هو الطقس اليوم؟", "intent": "out_of_scope"}
+{"text": "شنو هو الطقس اليوم؟", "intent": "out_of_scope"}
+{"text": "شنو هو الطقس اليوم؟", "intent": "out_of_scope"}
+{"text": "شنو هو الطقس اليوم؟", "intent": "out_of_scope"}
+{"text": "شنو هو الطقس اليوم؟", "intent": "out_of_scope"}
+{"text": "شكون ربح الماتش؟", "intent": "out_of_scope"}
+{"text": "شكون ربح الماتش؟", "intent": "out_of_scope"}
+{"text": "شكون ربح الماتش؟", "intent": "out_of_scope"}
+{"text": "شكون ربح الماتش؟", "intent": "out_of_scope"}
+{"text": "شكون ربح الماتش؟", "intent": "out_of_scope"}
+{"text": "شكون ربح الماتش؟", "intent": "out_of_scope"}
+{"text": "قول ليا نكتة", "intent": "out_of_scope"}
+{"text": "قول ليا نكتة", "intent": "out_of_scope"}
+{"text": "قول ليا نكتة", "intent": "out_of_scope"}
+{"text": "قول ليا نكتة", "intent": "out_of_scope"}
+{"text": "قول ليا نكتة", "intent": "out_of_scope"}
+{"text": "قول ليا نكتة", "intent": "out_of_scope"}
+{"text": "شنو ندير لصداع؟", "intent": "out_of_scope"}
+{"text": "شنو ندير لصداع؟", "intent": "out_of_scope"}
+{"text": "شنو ندير لصداع؟", "intent": "out_of_scope"}
+{"text": "شنو ندير لصداع؟", "intent": "out_of_scope"}
+{"text": "شنو ندير لصداع؟", "intent": "out_of_scope"}
+{"text": "شنو ندير لصداع؟", "intent": "out_of_scope"}
+{"text": "بغيت نعرف كيفاش نفتح حساب فالبنك", "intent": "out_of_scope"}
+{"text": "بغيت نعرف كيفاش نفتح حساب فالبنك", "intent": "out_of_scope"}
+{"text": "بغيت نعرف كيفاش نفتح حساب فالبنك", "intent": "out_of_scope"}
+{"text": "بغيت نعرف كيفاش نفتح حساب فالبنك", "intent": "out_of_scope"}
+{"text": "بغيت نعرف كيفاش نفتح حساب فالبنك", "intent": "out_of_scope"}
+{"text": "بغيت نعرف كيفاش نفتح حساب فالبنك", "intent": "out_of_scope"}
+{"text": "السلام عليكم", "intent": "out_of_scope"}
+{"text": "السلام عليكم", "intent": "out_of_scope"}
+{"text": "السلام عليكم", "intent": "out_of_scope"}
+{"text": "السلام عليكم", "intent": "out_of_scope"}
+{"text": "السلام عليكم", "intent": "out_of_scope"}
+{"text": "السلام عليكم", "intent": "out_of_scope"}
+{"text": "bghit n7ejez", "intent": "reserve_order"}
+{"text": "bghit n7ejez", "intent": "reserve_order"}
+{"text": "bghit n7ejez", "intent": "reserve_order"}
+{"text": "bghit n7ejez", "intent": "reserve_order"}
+{"text": "bghit n7ejez", "intent": "reserve_order"}
+{"text": "chhal taman 3afak", "intent": "price"}
+{"text": "chhal taman ?", "intent": "price"}
+{"text": "chhal taman ? 3afak", "intent": "price"}
+{"text": "chhal taman ?", "intent": "price"}
+{"text": "chhal taman ?", "intent": "price"}
+{"text": "3tini numro dyal pharmacie", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie", "intent": "pharmacy_phone"}
+{"text": "3tini numro dyal pharmacie merci", "intent": "pharmacy_phone"}
+{"text": "wach pharmacie m7loula daba ? merci", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "wach pharmacie m7loula daba ?", "intent": "pharmacy_hours"}
+{"text": "Je voudrais réserver", "intent": "reserve_order"}
+{"text": "Je voudrais réserver", "intent": "reserve_order"}
+{"text": "Je voudrais réserver", "intent": "reserve_order"}
+{"text": "Je voudrais réserver", "intent": "reserve_order"}
+{"text": "je voudrais réserver stp", "intent": "reserve_order"}
+{"text": "Quel est le prix ?", "intent": "price"}
+{"text": "Quel est le prix ?", "intent": "price"}
+{"text": "Quel est le prix ?", "intent": "price"}
+{"text": "Quel est le prix ? merci", "intent": "price"}
+{"text": "Quel est le prix", "intent": "price"}
+{"text": "Numéro de la pharmacie ?", "intent": "pharmacy_phone"}
+{"text": "Numéro de la pharmacie", "intent": "pharmacy_phone"}
+{"text": "Numéro de la pharmacie ?", "intent": "pharmacy_phone"}
+{"text": "Numéro de la pharmacie ?", "intent": "pharmacy_phone"}
+{"text": "Numéro de la pharmacie ?", "intent": "pharmacy_phone"}
+{"text": "La pharmacie est ouverte ?", "intent": "pharmacy_hours"}
+{"text": "La pharmacie est ouverte ?", "intent": "pharmacy_hours"}
+{"text": "la pharmacie est ouverte ?", "intent": "pharmacy_hours"}
+{"text": "La pharmacie est ouverte", "intent": "pharmacy_hours"}
+{"text": "La pharmacie est ouverte ?", "intent": "pharmacy_hours"}
+{"text": "بغيت نحجز", "intent": "reserve_order"}
+{"text": "بغيت نحجز", "intent": "reserve_order"}
+{"text": "بغيت نحجز", "intent": "reserve_order"}
+{"text": "بغيت نحجز", "intent": "reserve_order"}
+{"text": "بغيت نحجز", "intent": "reserve_order"}
+{"text": "شحال الثمن؟", "intent": "price"}
+{"text": "شحال الثمن؟", "intent": "price"}
+{"text": "شحال الثمن؟", "intent": "price"}
+{"text": "شحال الثمن؟", "intent": "price"}
+{"text": "شحال الثمن؟", "intent": "price"}
+{"text": "نمرة الصيدلية؟", "intent": "pharmacy_phone"}
+{"text": "نمرة الصيدلية؟", "intent": "pharmacy_phone"}
+{"text": "نمرة الصيدلية؟", "intent": "pharmacy_phone"}
+{"text": "نمرة الصيدلية؟", "intent": "pharmacy_phone"}
+{"text": "نمرة الصيدلية؟", "intent": "pharmacy_phone"}
+{"text": "واش الصيدلية مفتوحة؟", "intent": "pharmacy_hours"}
+{"text": "واش الصيدلية مفتوحة؟", "intent": "pharmacy_hours"}
+{"text": "واش الصيدلية مفتوحة؟", "intent": "pharmacy_hours"}
+{"text": "واش الصيدلية مفتوحة؟", "intent": "pharmacy_hours"}
+{"text": "واش الصيدلية مفتوحة؟", "intent": "pharmacy_hours"}

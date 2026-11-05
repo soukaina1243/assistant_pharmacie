@@ -1,0 +1,270 @@
+{"file": "test\\clean\\6118000011460.jpg", "condition": "clean", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\blur\\6118000011460.jpg", "condition": "blur", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\dark\\6118000011460.jpg", "condition": "dark", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\glare\\6118000011460.jpg", "condition": "glare", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\rot15\\6118000011460.jpg", "condition": "rot15", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\rot90\\6118000011460.jpg", "condition": "rot90", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\partial\\6118000011460.jpg", "condition": "partial", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\lowres\\6118000011460.jpg", "condition": "lowres", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\hard\\6118000011460.jpg", "condition": "hard", "code": "6118000011460", "brand": "SMECTA", "nom": "SMECTA", "dosage_mg": 3000.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\clean\\6118000030911.jpg", "condition": "clean", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\blur\\6118000030911.jpg", "condition": "blur", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\dark\\6118000030911.jpg", "condition": "dark", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\glare\\6118000030911.jpg", "condition": "glare", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\rot15\\6118000030911.jpg", "condition": "rot15", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\rot90\\6118000030911.jpg", "condition": "rot90", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\partial\\6118000030911.jpg", "condition": "partial", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\lowres\\6118000030911.jpg", "condition": "lowres", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\hard\\6118000030911.jpg", "condition": "hard", "code": "6118000030911", "brand": "EFFERALGAN", "nom": "EFFERALGAN", "dosage_mg": 500.0, "forme": "COMPRIME EFFERVESCENT", "split": "test"}
+{"file": "test\\clean\\6118010000010.jpg", "condition": "clean", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\blur\\6118010000010.jpg", "condition": "blur", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\dark\\6118010000010.jpg", "condition": "dark", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\glare\\6118010000010.jpg", "condition": "glare", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\rot15\\6118010000010.jpg", "condition": "rot15", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\rot90\\6118010000010.jpg", "condition": "rot90", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\partial\\6118010000010.jpg", "condition": "partial", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\lowres\\6118010000010.jpg", "condition": "lowres", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\hard\\6118010000010.jpg", "condition": "hard", "code": "6118010000010", "brand": "SPASFON", "nom": "SPASFON", "dosage_mg": 80.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\clean\\6118001120475.jpg", "condition": "clean", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\blur\\6118001120475.jpg", "condition": "blur", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\dark\\6118001120475.jpg", "condition": "dark", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\glare\\6118001120475.jpg", "condition": "glare", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\rot15\\6118001120475.jpg", "condition": "rot15", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\rot90\\6118001120475.jpg", "condition": "rot90", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\partial\\6118001120475.jpg", "condition": "partial", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\lowres\\6118001120475.jpg", "condition": "lowres", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\hard\\6118001120475.jpg", "condition": "hard", "code": "6118001120475", "brand": "SALAZOPYRIN", "nom": "SALAZOPYRIN", "dosage_mg": 500.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\clean\\6118001000029.jpg", "condition": "clean", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\blur\\6118001000029.jpg", "condition": "blur", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\dark\\6118001000029.jpg", "condition": "dark", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\glare\\6118001000029.jpg", "condition": "glare", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\rot15\\6118001000029.jpg", "condition": "rot15", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\rot90\\6118001000029.jpg", "condition": "rot90", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\partial\\6118001000029.jpg", "condition": "partial", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\lowres\\6118001000029.jpg", "condition": "lowres", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\hard\\6118001000029.jpg", "condition": "hard", "code": "6118001000029", "brand": "PAXEL", "nom": "PAXEL", "dosage_mg": 30.0, "forme": "SOLUTION A DILUER POUR PERFUSION", "split": "test"}
+{"file": "test\\clean\\6118001141982.jpg", "condition": "clean", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\blur\\6118001141982.jpg", "condition": "blur", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\dark\\6118001141982.jpg", "condition": "dark", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\glare\\6118001141982.jpg", "condition": "glare", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot15\\6118001141982.jpg", "condition": "rot15", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot90\\6118001141982.jpg", "condition": "rot90", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\partial\\6118001141982.jpg", "condition": "partial", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\lowres\\6118001141982.jpg", "condition": "lowres", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\hard\\6118001141982.jpg", "condition": "hard", "code": "6118001141982", "brand": "ARIXTRA", "nom": "ARIXTRA 7.5 MG/0.6 ML", "dosage_mg": 7.5, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\clean\\6118000080060.jpg", "condition": "clean", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\blur\\6118000080060.jpg", "condition": "blur", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\dark\\6118000080060.jpg", "condition": "dark", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\glare\\6118000080060.jpg", "condition": "glare", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\rot15\\6118000080060.jpg", "condition": "rot15", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\rot90\\6118000080060.jpg", "condition": "rot90", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\partial\\6118000080060.jpg", "condition": "partial", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\lowres\\6118000080060.jpg", "condition": "lowres", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\hard\\6118000080060.jpg", "condition": "hard", "code": "6118000080060", "brand": "AIRTAL", "nom": "AIRTAL", "dosage_mg": 100.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\clean\\6118000021537.jpg", "condition": "clean", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000021537.jpg", "condition": "blur", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000021537.jpg", "condition": "dark", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000021537.jpg", "condition": "glare", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000021537.jpg", "condition": "rot15", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000021537.jpg", "condition": "rot90", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000021537.jpg", "condition": "partial", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000021537.jpg", "condition": "lowres", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000021537.jpg", "condition": "hard", "code": "6118000021537", "brand": "MELIX", "nom": "MELIX", "dosage_mg": 5.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118000120360.jpg", "condition": "clean", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\blur\\6118000120360.jpg", "condition": "blur", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\dark\\6118000120360.jpg", "condition": "dark", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\glare\\6118000120360.jpg", "condition": "glare", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\rot15\\6118000120360.jpg", "condition": "rot15", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\rot90\\6118000120360.jpg", "condition": "rot90", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\partial\\6118000120360.jpg", "condition": "partial", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\lowres\\6118000120360.jpg", "condition": "lowres", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\hard\\6118000120360.jpg", "condition": "hard", "code": "6118000120360", "brand": "FLAGENTYL", "nom": "FLAGENTYL", "dosage_mg": 500.0, "forme": "COMPRIME PELLICULE SECABLE", "split": "test"}
+{"file": "test\\clean\\6118000250562.jpg", "condition": "clean", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\blur\\6118000250562.jpg", "condition": "blur", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\dark\\6118000250562.jpg", "condition": "dark", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\glare\\6118000250562.jpg", "condition": "glare", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\rot15\\6118000250562.jpg", "condition": "rot15", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\rot90\\6118000250562.jpg", "condition": "rot90", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\partial\\6118000250562.jpg", "condition": "partial", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\lowres\\6118000250562.jpg", "condition": "lowres", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\hard\\6118000250562.jpg", "condition": "hard", "code": "6118000250562", "brand": "AZIMAX", "nom": "AZIMAX", "dosage_mg": 200.0, "forme": "POUDRE POUR SUSPENSION BUVABLE", "split": "test"}
+{"file": "test\\clean\\6118000090472.jpg", "condition": "clean", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000090472.jpg", "condition": "blur", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000090472.jpg", "condition": "dark", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000090472.jpg", "condition": "glare", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000090472.jpg", "condition": "rot15", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000090472.jpg", "condition": "rot90", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000090472.jpg", "condition": "partial", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000090472.jpg", "condition": "lowres", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000090472.jpg", "condition": "hard", "code": "6118000090472", "brand": "NIDAZOL", "nom": "NIDAZOL", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118001100972.jpg", "condition": "clean", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\blur\\6118001100972.jpg", "condition": "blur", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\dark\\6118001100972.jpg", "condition": "dark", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\glare\\6118001100972.jpg", "condition": "glare", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\rot15\\6118001100972.jpg", "condition": "rot15", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\rot90\\6118001100972.jpg", "condition": "rot90", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\partial\\6118001100972.jpg", "condition": "partial", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\lowres\\6118001100972.jpg", "condition": "lowres", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\hard\\6118001100972.jpg", "condition": "hard", "code": "6118001100972", "brand": "LAMIVIR", "nom": "LAMIVIR", "dosage_mg": 50.0, "forme": "SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\clean\\6118000140726.jpg", "condition": "clean", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\blur\\6118000140726.jpg", "condition": "blur", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\dark\\6118000140726.jpg", "condition": "dark", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\glare\\6118000140726.jpg", "condition": "glare", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\rot15\\6118000140726.jpg", "condition": "rot15", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\rot90\\6118000140726.jpg", "condition": "rot90", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\partial\\6118000140726.jpg", "condition": "partial", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\lowres\\6118000140726.jpg", "condition": "lowres", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\hard\\6118000140726.jpg", "condition": "hard", "code": "6118000140726", "brand": "RAZON", "nom": "RAZON", "dosage_mg": 40.0, "forme": "COMPRIME ENROBE GASTRO-RESISTANT", "split": "test"}
+{"file": "test\\clean\\6118001170333.jpg", "condition": "clean", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\blur\\6118001170333.jpg", "condition": "blur", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\dark\\6118001170333.jpg", "condition": "dark", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\glare\\6118001170333.jpg", "condition": "glare", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\rot15\\6118001170333.jpg", "condition": "rot15", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\rot90\\6118001170333.jpg", "condition": "rot90", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\partial\\6118001170333.jpg", "condition": "partial", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\lowres\\6118001170333.jpg", "condition": "lowres", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\hard\\6118001170333.jpg", "condition": "hard", "code": "6118001170333", "brand": "TRIFLUCAN", "nom": "TRIFLUCAN", "dosage_mg": 2.0, "forme": "SOLUTION POUR PERFUSION", "split": "test"}
+{"file": "test\\clean\\6118001101757.jpg", "condition": "clean", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\blur\\6118001101757.jpg", "condition": "blur", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\dark\\6118001101757.jpg", "condition": "dark", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\glare\\6118001101757.jpg", "condition": "glare", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot15\\6118001101757.jpg", "condition": "rot15", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot90\\6118001101757.jpg", "condition": "rot90", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\partial\\6118001101757.jpg", "condition": "partial", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\lowres\\6118001101757.jpg", "condition": "lowres", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\hard\\6118001101757.jpg", "condition": "hard", "code": "6118001101757", "brand": "OEDES", "nom": "OEDES 40MG", "dosage_mg": 40.0, "forme": "LYOPHILISAT POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\clean\\6118001181193.jpg", "condition": "clean", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\blur\\6118001181193.jpg", "condition": "blur", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\dark\\6118001181193.jpg", "condition": "dark", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\glare\\6118001181193.jpg", "condition": "glare", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\rot15\\6118001181193.jpg", "condition": "rot15", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\rot90\\6118001181193.jpg", "condition": "rot90", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\partial\\6118001181193.jpg", "condition": "partial", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\lowres\\6118001181193.jpg", "condition": "lowres", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\hard\\6118001181193.jpg", "condition": "hard", "code": "6118001181193", "brand": "FORLAX", "nom": "FORLAX", "dosage_mg": 10000.0, "forme": "POUDRE POUR SOLUTION BUVABLE", "split": "test"}
+{"file": "test\\clean\\6118001080298.jpg", "condition": "clean", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\blur\\6118001080298.jpg", "condition": "blur", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\dark\\6118001080298.jpg", "condition": "dark", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\glare\\6118001080298.jpg", "condition": "glare", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot15\\6118001080298.jpg", "condition": "rot15", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot90\\6118001080298.jpg", "condition": "rot90", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\partial\\6118001080298.jpg", "condition": "partial", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\lowres\\6118001080298.jpg", "condition": "lowres", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\hard\\6118001080298.jpg", "condition": "hard", "code": "6118001080298", "brand": "CLAFORAN", "nom": "CLAFORAN", "dosage_mg": 500.0, "forme": "POUDRE POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\clean\\6118010115356.jpg", "condition": "clean", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118010115356.jpg", "condition": "blur", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118010115356.jpg", "condition": "dark", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118010115356.jpg", "condition": "glare", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118010115356.jpg", "condition": "rot15", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118010115356.jpg", "condition": "rot90", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118010115356.jpg", "condition": "partial", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118010115356.jpg", "condition": "lowres", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118010115356.jpg", "condition": "hard", "code": "6118010115356", "brand": "RAMIPRIL WIN", "nom": "RAMIPRIL WIN", "dosage_mg": 10.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118001150090.jpg", "condition": "clean", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\blur\\6118001150090.jpg", "condition": "blur", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\dark\\6118001150090.jpg", "condition": "dark", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\glare\\6118001150090.jpg", "condition": "glare", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot15\\6118001150090.jpg", "condition": "rot15", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot90\\6118001150090.jpg", "condition": "rot90", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\partial\\6118001150090.jpg", "condition": "partial", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\lowres\\6118001150090.jpg", "condition": "lowres", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\hard\\6118001150090.jpg", "condition": "hard", "code": "6118001150090", "brand": "CELESTENE", "nom": "CELESTENE", "dosage_mg": 8.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\clean\\6118000040521.jpg", "condition": "clean", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\blur\\6118000040521.jpg", "condition": "blur", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\dark\\6118000040521.jpg", "condition": "dark", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\glare\\6118000040521.jpg", "condition": "glare", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\rot15\\6118000040521.jpg", "condition": "rot15", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\rot90\\6118000040521.jpg", "condition": "rot90", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\partial\\6118000040521.jpg", "condition": "partial", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\lowres\\6118000040521.jpg", "condition": "lowres", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\hard\\6118000040521.jpg", "condition": "hard", "code": "6118000040521", "brand": "LOPERIUM", "nom": "LOPERIUM", "dosage_mg": 2.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\clean\\6118001070435.jpg", "condition": "clean", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\blur\\6118001070435.jpg", "condition": "blur", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\dark\\6118001070435.jpg", "condition": "dark", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\glare\\6118001070435.jpg", "condition": "glare", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot15\\6118001070435.jpg", "condition": "rot15", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot90\\6118001070435.jpg", "condition": "rot90", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\partial\\6118001070435.jpg", "condition": "partial", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\lowres\\6118001070435.jpg", "condition": "lowres", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\hard\\6118001070435.jpg", "condition": "hard", "code": "6118001070435", "brand": "ONCOVIN", "nom": "ONCOVIN", "dosage_mg": 1.0, "forme": "SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\clean\\6118000071280.jpg", "condition": "clean", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000071280.jpg", "condition": "blur", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000071280.jpg", "condition": "dark", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000071280.jpg", "condition": "glare", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000071280.jpg", "condition": "rot15", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000071280.jpg", "condition": "rot90", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000071280.jpg", "condition": "partial", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000071280.jpg", "condition": "lowres", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000071280.jpg", "condition": "hard", "code": "6118000071280", "brand": "HIPOTENSIL", "nom": "HIPOTENSIL", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118000020653.jpg", "condition": "clean", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\blur\\6118000020653.jpg", "condition": "blur", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\dark\\6118000020653.jpg", "condition": "dark", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\glare\\6118000020653.jpg", "condition": "glare", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\rot15\\6118000020653.jpg", "condition": "rot15", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\rot90\\6118000020653.jpg", "condition": "rot90", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\partial\\6118000020653.jpg", "condition": "partial", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\lowres\\6118000020653.jpg", "condition": "lowres", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\hard\\6118000020653.jpg", "condition": "hard", "code": "6118000020653", "brand": "URISPAS", "nom": "URISPAS", "dosage_mg": 200.0, "forme": "COMPRIME ENROBE", "split": "test"}
+{"file": "test\\clean\\6118000061731.jpg", "condition": "clean", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000061731.jpg", "condition": "blur", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000061731.jpg", "condition": "dark", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000061731.jpg", "condition": "glare", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000061731.jpg", "condition": "rot15", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000061731.jpg", "condition": "rot90", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000061731.jpg", "condition": "partial", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000061731.jpg", "condition": "lowres", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000061731.jpg", "condition": "hard", "code": "6118000061731", "brand": "TOPREC", "nom": "TOPREC", "dosage_mg": 25.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118001184248.jpg", "condition": "clean", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\blur\\6118001184248.jpg", "condition": "blur", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\dark\\6118001184248.jpg", "condition": "dark", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\glare\\6118001184248.jpg", "condition": "glare", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\rot15\\6118001184248.jpg", "condition": "rot15", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\rot90\\6118001184248.jpg", "condition": "rot90", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\partial\\6118001184248.jpg", "condition": "partial", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\lowres\\6118001184248.jpg", "condition": "lowres", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\hard\\6118001184248.jpg", "condition": "hard", "code": "6118001184248", "brand": "IRESSA", "nom": "IRESSA 250 MG", "dosage_mg": 250.0, "forme": "COMPRIME PELLICULE", "split": "test"}
+{"file": "test\\clean\\6118000130604.jpg", "condition": "clean", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000130604.jpg", "condition": "blur", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000130604.jpg", "condition": "dark", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000130604.jpg", "condition": "glare", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000130604.jpg", "condition": "rot15", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000130604.jpg", "condition": "rot90", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000130604.jpg", "condition": "partial", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000130604.jpg", "condition": "lowres", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000130604.jpg", "condition": "hard", "code": "6118000130604", "brand": "GLYSET", "nom": "GLYSET", "dosage_mg": 3.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118000180609.jpg", "condition": "clean", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\blur\\6118000180609.jpg", "condition": "blur", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\dark\\6118000180609.jpg", "condition": "dark", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\glare\\6118000180609.jpg", "condition": "glare", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\rot15\\6118000180609.jpg", "condition": "rot15", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\rot90\\6118000180609.jpg", "condition": "rot90", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\partial\\6118000180609.jpg", "condition": "partial", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\lowres\\6118000180609.jpg", "condition": "lowres", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\hard\\6118000180609.jpg", "condition": "hard", "code": "6118000180609", "brand": "SULPIDAL", "nom": "SULPIDAL", "dosage_mg": 50.0, "forme": "GELULE", "split": "test"}
+{"file": "test\\clean\\6118000240853.jpg", "condition": "clean", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000240853.jpg", "condition": "blur", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000240853.jpg", "condition": "dark", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000240853.jpg", "condition": "glare", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000240853.jpg", "condition": "rot15", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000240853.jpg", "condition": "rot90", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000240853.jpg", "condition": "partial", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000240853.jpg", "condition": "lowres", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000240853.jpg", "condition": "hard", "code": "6118000240853", "brand": "TRICHOGIN", "nom": "TRICHOGIN", "dosage_mg": 500.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\clean\\6118001050253.jpg", "condition": "clean", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\blur\\6118001050253.jpg", "condition": "blur", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\dark\\6118001050253.jpg", "condition": "dark", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\glare\\6118001050253.jpg", "condition": "glare", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot15\\6118001050253.jpg", "condition": "rot15", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\rot90\\6118001050253.jpg", "condition": "rot90", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\partial\\6118001050253.jpg", "condition": "partial", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\lowres\\6118001050253.jpg", "condition": "lowres", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\hard\\6118001050253.jpg", "condition": "hard", "code": "6118001050253", "brand": "NARCOZEP", "nom": "NARCOZEP", "dosage_mg": 1.0, "forme": "SOLUTION A DILUER POUR SOLUTION INJECTABLE", "split": "test"}
+{"file": "test\\clean\\6118000090311.jpg", "condition": "clean", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\blur\\6118000090311.jpg", "condition": "blur", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\dark\\6118000090311.jpg", "condition": "dark", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\glare\\6118000090311.jpg", "condition": "glare", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot15\\6118000090311.jpg", "condition": "rot15", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\rot90\\6118000090311.jpg", "condition": "rot90", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\partial\\6118000090311.jpg", "condition": "partial", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\lowres\\6118000090311.jpg", "condition": "lowres", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}
+{"file": "test\\hard\\6118000090311.jpg", "condition": "hard", "code": "6118000090311", "brand": "FARMODOXI", "nom": "FARMODOXI", "dosage_mg": 100.0, "forme": "COMPRIME", "split": "test"}

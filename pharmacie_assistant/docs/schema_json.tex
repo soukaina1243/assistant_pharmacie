@@ -1,0 +1,272 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+\tikzset{
+  box/.style={draw=black!70, rounded corners=3pt, minimum height=9mm,
+              text width=4.4cm, align=center, font=\small, inner sep=3pt},
+  inp/.style={box, fill=blue!12, text width=3.4cm},
+  proc/.style={box, fill=gray!15},
+  nlp/.style={box, fill=orange!18, text width=4cm},
+  res/.style={box, fill=green!15, text width=3.2cm},
+  warn/.style={box, fill=yellow!25, text width=3.2cm},
+  bad/.style={box, fill=red!12, text width=3.2cm},
+  db/.style={box, dashed, fill=violet!10, text width=3.4cm},
+  arr/.style={-{Stealth[length=2.2mm]}, thick, black!75},
+  darr/.style={-{Stealth[length=2.2mm]}, thick, dashed, violet!70},
+  lbl/.style={font=\scriptsize\itshape, text=black!70}
+}
+
+\definecolor{keycolor}{RGB}{0,70,140}
+\definecolor{strcolor}{RGB}{160,40,40}
+\definecolor{bgcolor}{RGB}{248,248,248}
+
+\lstdefinelanguage{json}{
+  basicstyle=\ttfamily\footnotesize,
+  stringstyle=\color{strcolor},
+  showstringspaces=false,
+  breaklines=true,
+  frame=single,
+  rulecolor=\color{gray!50},
+  backgroundcolor=\color{bgcolor},
+  morestring=[b]",
+  literate=
+    *{0}{{{\color{keycolor}0}}}{1}
+     {1}{{{\color{keycolor}1}}}{1}
+     {2}{{{\color{keycolor}2}}}{1}
+     {3}{{{\color{keycolor}3}}}{1}
+     {4}{{{\color{keycolor}4}}}{1}
+     {5}{{{\color{keycolor}5}}}{1}
+     {6}{{{\color{keycolor}6}}}{1}
+     {7}{{{\color{keycolor}7}}}{1}
+     {8}{{{\color{keycolor}8}}}{1}
+     {9}{{{\color{keycolor}9}}}{1}
+}
+
+\title{Sch\'ema de sortie et intentions\\[2pt]
+\large Assistant conversationnel pharmacie--patient (Arabe / Darija / Fran\c{c}ais)}
+\author{Challenge \#1}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\bigskip
+
+%------------------------------------------------------------
+\section{Objectif}
+Transformer une requ\^ete libre (texte ou voix, en arabe, Darija ou fran\c{c}ais, \'eventuellement m\'elang\'es) en une \textbf{sortie JSON structur\'ee}, exploitable par un syst\`eme en aval et expos\'ee via une API.
+
+%------------------------------------------------------------
+\section{Architecture du pipeline}
+
+La figure~\ref{fig:pipeline} pr\'esente le flux de traitement, de la requ\^ete brute \`a la r\'eponse JSON expos\'ee par l'API. Les bo\^ites en pointill\'es sont les sources de donn\'ees externes.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+% --- Entrees
+\node[inp] (text)  at (-2.5,0)    {Texte\\(Arabe, Darija,\\Fran\c{c}ais)};
+\node[inp] (voice) at (2.5,0)     {Voix\\(message audio)};
+\node[proc](asr)   at (2.5,-1.6)  {Transcription vocale\\(ASR, ex.\ Whisper)};
+
+% --- Pretraitement
+\node[proc](prep)  at (0,-3.3)    {Pr\'etraitement\\normalisation, translitt\'eration};
+\node[proc](lang)  at (0,-4.9)    {D\'etection de la langue\\et de la graphie};
+
+% --- NLU
+\node[nlp](intent) at (-2.4,-6.6) {Classification\\de l'intention};
+\node[nlp](ner)    at (2.4,-6.6)  {Extraction\\des entit\'es};
+\node[nlp,text width=4.6cm](match) at (0,-8.3)    {Rapprochement flou\\avec le r\'ef\'erentiel m\'edicaments};
+
+% --- Validation
+\node[proc](valid) at (0,-9.9)    {Validation des champs\\obligatoires par intent};
+
+% --- Statuts
+\node[res] (ok)    at (-4.2,-11.5){\texttt{status = ok}};
+\node[warn](clar)  at (0,-11.5)   {\texttt{needs\_clarification}};
+\node[bad] (oos)   at (4.2,-11.5) {\texttt{out\_of\_scope}};
+
+% --- Sortie
+\node[res,text width=4.4cm](json) at (0,-13.1) {R\'eponse JSON structur\'ee};
+\node[res,text width=4.4cm](api) at (0,-15.0)   {API REST (FastAPI)\\\texttt{/analyze/text} \quad \texttt{/analyze/voice}};
+
+% --- Sources de donnees
+\node[db](meds)    at (7.6,-8.3)  {R\'ef\'erentiel m\'edicaments\\(data.gov.ma)};
+\node[db](pharm)   at (7.6,-15.0) {Pharmacies (AMMPS + OSM)\\et stock simul\'e};
+
+% --- Fleches principales
+\draw[arr] (text.south)  |- (prep.west);
+\draw[arr] (voice.south) -- (asr.north);
+\draw[arr] (asr.south)   |- (prep.east);
+\draw[arr] (prep) -- (lang);
+\draw[arr] (lang.south) -- ++(0,-0.4) -| (intent.north);
+\draw[arr] (lang.south) -- ++(0,-0.4) -| (ner.north);
+\draw[arr] (intent.south) -- ++(0,-0.4) -| (match.north);
+\draw[arr] (ner.south)    -- ++(0,-0.4) -| (match.north);
+\draw[arr] (match) -- (valid);
+\draw[arr] (valid.south) -- ++(0,-0.4) -| (ok.north);
+\draw[arr] (valid.south) -- ++(0,-0.4) -| (clar.north);
+\draw[arr] (valid.south) -- ++(0,-0.4) -| (oos.north);
+\draw[arr] (ok.south)   -- ++(0,-0.4) -| (json.north);
+\draw[arr] (clar.south) -- ++(0,-0.4) -| (json.north);
+\draw[arr] (oos.south)  -- ++(0,-0.4) -| (json.north);
+\draw[arr] (json) -- (api);
+
+% --- Fleches vers sources de donnees
+\draw[darr] (meds.west)  -- node[above,lbl,pos=0.5]{noms, DCI, prix} (match.east);
+\draw[darr] (pharm.west) -- node[above,lbl,align=center]{t\'el., adresse,\\stock} (api.east);
+
+\end{tikzpicture}
+\caption{Pipeline de traitement d'une requ\^ete patient, de l'entr\'ee (texte ou voix) \`a la sortie JSON.}
+\label{fig:pipeline}
+\end{figure}
+
+\paragraph{\'Etapes principales.}
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Entr\'ee} : texte direct, ou audio transcrit par un mod\`ele ASR.
+  \item \textbf{Pr\'etraitement} : nettoyage, normalisation des graphies (arabe, arabizi), gestion des fautes courantes.
+  \item \textbf{Compr\'ehension} : classification de l'intention et extraction des entit\'es (m\'edicament, dosage, quantit\'e, ville\ldots).
+  \item \textbf{Rapprochement} : correction du nom du m\'edicament par recherche floue dans le r\'ef\'erentiel officiel.
+  \item \textbf{Validation} : v\'erification des champs obligatoires selon l'intention (voir section~\ref{sec:champs}), avec demande de pr\'ecision si n\'ecessaire.
+  \item \textbf{Sortie} : JSON structur\'e renvoy\'e par l'API, enrichi si besoin par les donn\'ees pharmacies et stock.
+\end{enumerate}
+
+%------------------------------------------------------------
+\section{Intentions}
+
+\begin{center}
+\small
+\begin{tabular}{@{}l p{5.2cm} p{4.2cm}@{}}
+\toprule
+\textbf{Intent} & \textbf{Exemple (Darija, arabizi)} & \textbf{Entit\'es attendues}\\
+\midrule
+\texttt{check\_availability} & \textit{wach kayn doliprane 1000 ?} & medication\\
+\texttt{price} & \textit{chhal taman doliprane ?} & medication\\
+\texttt{reimbursement} & \textit{wach had dwa kayt3awed mn CNSS ?} & medication\\
+\texttt{pharmacy\_phone} & \textit{3tini numro dyal l-pharmacie} & pharmacy\_name / city\\
+\texttt{pharmacy\_location} & \textit{fin kayna pharmacie qrib ?} & city, neighborhood\\
+\texttt{pharmacy\_hours} & \textit{wach l-pharmacie m7loula daba ?} & pharmacy\_name, time\_reference\\
+\texttt{reserve\_order} & \textit{bghit n7jez 2 3olab d augmentin} & medication, quantity\\
+\texttt{out\_of\_scope} & \textit{chno l-jaw lyoum ?} & aucune\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+L'intent \texttt{out\_of\_scope} est conserv\'e volontairement : en contexte de sant\'e, un assistant qui r\'epond toujours quelque chose, m\^eme hors p\'erim\`etre, est risqu\'e.
+
+%------------------------------------------------------------
+\section{Entit\'es}
+
+\begin{center}
+\small
+\begin{tabular}{@{}l p{9cm}@{}}
+\toprule
+\textbf{Entit\'e} & \textbf{Description}\\
+\midrule
+\texttt{medication.raw} & Texte tel qu'\'ecrit par l'utilisateur\\
+\texttt{medication.name} & Nom normalis\'e issu du r\'ef\'erentiel (ex. DOLIPRANE)\\
+\texttt{medication.dosage} & Dosage (ex. \og 1000 mg \fg)\\
+\texttt{medication.form} & Forme gal\'enique : comprim\'e, sirop, sachet, injectable\ldots\\
+\texttt{quantity} & Nombre de bo\^ites (entier)\\
+\texttt{pharmacy\_name} & Nom de la pharmacie\\
+\texttt{city} & Ville\\
+\texttt{neighborhood} & Quartier\\
+\texttt{time\_reference} & \og maintenant \fg, \og ce soir \fg, \og garde \fg\ldots\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%------------------------------------------------------------
+\section{Sch\'ema JSON de sortie}
+
+\begin{lstlisting}[language=json]
+{
+  "request_id": "uuid",
+  "input": {
+    "modality": "text | voice",
+    "raw_text": "wach kayn doliprane 1000 f rabat ?",
+    "transcript": null
+  },
+  "language": {
+    "primary": "darija",
+    "script": "arabic | latin | mixed",
+    "code_mixed": true
+  },
+  "intent": {
+    "label": "check_availability",
+    "confidence": 0.93
+  },
+  "entities": {
+    "medications": [
+      {
+        "raw": "doliprane",
+        "name": "DOLIPRANE",
+        "dosage": "1000 mg",
+        "form": null,
+        "match_score": 0.91,
+        "candidates": [
+          "DOLIPRANE 1000 MG CPR",
+          "DOLIPRANE 500 MG CPR"
+        ]
+      }
+    ],
+    "quantity": null,
+    "pharmacy_name": null,
+    "city": "RABAT",
+    "neighborhood": null,
+    "time_reference": null
+  },
+  "status": "ok | needs_clarification | out_of_scope",
+  "clarification_question": null,
+  "warnings": []
+}
+\end{lstlisting}
+
+%------------------------------------------------------------
+\section{D\'ecisions de conception}
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{\texttt{medications} est une liste} : une requ\^ete peut contenir plusieurs m\'edicaments.
+  \item \textbf{\texttt{raw}, \texttt{name} et \texttt{match\_score}} : on conserve \`a la fois ce que l'utilisateur a \'ecrit et ce que le syst\`eme a compris, ce qui permet le d\'ebogage et l'\'evaluation.
+  \item \textbf{\texttt{candidates}} : top-3 du rapprochement flou, utile pour la m\'etrique top-$k$.
+  \item \textbf{\texttt{status} et \texttt{clarification\_question}} : si le score est faible ou si un champ obligatoire manque, le syst\`eme pose une question au lieu de deviner (ex. \og Doliprane 500 ou 1000 ? \fg).
+  \item \textbf{\texttt{language}} : distinguer Darija en lettres arabes, Darija en arabizi et fran\c{c}ais permet une analyse d'erreurs par langue et par graphie.
+  \item \textbf{Aucun conseil m\'edical} : l'assistant ne recommande jamais un m\'edicament pour un sympt\^ome, ce qui d\'elimite clairement le p\'erim\`etre.
+\end{itemize}
+
+%------------------------------------------------------------
+\section{Champs obligatoires par intent}\label{sec:champs}
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{5.5cm} p{4.5cm} p{3cm}@{}}
+\toprule
+\textbf{Intent} & \textbf{Champ obligatoire} & \textbf{Sinon}\\
+\midrule
+\texttt{check\_availability}, \texttt{price}, \texttt{reimbursement} & medication & clarification\\
+\texttt{reserve\_order} & medication (quantity $=1$ par d\'efaut) & clarification\\
+\texttt{pharmacy\_phone}, \texttt{pharmacy\_hours} & pharmacy\_name ou city & clarification\\
+\texttt{pharmacy\_location} & city ou neighborhood & clarification\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Cette table constitue directement la logique de validation c\^ot\'e API.
+
+\end{document}
